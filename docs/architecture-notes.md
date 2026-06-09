@@ -64,6 +64,10 @@ Storm core should stay generic. Applets should layer domain-specific metadata, t
 
 Story Forge can start as the first applet with static metadata and templates. A formal applet framework can come later after the first applet proves the model.
 
+### Future InfRing Task Decomposition
+
+Storm should not build a permanent competing task decomposition substrate if InfRing provides the canonical primitive. The MVP can use manual tasks and static applet templates. Later, applets should pass domain constraints to InfRing task decomposition and receive receipted task candidates with success criteria, routing, provenance, governance, and attribution metadata.
+
 ### AI Data Provenance
 
 Future Storm may allow AI training on Storm data and approved Protheus Labs ecosystem data. Source records, artifacts, dataset membership, training runs, and downstream AI value events should be traceable. The MVP does not need model attribution, but it should avoid destroying source provenance in artifacts and contribution events.
@@ -101,10 +105,12 @@ This is a placeholder recommendation, not a final decision.
 - Preserve artifact provenance so future AI training compensation is possible.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
+- Keep task fields compatible with future InfRing decomposition outputs.
 
 ## Future Capabilities
 
 - AI-assisted project decomposition.
+- InfRing-backed task decomposition.
 - Project applet framework.
 - Skill-based contributor matching.
 - Risk-based review assignment.

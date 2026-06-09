@@ -31,6 +31,8 @@ Applets should handle:
 - Domain-specific merge/export flows.
 - Domain-specific vocabulary.
 
+In later versions, applets may also provide decomposition constraints to InfRing. InfRing can propose decomposed tasks, while the applet decides which domain-specific templates, artifacts, and review rules apply.
+
 ## Why Applets
 
 Different project types have different complexity.
@@ -98,6 +100,10 @@ The applet has a setup flow, task generator, and review rubric.
 ### Level 2: Domain Artifacts
 
 The applet supports structured artifacts, previews, exports, or integrations.
+
+### Level 2.5: InfRing Decomposition
+
+The applet can send project goals and domain constraints to InfRing task decomposition and receive structured task candidates.
 
 ### Level 3: Domain Merge
 

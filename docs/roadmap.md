@@ -90,7 +90,22 @@ Deliverables:
 - Code Forge feasibility sketch.
 - Invention Forge feasibility sketch.
 
-## Phase 3.5: Groups And Containers
+## Phase 3.5: InfRing Task Decomposition Integration
+
+Goals:
+
+- Use InfRing task decomposition primitives to generate project task candidates.
+- Preserve applet-specific constraints while relying on InfRing for receipted decomposition.
+
+Deliverables:
+
+- Storm-to-InfRing decomposition request contract.
+- InfRing task candidate import format.
+- Story Forge decomposition constraints.
+- Task candidate review and acceptance workflow.
+- Provenance mapping from InfRing task output to Storm task records.
+
+## Phase 3.75: Groups And Containers
 
 Goals:
 

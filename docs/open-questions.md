@@ -146,6 +146,10 @@
 
 - Which InfRing v2 primitives will be stable enough for Storm to use?
 - What Storm events should become receipts first?
+- When should Storm start using InfRing task decomposition?
+- What fields must a Storm decomposition request send to InfRing?
+- What fields must an InfRing task candidate return to Storm?
+- How should Story Forge constraints shape InfRing decomposition?
 - How should a single Storm instance transition into a Protheus network node?
 - How should node identity map to user, group, project, and legal wrapper identity?
 - What Storm data should remain local by default?

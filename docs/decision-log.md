@@ -295,3 +295,25 @@ Consequences:
 - Docs now separate origin value from control.
 - Release switch is future scope, not MVP.
 - Future governance must define release criteria, origin allocation, hidden-control audits, and emergency authority.
+
+### 2026-06-09: Use InfRing Task Decomposition Long Term
+
+Decision:
+
+Storm should eventually use InfRing's task decomposition primitives instead of building a permanent competing decomposition substrate.
+
+Context:
+
+The user clarified that Storm will likely want to use InfRing's task decomposition. The InfRing repository already includes `execution:task-decompose`, task decomposition contracts, parallel micro-task execution, live handoff, and Rust execution code that emits task candidates with success criteria, routing, provenance, governance, and attribution metadata.
+
+Alternatives considered:
+
+- Build Storm's own independent decomposition engine.
+- Require InfRing task decomposition for the first MVP.
+- Keep decomposition entirely manual forever.
+
+Consequences:
+
+- MVP remains manual/static-template based.
+- Applets can later provide domain constraints to InfRing.
+- Storm will own economics, review, applet semantics, and value routing while InfRing owns receipted decomposition primitives.

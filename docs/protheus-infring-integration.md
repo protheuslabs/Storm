@@ -44,6 +44,7 @@ In the long term, Storm should be able to use Protheus/InfRing primitives for:
 
 - Node identity.
 - Contributor identity.
+- Task decomposition.
 - Contribution receipts.
 - Task execution receipts.
 - Review receipts.
@@ -75,7 +76,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | --- | --- |
 | User | Node identity or contributor identity |
 | Project | Network-visible project state |
-| Task | Bounded work request |
+| Task | Bounded work request or decomposed micro-task |
 | Submission | Artifact plus execution receipt |
 | Review | Validation receipt |
 | Ledger entry | Economic receipt |
@@ -102,6 +103,33 @@ Future trust should come from:
 
 No node should blindly accept another node's work, model, policy, or value claim. Incoming network claims should be validated locally or accepted only within explicit trust boundaries.
 
+## Task Decomposition Integration
+
+Storm should eventually use InfRing's task decomposition primitives.
+
+Current InfRing repository signals include:
+
+- `execution:task-decompose` and `execution:task-decompose:status` commands.
+- `V3-TASK-001`: Task Decomposition Primitive + Parallel Micro-Task Execution.
+- `V3-TASK-002`: Task Decomposition Live Execution Handoff.
+- Rust execution code for composing micro-tasks with success criteria, routing, provenance, governance, and attribution fields.
+
+Storm should not duplicate that substrate long term.
+
+Near-term Storm can create tasks manually or from applet templates. Later, Storm applets can pass project goals and applet constraints into InfRing decomposition and receive structured task candidates back.
+
+For example:
+
+- Story Forge passes premise, format, genre, canon notes, and target artifact.
+- InfRing decomposes the goal into proposed story tasks.
+- Story Forge filters those tasks through story-specific templates and review rules.
+- Storm records accepted tasks, provenance, and value rules.
+
+The boundary should be:
+
+- InfRing decomposes, routes, receipts, and validates execution primitives.
+- Storm owns project economics, applet semantics, contributor marketplace, review, ledger, and value routing.
+
 ## MVP Implication
 
 The first Storm implementation should not depend on InfRing.
@@ -115,12 +143,15 @@ It should, however:
 - Separate policy decisions from UI presentation.
 - Avoid hiding critical authority in frontend code.
 - Preserve enough event history to later emit receipts.
+- Keep project and task structures compatible with future InfRing task decomposition receipts.
 
 ## Open Questions
 
 - What InfRing v2 primitives will be stable enough for Storm to depend on?
 - What is the minimal Storm receipt format?
 - Which Storm events must be receipt-backed first?
+- What Storm task fields must map to InfRing task decomposition outputs?
+- How should applet constraints be passed into InfRing decomposition?
 - How should Storm map users to network nodes?
 - Can one user operate multiple nodes?
 - Can one node represent a group?
