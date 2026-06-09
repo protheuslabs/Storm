@@ -267,6 +267,8 @@ The ledger should reference:
 
 The ledger is the economic history. The value policy is the rule that produced part of that history.
 
+The value policy engine should remain a separate subsystem from review, ledger recording, and external payments. Other systems should request allocation results and consume explanations; they should not embed hidden payout formulas inside workflow or payment code.
+
 ## Relationship To InfRing
 
 In the endgame, value calculation may rely on InfRing primitives for:

@@ -14,6 +14,8 @@ The first build should not implement residual compensation, AI training provenan
 
 When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
 
+Major subsystems should stay modular even inside a monolith. Start with code boundaries, provider interfaces, and contract tests before considering separate services.
+
 ## Milestone 1: Repo And App Foundation
 
 Deliverables:
@@ -23,6 +25,8 @@ Deliverables:
 - Add basic local development instructions.
 - Add database schema migration setup.
 - Add seed data for demo projects and tasks.
+- Establish initial module boundaries for users, projects, tasks, review, ledger, reputation, and applets.
+- Add contract-test pattern for subsystem interfaces.
 
 ## Milestone 2: Identity And Roles
 
@@ -91,6 +95,7 @@ Deliverables:
 Deliverables:
 
 - End-to-end workflow tests.
+- Subsystem contract tests.
 - Permission tests.
 - Ledger correctness tests.
 - Seeded demo scenario.

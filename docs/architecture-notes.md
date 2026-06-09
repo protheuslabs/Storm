@@ -26,6 +26,14 @@ The first implementation should optimize for:
 - Auditability for payments, reviews, and disputes.
 - Testability around task and ledger behavior.
 
+## Subsystem Modularity
+
+Storm subsystems should stay modular even if the first implementation is a monolith.
+
+The product will eventually need decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, governance, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
+
+This matters because Storm's long-term path depends on replacing native mechanisms with InfRing primitives where possible. That migration is only realistic if native subsystems already sit behind interfaces or providers.
+
 ## Core Technical Concerns
 
 ### Workflow State
@@ -161,6 +169,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep economic state explicit.
 - Keep workflow transitions testable.
 - Keep contribution value policy separate from ledger recording and external payouts.
+- Keep major subsystems modular behind explicit contracts.
 - Prefer append-only records for payment and reputation history.
 - Avoid early microservices.
 - Do not make AI automation a hard dependency for MVP.
@@ -171,6 +180,7 @@ This is a placeholder recommendation, not a final decision.
 - Preserve version and fork lineage so open collaboration does not erase attribution or value rights.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
+- Keep subsystem state ownership clear; avoid hidden cross-module writes.
 - Keep task fields compatible with future InfRing decomposition outputs.
 - Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
 - Treat Storm-native mechanisms as replaceable when they duplicate mature InfRing primitives.

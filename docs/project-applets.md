@@ -8,6 +8,8 @@ Storm should provide a shared project substrate, then layer focused project-type
 
 Keep the foundation generic. Add complexity only inside the applet that needs it.
 
+Applets should integrate with Storm through subsystem contracts. They can define domain semantics, but they should not bypass shared subsystems for review, ledger, value policy, provenance, rights enforcement, versioning, or receipts.
+
 The shared foundation should handle:
 
 - Projects.
@@ -137,6 +139,7 @@ It should not start with full canon branching, residual royalties, AI story owne
 ## Design Guardrails
 
 - Do not put every applet feature into Storm core.
+- Do not let applets bypass shared subsystem contracts.
 - Do not build applets before the core project loop works.
 - Do not support too many applets before one applet proves completion.
 - Keep applet data portable and provenance-preserving.

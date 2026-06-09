@@ -190,6 +190,8 @@ Long term, parts of it may map to InfRing primitives:
 
 Storm should own product policy and user experience. InfRing may eventually provide lower-level evidence, receipts, validation, and network trust signals.
 
+The subsystem should expose a clear contract to the rest of Storm. Other modules should request checks, consume risk results, and respond to enforcement events; they should not reach directly into the subsystem's evidence or review records.
+
 ## MVP Implication
 
 The first MVP should not attempt automated legal enforcement.

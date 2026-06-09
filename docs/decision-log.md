@@ -457,3 +457,27 @@ Consequences:
 - Later Storm should model rights source records, originality checks, similarity matches, rights reviews, and enforcement actions.
 - The subsystem should avoid false-positive abuse by requiring evidence, review, and dispute paths.
 - Some rights evidence may eventually map to InfRing receipts or validation signals.
+
+### 2026-06-09: Keep Storm Subsystems Modular
+
+Decision:
+
+Storm's major subsystems should remain modular behind explicit contracts, even if the first implementation is a monolith.
+
+Context:
+
+The user clarified that Storm subsystems should stay modular. This matters because Storm will accumulate many powerful mechanisms: applets, decomposition, review, value policy, ledger, reputation, versioning, rights enforcement, AI provenance, payments, governance, and InfRing adapters.
+
+Alternatives considered:
+
+- Build each feature directly into one large workflow service.
+- Split into microservices before the MVP proves the product loop.
+- Let each applet implement its own versions of shared platform primitives.
+
+Consequences:
+
+- The first implementation can stay simple, but code and data boundaries should be explicit.
+- Subsystems should own their canonical records and expose contracts or events.
+- Applets should define domain semantics without bypassing shared platform subsystems.
+- Provider interfaces make it easier to replace native mechanisms with InfRing primitives later.
+- Contract tests become important before subsystems grow complex.

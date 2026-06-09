@@ -160,6 +160,10 @@ A task within a story project, such as a scene draft, character profile, lore en
 
 The work artifact, evidence, and notes provided by a contributor for a task.
 
+## Subsystem
+
+A bounded Storm module with a clear contract, owned state, emitted events, and policy surface.
+
 ## Task
 
 A small executable unit of work with a defined output, acceptance criteria, and value.

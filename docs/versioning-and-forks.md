@@ -97,6 +97,8 @@ InfRing should eventually own the primitive layer where practical:
 
 Storm can keep product-facing projections for usability, but the canonical lineage should eventually come from the stronger primitive.
 
+Versioning should expose a shared contract to applets. Applets define domain merge semantics; the versioning subsystem owns lineage records, fork records, merge proposal state, and receipt mapping.
+
 ## Native Bootstrap Path
 
 Storm can start with simple native versioning:

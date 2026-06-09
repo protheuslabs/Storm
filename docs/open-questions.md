@@ -167,6 +167,10 @@
 
 - What stack should be used for the first implementation?
 - Should the first implementation be a monolith?
+- What subsystem contracts should exist before implementation starts?
+- Which modules need provider interfaces from day one?
+- How strict should subsystem data ownership be inside the first monolith?
+- What event format should subsystems emit?
 - What auth provider should be used?
 - What payment provider should be used?
 - What artifact storage is needed?

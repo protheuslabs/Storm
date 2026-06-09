@@ -49,6 +49,8 @@ Storm should phase out a native mechanism when the corresponding InfRing primiti
 
 Until those criteria are met, Storm can keep the native mechanism behind an interface.
 
+Subsystem modularity is the condition that makes this possible. Native mechanisms should sit behind explicit contracts so an InfRing-backed provider can replace the native provider without rewriting every applet or workflow.
+
 ## Why InfRing Matters To Storm
 
 Storm requires a trustworthy substrate for:
@@ -222,6 +224,7 @@ It should, however:
 - Keep originality, similarity, and rights-review evidence structured enough to emit receipts later.
 - Make state transitions auditable.
 - Separate policy decisions from UI presentation.
+- Keep subsystem contracts explicit so native providers can later be replaced by InfRing providers.
 - Avoid hiding critical authority in frontend code.
 - Preserve enough event history to later emit receipts.
 - Keep project and task structures compatible with future InfRing task decomposition receipts.

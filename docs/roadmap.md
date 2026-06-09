@@ -8,6 +8,7 @@ Goals:
 - Define MVP scope.
 - Define workflows.
 - Define domain model.
+- Define subsystem boundaries.
 - Identify open product, legal, payment, and trust questions.
 
 Deliverables:
@@ -15,6 +16,7 @@ Deliverables:
 - Initial docs.
 - Product decision log.
 - MVP build plan.
+- Subsystem modularity plan.
 
 ## Phase 1: Manual MVP
 
@@ -26,6 +28,7 @@ Goals:
 - Track transparent value allocation in a ledger.
 - Use fixed visible task values rather than algorithmic contribution scoring.
 - Prove Story Forge as the first crowdsourced project vertical.
+- Keep MVP code modular enough for later subsystem expansion.
 
 Deliverables:
 
@@ -38,6 +41,7 @@ Deliverables:
 - Ledger view.
 - Default fixed-task-value policy.
 - Basic reputation events.
+- Initial subsystem interfaces and contract tests.
 
 ## Phase 2: Trust And Quality
 
@@ -253,6 +257,7 @@ Deliverables:
 - Native mechanism inventory.
 - Primitive replacement criteria.
 - Adapter and interface audit.
+- Subsystem boundary audit.
 - Minimal Storm receipt format.
 - Node identity mapping.
 - Project-state receipt export.

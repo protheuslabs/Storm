@@ -130,6 +130,12 @@ Storm may eventually use Protheus/InfRing primitives when a single InfRing insta
 
 Versioning and fork lineage may also belong in the Protheus/InfRing substrate. Storm can expose GitHub-inspired product workflows, but a shared primitive would let projects fork, merge, replicate, and preserve provenance across applets and nodes.
 
+## Modular Subsystems
+
+Storm should keep major subsystems modular even if the first implementation is a monolith.
+
+Subsystems such as decomposition, review, reputation, value policy, ledger, versioning, rights enforcement, AI provenance, and InfRing adapters should communicate through explicit contracts and events. This prevents applets from coupling directly to internal authority mechanisms and keeps native providers replaceable later.
+
 ## Group
 
 A group is a persistent collaboration unit. It may be closer to a community, team, company, guild, or decentralized organization depending on its rules.

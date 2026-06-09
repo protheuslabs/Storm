@@ -45,3 +45,7 @@ The system should assume users may try to farm reputation, collude on reviews, s
 ## Start Narrow
 
 Storm should launch with constrained workflows and a small number of task types before generalizing. A trustworthy narrow workflow is more valuable than a broad but ambiguous marketplace.
+
+## Keep Subsystems Modular
+
+Storm can start as a simple application, but major subsystems should stay behind clear contracts. Applets, value policy, ledger, provenance, versioning, rights enforcement, and future InfRing adapters should not become tightly coupled.
