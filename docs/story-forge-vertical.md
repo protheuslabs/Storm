@@ -133,6 +133,8 @@ Accepted contributions may be:
 
 The MVP can keep this simple with accepted submissions and project notes. Later versions may need branching, merging, canonical lore records, and versioned story packages.
 
+GitHub is a useful analogy here, but story artifacts need their own merge semantics. A later Story Forge can support branches, alternate canon, forked universes, and merge proposals while preserving upstream contribution and value lineage. The generic version and fork mechanics should eventually come from a shared substrate, ideally InfRing, while Story Forge owns what it means to merge story canon.
+
 ## Why This Tests Storm
 
 Story Forge tests the hardest Storm questions in a lower-risk domain:

@@ -27,6 +27,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Release Switch](docs/release-switch.md)
 - [AI Training Provenance](docs/ai-training-provenance.md)
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
+- [Versioning And Forks](docs/versioning-and-forks.md)
 - [Trust And Incentives](docs/trust-and-incentives.md)
 - [Value Ledger](docs/value-ledger.md)
 - [Contribution Value Model](docs/contribution-value-model.md)

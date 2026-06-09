@@ -24,6 +24,7 @@ Help people create, coordinate, validate, and get paid through crowdsourced proj
 - Contributors should benefit when later work builds on what they created.
 - People should be able to contribute flexibly, from small tasks to deeper project ownership.
 - Creative input can compound when the system preserves attribution and routes downstream value back to contributors.
+- Open collaboration needs version history, fork lineage, and merge rules that preserve attribution.
 - AI training should not erase the people whose work created the underlying capability.
 - Ownership is a legal interface, not the deepest primitive. Provenance and value routing matter more.
 - Verified contribution is the central economic primitive.
@@ -41,6 +42,8 @@ Storm should make it possible for a project to move from idea to execution throu
 - Contributors build portable reputation from verified work.
 
 In later versions, Storm may also track residual value when later work builds on earlier ideas, research, decomposition, or execution.
+
+Storm should also learn from GitHub and open source work: contributors need a way to branch, fork, review, merge, and preserve history without asking a central organization for permission. Storm should eventually generalize those mechanics beyond code while keeping provenance and value obligations intact.
 
 Storm should also preserve provenance when AI systems train on Storm data or approved data from the broader Protheus Labs ecosystem. If AI-generated value can be traced back to source contributions, the originators should be eligible for compensation.
 
@@ -103,5 +106,5 @@ Storm should be documented in layers so the project can stay ambitious without b
 - Expansion: creative seeds, residual compensation, AI training provenance, public problem discovery, intelligence inputs, and advanced matching.
 - Research: real-world bounties, robotics, fabrication, and institution-scale coordination.
 - Endgame: a general work model that makes corporate employment optional or obsolete for most contributors.
-- Substrate: future Protheus/InfRing network primitives for receipt-backed, user-owned coordination.
+- Substrate: future Protheus/InfRing network primitives for receipt-backed, user-owned coordination, including possible versioning and fork primitives.
 - Release: eventual transition from Protheus Labs-operated platform to network-governed system.

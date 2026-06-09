@@ -118,6 +118,7 @@ Goals:
 - Introduce persistent collaboration structures.
 - Support earlier-stage ideas and recursive decomposition.
 - Test governance without overbuilding organizational complexity.
+- Preserve project lineage as ideas, groups, and projects branch or evolve.
 
 Deliverables:
 
@@ -129,6 +130,7 @@ Deliverables:
 - Public pledges.
 - Contribution event graph.
 - Decomposition credit for coordinators.
+- Simple parent-project lineage for forks or spinouts.
 
 ## Phase 4: Marketplace Expansion
 
@@ -169,6 +171,7 @@ Goals:
 - Compensate useful ideation, research, and decomposition when downstream work creates value.
 - Explore non-withholding legal wrappers for patents, businesses, and licenses.
 - Introduce contribution valuation experiments with visible policy versions.
+- Preserve value routing through forks, spinouts, and merged project lines.
 
 Deliverables:
 
@@ -181,6 +184,7 @@ Deliverables:
 - Claim dispute workflow.
 - Legal wrapper policy draft.
 - Spinout and fork value-routing rules.
+- Fork lineage and merge-proposal experiment.
 
 ## Phase 7: AI Training Provenance
 
@@ -221,6 +225,7 @@ Goals:
 - Evaluate Storm running on Protheus network primitives once InfRing v2 supports network-node operation.
 - Replace platform authority with receipt-backed, locally validated network trust where practical.
 - Start phasing out Storm-native mechanisms when mature InfRing primitives can safely replace them.
+- Evaluate an InfRing versioning/fork subsystem for project lineage, merge, and fork mechanics.
 
 Deliverables:
 
@@ -234,6 +239,7 @@ Deliverables:
 - Contribution-event receipt export.
 - Value-policy execution migration plan.
 - Provenance and dataset lineage migration plan.
+- Version/fork lineage migration plan.
 - Native mechanism deprecation plan.
 - Local validation rules for incoming network signals.
 - Federated task/project discovery prototype.

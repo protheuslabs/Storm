@@ -410,3 +410,26 @@ Consequences:
 - Native decomposition, receipts, audit logs, provenance, value-policy execution, ledger verification, and network trust should be designed as scaffolding where InfRing is expected to provide the stronger primitive.
 - Storm should retain product semantics, applets, UX, value-policy authoring, legal wrappers, and marketplace behavior.
 - InfRing should increasingly own lower-level execution, receipts, validation, node identity, deterministic policy, and network trust when those primitives are ready.
+
+### 2026-06-09: Capture GitHub-Inspired Versioning And Fork Subsystem Need
+
+Decision:
+
+Storm should treat GitHub and open source work as inspiration for project versioning, forks, reviewable merge proposals, and durable provenance. InfRing may need a generic versioning/fork subsystem so Storm can eventually rely on shared lineage primitives instead of maintaining permanent Storm-only fork mechanics.
+
+Context:
+
+The user clarified that part of the inspiration is GitHub because it enables open source work, and that InfRing will need some versioning and fork mechanism, maybe as a subsystem. This matters because open contribution requires safe divergence, merge, authorship history, and fork lineage.
+
+Alternatives considered:
+
+- Treat forks as a Storm-only product feature.
+- Assume Git is sufficient for all project types.
+- Delay lineage modeling until after public forks exist.
+
+Consequences:
+
+- Storm docs now separate applet-specific merge semantics from the lower-level version/fork primitive.
+- Storm can bootstrap with simple accepted submissions, exported versions, and parent project lineage.
+- Future InfRing work should consider generic versioned objects, version nodes, forks, merge proposals, conflict records, lineage receipts, and policy propagation.
+- Forks must preserve upstream provenance and value obligations rather than becoming a way to strip contributors from the history.

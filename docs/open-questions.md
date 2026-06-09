@@ -20,6 +20,19 @@
 - Should microtasks be a real MVP feature or a later optimization?
 - How small can tasks become before review overhead destroys the economics?
 
+## Versioning And Forks
+
+- How much GitHub-like workflow should Storm expose directly?
+- Should project forks exist before groups and residual value are mature?
+- What is the first useful version of project lineage in the MVP?
+- How should merge proposals work for non-code artifacts?
+- How should applets define their own merge semantics over shared version primitives?
+- Does InfRing need a generic versioning/fork subsystem?
+- What should a version node, fork record, lineage edge, and merge decision contain?
+- How should upstream value policies propagate through forks?
+- Can a fork reject future parent governance while preserving past obligations?
+- Should private forks be allowed, and what provenance becomes public if they later create value?
+
 ## Groups And Alliances
 
 - When should Storm introduce persistent groups?
@@ -167,6 +180,7 @@
 - Which native mechanisms should be phased out first once InfRing primitives mature?
 - What criteria decide that an InfRing primitive is ready to replace a native Storm mechanism?
 - How should Storm preserve product-facing projections after native authority moves to InfRing?
+- Should versioning and fork lineage be an InfRing subsystem or an app-level Storm subsystem first?
 - When should Storm start using InfRing task decomposition?
 - What fields must a Storm decomposition request send to InfRing?
 - What fields must an InfRing task candidate return to Storm?

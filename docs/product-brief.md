@@ -74,6 +74,7 @@ It should not try to replace every company function immediately. It should prove
 - Groups can evolve toward new organizational structures instead of copying traditional companies.
 - The long-term product can rescue useful ideas that would otherwise disappear before becoming projects.
 - The endgame is a full alternative to corporate work organization, not just a cheaper labor marketplace.
+- GitHub-style open contribution patterns can be generalized beyond code through versioning, forks, merge review, and preserved lineage.
 - AI systems can be allowed to learn from Storm work without stripping contributors of provenance or downstream compensation.
 - Applets keep simple verticals simple while allowing complex verticals to add only the extra workflow they need.
 

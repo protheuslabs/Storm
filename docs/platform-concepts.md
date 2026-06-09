@@ -122,6 +122,8 @@ A future Protheus network node is a user-owned runtime participant that can hold
 
 Storm may eventually use Protheus/InfRing primitives when a single InfRing instance can become a network node.
 
+Versioning and fork lineage may also belong in the Protheus/InfRing substrate. Storm can expose GitHub-inspired product workflows, but a shared primitive would let projects fork, merge, replicate, and preserve provenance across applets and nodes.
+
 ## Group
 
 A group is a persistent collaboration unit. It may be closer to a community, team, company, guild, or decentralized organization depending on its rules.

@@ -33,6 +33,8 @@ Applets should handle:
 
 In later versions, applets may also provide decomposition constraints to InfRing. InfRing can propose decomposed tasks, while the applet decides which domain-specific templates, artifacts, and review rules apply.
 
+Applets may also need domain-specific merge behavior over a shared versioning and fork substrate. Story Forge may merge canon updates, Code Forge may merge commits or patches, and Invention Forge may merge prototype files or test records. Storm should not force every applet to invent incompatible lineage mechanics.
+
 Before InfRing integration is ready, an applet can include its own simple decomposition helper. That helper should be treated as temporary or adapter-backed, not as a permanent decomposition authority.
 
 Applet decomposition helpers should live in the backend. Applet UIs should collect constraints and let users review candidates, but should not own decomposition algorithms or prompt logic.
@@ -112,6 +114,8 @@ The applet can send project goals and domain constraints to InfRing task decompo
 ### Level 3: Domain Merge
 
 The applet can merge accepted contributions into a coherent project artifact.
+
+In a later InfRing-backed architecture, the applet should define domain merge semantics while InfRing or a shared subsystem provides version lineage, fork records, and receipt-backed merge evidence.
 
 ### Level 4: Domain Economy
 

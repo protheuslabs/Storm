@@ -16,6 +16,8 @@ The long-term goal is:
 
 This keeps Storm from becoming a second operating substrate. Storm should own the product layer: project semantics, applets, contributor experience, review workflows, value policies, legal wrappers, marketplace behavior, and release-switch governance. InfRing should increasingly own the lower-level trust, execution, receipt, validation, node, and policy primitives when those primitives are ready.
 
+Versioning and forks are part of this future substrate. GitHub's open-source model is an inspiration, but Storm needs those mechanics generalized beyond code. InfRing may need a versioning/fork subsystem so Storm can rely on shared primitives for lineage, merge, fork, and provenance instead of creating a permanent Storm-only implementation.
+
 ## Native Mechanisms As Scaffolding
 
 Storm-native mechanisms are acceptable when they help reach product-market proof before InfRing is ready.
@@ -27,6 +29,7 @@ Examples:
 - Native ledger records can model economics, then emit or reconcile with economic receipts.
 - Native value-policy execution can start in application code, then move toward deterministic policy execution when available.
 - Native contribution and dataset provenance can preserve history, then map to InfRing provenance receipts.
+- Native project versioning and fork records can bootstrap collaboration, then converge with an InfRing versioning/fork subsystem if one exists.
 - Native trust and moderation can support the MVP, then shift toward local validation and proof-carrying network signals.
 
 The rule is not "wait for InfRing." The rule is "build Storm so native mechanisms can be replaced when InfRing has the stronger primitive."
@@ -92,6 +95,7 @@ In the long term, Storm should be able to use Protheus/InfRing primitives for:
 - Governance policy enforcement.
 - Project state replication.
 - Peer validation.
+- Versioning and fork lineage.
 - Local-first contributor workspaces.
 - Federated discovery of tasks, projects, models, and contributors.
 
@@ -125,6 +129,8 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Dataset source record | Data provenance receipt |
 | AI value event | Value event receipt |
 | Group or alliance | Governed network collective |
+| Project fork or branch | Version/fork lineage primitive |
+| Merge proposal | Receipt-backed merge decision |
 
 ## Trust Model
 
@@ -194,6 +200,7 @@ The first likely replacement targets are:
 | Contribution provenance records | Provenance receipts |
 | Ledger event records | Economic receipts and reconciled ledger state |
 | Dataset source records | Data provenance receipts |
+| Project version and fork records | InfRing versioning/fork subsystem |
 | Trust scoring for incoming network data | Local validation plus node and contributor reputation |
 
 Storm may still keep product-facing projections of these records for UI and reporting. The phased-out part is the native authority mechanism, not the product's ability to show useful state.
@@ -212,6 +219,7 @@ It should, however:
 - Avoid hiding critical authority in frontend code.
 - Preserve enough event history to later emit receipts.
 - Keep project and task structures compatible with future InfRing task decomposition receipts.
+- Keep project lineage, forks, and exported versions structured enough to map into a future InfRing versioning/fork subsystem.
 - Keep any Storm-owned decomposition helper behind an adapter boundary so it can be replaced or merged with InfRing.
 - Keep action receipt IDs readable while preserving structured fields and hashes for later InfRing mapping.
 - Track which native mechanisms have future InfRing replacements and avoid hard-coding them as permanent authority.
@@ -223,6 +231,7 @@ It should, however:
 - Which Storm events must be receipt-backed first?
 - Which Storm-native mechanisms should be phased out first?
 - What interface boundaries make native-to-InfRing replacement safe?
+- Does InfRing need a generic versioning/fork subsystem, and what is its minimal primitive set?
 - What Storm task fields must map to InfRing task decomposition outputs?
 - How should applet constraints be passed into InfRing decomposition?
 - What is the migration path from Storm-owned decomposition helpers to InfRing-backed decomposition?

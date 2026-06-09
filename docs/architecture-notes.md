@@ -70,6 +70,12 @@ Reputation should be event-based rather than stored only as a mutable score. Agg
 
 Future Storm may need to connect ideas, decomposition work, submissions, reviews, research, and residual claims. The MVP does not need full residual compensation, but reputation and ledger events should be modeled so a contribution graph can be added later without rewriting every economic event.
 
+### Versioning And Forks
+
+Storm should learn from GitHub and open source work: durable project history, forkability, reviewable merge proposals, and visible provenance make open collaboration possible.
+
+The MVP can start with accepted submissions and exported project versions. Later Storm may need branches, forks, merge proposals, conflict records, and fork-aware value routing. These should be designed as product-facing projections over a future InfRing versioning/fork subsystem if InfRing provides one, not as a permanent Storm-only version-control substrate.
+
 ### Project Applets
 
 Storm core should stay generic. Applets should layer domain-specific metadata, task templates, artifact types, review rubrics, merge behavior, and export formats on top of the core project loop.
@@ -125,7 +131,7 @@ Storm-native mechanisms should have an explicit lifecycle when they overlap with
 4. Add an InfRing-backed implementation when the primitive is mature.
 5. Phase out the native authority mechanism once the InfRing path is safer and more trustworthy.
 
-This applies first to decomposition, receipts, audit logs, value-policy execution, provenance records, ledger verification, dataset lineage, and network trust. Storm should keep product-facing projections and applet semantics, but it should not turn temporary infrastructure into a permanent competing substrate.
+This applies first to decomposition, receipts, audit logs, value-policy execution, provenance records, version/fork lineage, ledger verification, dataset lineage, and network trust. Storm should keep product-facing projections and applet semantics, but it should not turn temporary infrastructure into a permanent competing substrate.
 
 ### Artifacts
 
@@ -153,6 +159,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep platform fee logic visible in code and UI.
 - Preserve room for ideas, groups, and contribution events without making them MVP requirements.
 - Preserve artifact provenance so future AI training compensation is possible.
+- Preserve version and fork lineage so open collaboration does not erase attribution or value rights.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
 - Keep task fields compatible with future InfRing decomposition outputs.
@@ -168,6 +175,7 @@ This is a placeholder recommendation, not a final decision.
 - InfRing-backed task decomposition.
 - Storm-to-InfRing decomposition adapter.
 - Project applet framework.
+- Versioning and fork workflows.
 - Skill-based contributor matching.
 - Risk-based review assignment.
 - Fraud and collusion detection.

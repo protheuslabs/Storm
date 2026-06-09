@@ -75,6 +75,8 @@ Examples:
 - An AI system trained on Storm work cannot strip source provenance.
 - A group cannot fork a project and deny upstream value flow.
 
+Forking should work more like open source lineage than corporate escape. A fork may create independence, but it should not create amnesia. Upstream provenance, applicable value policies, licenses, legal wrappers, and contribution rights must travel with the lineage unless governance explicitly changes them through visible rules.
+
 ## Trust Requirements
 
 This model only works if the system is highly trustworthy.

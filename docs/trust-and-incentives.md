@@ -142,6 +142,18 @@ Possible controls:
 - Preserve upstream provenance during forks and spinouts.
 - Support disputes when legal wrappers fail to route value.
 
+### Fork Provenance Stripping
+
+A user or group may fork a project, dataset, story world, codebase, or invention record and then attempt to remove upstream attribution or value obligations.
+
+Possible controls:
+
+- Preserve parent lineage on forks.
+- Require fork receipts or audit records.
+- Carry applicable value policies, licenses, and legal-wrapper obligations into fork metadata.
+- Show upstream dependency and contribution history in forked projects.
+- Dispute or quarantine forks that strip provenance.
+
 ### Network Trust Failure
 
 When Storm eventually uses Protheus/InfRing primitives, a node may publish false receipts, unsafe signals, bad provenance, or value claims that other nodes should not trust blindly.

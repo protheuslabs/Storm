@@ -17,6 +17,10 @@ Suggested prefixes:
 - `vpol_` for value policies.
 - `vev_` for value events.
 - `val_` for contribution valuations.
+- `vobj_` for versioned objects.
+- `vnd_` for version nodes.
+- `frk_` for forks.
+- `mrg_` for merge proposals.
 - `act_` for actions.
 - `rcp_` for receipts.
 
@@ -54,6 +58,8 @@ Fields:
 - description.
 - objective.
 - budget.
+- parent project id.
+- lineage root id.
 - status.
 - target outcome.
 - created at.
@@ -65,6 +71,8 @@ Relationships:
 - Has many ledger entries.
 - Has contributors through tasks.
 - May belong to a project applet.
+- May fork from another project.
+- May have many forked child projects.
 
 ## Project Applet
 
@@ -342,6 +350,86 @@ Fields:
 MVP status:
 
 - Future concept.
+
+## Versioned Object
+
+A future abstraction for any project state, artifact, dataset, policy, or applet-specific output that needs durable version history.
+
+Fields:
+
+- id.
+- object type.
+- object id.
+- project id.
+- current version id.
+- lineage root id.
+- created at.
+
+MVP status:
+
+- Future concept. The MVP can use direct artifact and export records before a generic version model exists.
+
+## Version Node
+
+A future record of one point in a versioned object's history.
+
+Fields:
+
+- id.
+- versioned object id.
+- parent version ids.
+- author user id.
+- change summary.
+- artifact reference.
+- receipt id.
+- created at.
+
+MVP status:
+
+- Future concept. This may eventually map to an InfRing versioning/fork subsystem.
+
+## Project Fork
+
+A future record that one project diverged from another while preserving lineage.
+
+Fields:
+
+- id.
+- source project id.
+- forked project id.
+- forked by user id.
+- fork reason.
+- inherited value policy ids.
+- inherited legal wrapper ids.
+- lineage receipt id.
+- created at.
+
+MVP status:
+
+- Future concept. Early Storm can reserve parent project fields without exposing public forks.
+
+## Merge Proposal
+
+A future request to merge work from one version, branch, fork, or project line into another.
+
+Fields:
+
+- id.
+- source project id.
+- target project id.
+- source version id.
+- target version id.
+- proposed by user id.
+- summary.
+- status.
+- review ids.
+- merge decision receipt id.
+- created at.
+- decided at.
+
+MVP status:
+
+- Future concept. Applets can define what merge means for their artifact type.
 
 ## Legal Wrapper
 

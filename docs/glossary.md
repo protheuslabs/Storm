@@ -56,6 +56,10 @@ A persistent collaboration unit that may own projects, recruit members, define g
 
 A reusable organizational pattern that can define roles, governance, lifecycle rules, and default operating structure.
 
+## Fork
+
+A project or artifact lineage that diverges from a parent while preserving provenance, attribution, and applicable value obligations.
+
 ## Idea
 
 An early concept, prompt, problem, or goal that may become a project.
@@ -71,6 +75,10 @@ A user-visible explanation of why a value allocation happened and which policy, 
 ## Legal Wrapper
 
 A patent, business, license, contract, or legal entity used to interact with existing law while preserving Storm's contribution and value-routing rules.
+
+## Merge Proposal
+
+A reviewable request to merge work from one version, branch, fork, or project line into another.
 
 ## Microtask
 
@@ -151,6 +159,14 @@ Another term for the ledger when emphasizing economic transparency.
 ## Value Policy
 
 A versioned rule set for calculating value allocations from contribution records.
+
+## Version Node
+
+A point in a versioned object's history.
+
+## Versioned Object
+
+Any project state, artifact, dataset, policy, or applet-specific output that needs durable version history.
 
 ## World Eye
 
