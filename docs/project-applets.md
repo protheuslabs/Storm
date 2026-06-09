@@ -33,6 +33,8 @@ Applets should handle:
 
 In later versions, applets may also provide decomposition constraints to InfRing. InfRing can propose decomposed tasks, while the applet decides which domain-specific templates, artifacts, and review rules apply.
 
+Before InfRing integration is ready, an applet can include its own simple decomposition helper. That helper should be treated as temporary or adapter-backed, not as a permanent decomposition authority.
+
 ## Why Applets
 
 Different project types have different complexity.

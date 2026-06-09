@@ -6,7 +6,7 @@ It lets users create story projects, break them into clear creative tasks, invit
 
 Story Forge should prove the applet model. Storm core should handle projects, tasks, review, ledger, reputation, and provenance; Story Forge should add only story-specific metadata, task templates, canon handling, editorial review criteria, and story artifact export.
 
-The first Story Forge MVP can use manually created story tasks and static templates. Later, Story Forge should use InfRing task decomposition to turn a story premise and constraints into candidate tasks such as scene drafts, character profiles, line edits, and continuity reviews.
+The first Story Forge MVP can use manually created story tasks, static templates, or a lightweight Story Forge decomposition helper. Later, Story Forge should merge that decomposition path with InfRing task decomposition so a story premise and constraints can become receipted candidate tasks such as scene drafts, character profiles, line edits, and continuity reviews.
 
 ## Why Stories First
 

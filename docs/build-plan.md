@@ -10,7 +10,7 @@ Project -> Task -> Claim -> Submit -> Review -> Ledger -> Reputation.
 
 The first build should prove crowdsourced projects, not a generic task board. It should show that distributed contributors can collectively move a project forward through claimable work, accountable review, and transparent value allocation.
 
-The first build should not implement residual compensation, AI training provenance, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It should model economic and reputation events cleanly enough that those layers can be explored later.
+The first build should not implement residual compensation, AI training provenance, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
 
 ## Milestone 1: Repo And App Foundation
 

@@ -66,7 +66,9 @@ Story Forge can start as the first applet with static metadata and templates. A 
 
 ### Future InfRing Task Decomposition
 
-Storm should not build a permanent competing task decomposition substrate if InfRing provides the canonical primitive. The MVP can use manual tasks and static applet templates. Later, applets should pass domain constraints to InfRing task decomposition and receive receipted task candidates with success criteria, routing, provenance, governance, and attribution metadata.
+Storm can have its own task decomposition early, especially applet-specific decomposition helpers. It should not become a permanent competing substrate if InfRing provides the canonical primitive.
+
+The MVP can use manual tasks and static applet templates. Later, Storm-owned decomposition should sit behind an adapter boundary, then converge with InfRing task decomposition. Applets should pass domain constraints to InfRing and receive receipted task candidates with success criteria, routing, provenance, governance, and attribution metadata.
 
 ### AI Data Provenance
 
@@ -106,11 +108,13 @@ This is a placeholder recommendation, not a final decision.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
 - Keep task fields compatible with future InfRing decomposition outputs.
+- Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
 
 ## Future Capabilities
 
 - AI-assisted project decomposition.
 - InfRing-backed task decomposition.
+- Storm-to-InfRing decomposition adapter.
 - Project applet framework.
 - Skill-based contributor matching.
 - Risk-based review assignment.

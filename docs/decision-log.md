@@ -300,7 +300,7 @@ Consequences:
 
 Decision:
 
-Storm should eventually use InfRing's task decomposition primitives instead of building a permanent competing decomposition substrate.
+Storm can use its own early task decomposition helpers, but endgame decomposition should converge with InfRing's task decomposition primitive.
 
 Context:
 
@@ -308,12 +308,13 @@ The user clarified that Storm will likely want to use InfRing's task decompositi
 
 Alternatives considered:
 
-- Build Storm's own independent decomposition engine.
+- Build Storm's own permanent independent decomposition engine.
 - Require InfRing task decomposition for the first MVP.
 - Keep decomposition entirely manual forever.
 
 Consequences:
 
-- MVP remains manual/static-template based.
+- MVP may use manual tasks, static templates, or simple Storm-owned applet decomposition helpers.
+- Storm-owned decomposition must stay behind a compatibility boundary.
 - Applets can later provide domain constraints to InfRing.
-- Storm will own economics, review, applet semantics, and value routing while InfRing owns receipted decomposition primitives.
+- Storm will own economics, review, applet semantics, and value routing while InfRing becomes the canonical decomposition primitive.

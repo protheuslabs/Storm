@@ -114,9 +114,17 @@ Current InfRing repository signals include:
 - `V3-TASK-002`: Task Decomposition Live Execution Handoff.
 - Rust execution code for composing micro-tasks with success criteria, routing, provenance, governance, and attribution fields.
 
-Storm should not duplicate that substrate long term.
+Storm may have its own decomposition logic early, especially inside applets like Story Forge. That is acceptable as a bootstrap path. It should not become a permanent competing substrate.
 
-Near-term Storm can create tasks manually or from applet templates. Later, Storm applets can pass project goals and applet constraints into InfRing decomposition and receive structured task candidates back.
+Near-term Storm can create tasks manually, from applet templates, or from lightweight Storm-owned decomposition helpers. Later, Storm decomposition should converge with InfRing's task decomposition primitive.
+
+The long-term path should be:
+
+1. Manual tasks and applet templates.
+2. Storm-owned applet decomposition helpers.
+3. Storm-to-InfRing compatibility contract.
+4. InfRing-backed task candidate generation.
+5. Full convergence where Storm accesses InfRing's task decomposition primitive for canonical decomposed task candidates.
 
 For example:
 
@@ -129,6 +137,7 @@ The boundary should be:
 
 - InfRing decomposes, routes, receipts, and validates execution primitives.
 - Storm owns project economics, applet semantics, contributor marketplace, review, ledger, and value routing.
+- Storm may shape decomposition with applet constraints, but InfRing becomes the canonical primitive for decomposition when the network substrate is mature.
 
 ## MVP Implication
 
@@ -144,6 +153,7 @@ It should, however:
 - Avoid hiding critical authority in frontend code.
 - Preserve enough event history to later emit receipts.
 - Keep project and task structures compatible with future InfRing task decomposition receipts.
+- Keep any Storm-owned decomposition helper behind an adapter boundary so it can be replaced or merged with InfRing.
 
 ## Open Questions
 
@@ -152,6 +162,7 @@ It should, however:
 - Which Storm events must be receipt-backed first?
 - What Storm task fields must map to InfRing task decomposition outputs?
 - How should applet constraints be passed into InfRing decomposition?
+- What is the migration path from Storm-owned decomposition helpers to InfRing-backed decomposition?
 - How should Storm map users to network nodes?
 - Can one user operate multiple nodes?
 - Can one node represent a group?
