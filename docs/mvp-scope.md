@@ -6,7 +6,7 @@ Prove that Storm can coordinate crowdsourced projects through small tasks with c
 
 The MVP is not a generic freelancer marketplace. It is the first working version of a project model where distributed contributors can collectively execute meaningful work without a company acting as the central owner, manager, and value extractor.
 
-The proposed first vertical is Story Forge: crowdsourced story creation. The MVP can focus on story projects while keeping the underlying Storm model generic.
+The proposed first project applet is Story Forge: crowdsourced story creation. The MVP can focus on story projects while keeping the underlying Storm model generic.
 
 ## In Scope
 
@@ -112,4 +112,4 @@ The MVP should also use one-time task payout accounting before attempting residu
 
 The MVP should support crowdsourced projects deeply enough to prove the model, even if it only supports a narrow category of project at first.
 
-Story Forge is the recommended narrow category.
+Story Forge is the recommended first applet.

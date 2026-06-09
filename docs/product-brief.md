@@ -10,6 +10,8 @@ Longer term, Storm is a value-coordination system: ideas, research, task decompo
 
 The broad product ambition is an idea-to-value engine: a person can plant a creative seed, the crowd can help manifest it, and contributors can receive value when their input creates downstream value. The endgame is a system broad enough that people can do all of their work through crowdsourced projects instead of defaulting to corporations.
 
+Storm should expand through project applets: focused vertical workspaces that share the same core primitives while keeping domain-specific complexity separated.
+
 ## Problem
 
 Many people can create value, but most valuable projects are locked behind organizations that control access, coordination, review, and payment. Workers often receive a small fraction of the value they help create because the intermediary layer controls the customer relationship, project structure, trust layer, and payout decisions.
@@ -48,7 +50,7 @@ Storm makes crowdsourced project work clear, claimable, reviewable, and payable.
 
 ## MVP Positioning
 
-The MVP is crowdsourced projects. The proposed first vertical is Story Forge: crowdsourced story creation. The first version should prove that useful project work can be decomposed into small paid tasks, completed by distributed contributors, reviewed reliably, and paid transparently.
+The MVP is crowdsourced projects. The proposed first applet is Story Forge: crowdsourced story creation. The first version should prove that useful project work can be decomposed into small paid tasks, completed by distributed contributors, reviewed reliably, and paid transparently.
 
 It should not try to replace every company function immediately. It should prove the core project loop that could eventually expand into a complete work model.
 
@@ -73,6 +75,7 @@ It should not try to replace every company function immediately. It should prove
 - The long-term product can rescue useful ideas that would otherwise disappear before becoming projects.
 - The endgame is a full alternative to corporate work organization, not just a cheaper labor marketplace.
 - AI systems can be allowed to learn from Storm work without stripping contributors of provenance or downstream compensation.
+- Applets keep simple verticals simple while allowing complex verticals to add only the extra workflow they need.
 
 ## Early Success Metrics
 

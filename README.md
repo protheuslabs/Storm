@@ -12,6 +12,7 @@ This repo is starting with documentation first. The initial docs define the prod
 
 - [Vision](docs/vision.md)
 - [Product Brief](docs/product-brief.md)
+- [Project Applets](docs/project-applets.md)
 - [Story Forge Vertical](docs/story-forge-vertical.md)
 - [Old Source Summary](docs/source-old-storm-doc.md)
 - [Old Extra Notes Summary](docs/source-old-storm-extra-notes.md)
@@ -47,7 +48,7 @@ Storm starts with six core surfaces:
 
 Longer term, Storm may also support idea containers, residual contribution rights, groups or alliances, crowdsourced intelligence, real-world bounties, and automated project seeding. These are captured in the docs but intentionally kept outside the first MVP.
 
-The proposed first vertical is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
+Storm should expand through project applets: focused project-type surfaces that share the same foundation but add only the complexity that vertical needs. The proposed first applet is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
 
 ## MVP Hypothesis
 

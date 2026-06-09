@@ -2,6 +2,9 @@
 
 ## Product
 
+- What is the minimum applet contract every project type must implement?
+- Which applet concepts belong in Storm core only after multiple applets need them?
+- How many applets can exist before the core project loop is proven?
 - Should Story Forge be limited to one initial format, such as short stories or serialized fiction?
 - Which story task types should ship first?
 - How should Story Forge represent canon in the MVP?

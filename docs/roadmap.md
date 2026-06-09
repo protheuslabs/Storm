@@ -63,6 +63,7 @@ Goals:
 - Help contributors find suitable tasks.
 - Help reviewers evaluate submissions consistently.
 - Start formalizing contribution events beyond task completion.
+- Formalize applet task templates and review rubrics.
 
 Deliverables:
 
@@ -71,6 +72,23 @@ Deliverables:
 - Suggested acceptance criteria.
 - Contributor-task matching.
 - Review checklist generation.
+
+## Phase 3.25: Applet Framework
+
+Goals:
+
+- Generalize the Story Forge vertical into a reusable applet pattern.
+- Keep Storm core generic while supporting domain-specific project workflows.
+
+Deliverables:
+
+- Applet contract.
+- Applet project templates.
+- Applet task templates.
+- Applet review rubrics.
+- Applet artifact type registry.
+- Code Forge feasibility sketch.
+- Invention Forge feasibility sketch.
 
 ## Phase 3.5: Groups And Containers
 

@@ -58,6 +58,12 @@ Reputation should be event-based rather than stored only as a mutable score. Agg
 
 Future Storm may need to connect ideas, decomposition work, submissions, reviews, research, and residual claims. The MVP does not need full residual compensation, but reputation and ledger events should be modeled so a contribution graph can be added later without rewriting every economic event.
 
+### Project Applets
+
+Storm core should stay generic. Applets should layer domain-specific metadata, task templates, artifact types, review rubrics, merge behavior, and export formats on top of the core project loop.
+
+Story Forge can start as the first applet with static metadata and templates. A formal applet framework can come later after the first applet proves the model.
+
 ### AI Data Provenance
 
 Future Storm may allow AI training on Storm data and approved Protheus Labs ecosystem data. Source records, artifacts, dataset membership, training runs, and downstream AI value events should be traceable. The MVP does not need model attribution, but it should avoid destroying source provenance in artifacts and contribution events.
@@ -94,10 +100,12 @@ This is a placeholder recommendation, not a final decision.
 - Preserve room for ideas, groups, and contribution events without making them MVP requirements.
 - Preserve artifact provenance so future AI training compensation is possible.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
+- Keep applet-specific logic out of Storm core until multiple applets need the same concept.
 
 ## Future Capabilities
 
 - AI-assisted project decomposition.
+- Project applet framework.
 - Skill-based contributor matching.
 - Risk-based review assignment.
 - Fraud and collusion detection.

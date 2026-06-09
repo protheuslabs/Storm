@@ -44,6 +44,70 @@ Relationships:
 - Has many tasks.
 - Has many ledger entries.
 - Has contributors through tasks.
+- May belong to a project applet.
+
+## Project Applet
+
+A focused project-type surface built on the generic Storm foundation.
+
+Fields:
+
+- id.
+- name.
+- description.
+- maturity level.
+- enabled.
+- created at.
+- updated at.
+
+Relationships:
+
+- Has many project templates.
+- Has many task templates.
+- May define artifact types.
+- May define review rubrics.
+
+MVP status:
+
+- Future formal model. Story Forge can start as hardcoded metadata and templates before applets become configurable.
+
+## Applet Project Template
+
+A reusable setup pattern for an applet-specific project.
+
+Fields:
+
+- id.
+- project applet id.
+- name.
+- description.
+- default metadata schema.
+- default task groups.
+- created at.
+
+MVP status:
+
+- Future concept.
+
+## Applet Task Template
+
+A reusable applet-specific task type.
+
+Fields:
+
+- id.
+- project applet id.
+- name.
+- description.
+- default acceptance criteria.
+- default required skills.
+- artifact requirements.
+- review rubric id.
+- created at.
+
+MVP status:
+
+- Future concept. Story Forge can start with static task templates.
 
 ## Idea
 

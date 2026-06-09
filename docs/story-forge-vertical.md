@@ -1,8 +1,10 @@
 # Story Forge Vertical
 
-Story Forge is the proposed first Storm vertical: a crowdsourced story creation system.
+Story Forge is the proposed first Storm project applet: a crowdsourced story creation system.
 
 It lets users create story projects, break them into clear creative tasks, invite or allow contributors to complete pieces, review submissions, and route value transparently.
+
+Story Forge should prove the applet model. Storm core should handle projects, tasks, review, ledger, reputation, and provenance; Story Forge should add only story-specific metadata, task templates, canon handling, editorial review criteria, and story artifact export.
 
 ## Why Stories First
 
@@ -169,3 +171,29 @@ Story Forge tests the hardest Storm questions in a lower-risk domain:
 Story Forge can be Storm's Falcon 1.
 
 It is narrow enough to build, culturally understandable, and close to the original creative-seed thesis. If it works, Storm can expand from stories into games, films, software, research, products, and eventually broader work categories.
+
+## Applet Boundary
+
+Handled by Storm core:
+
+- Project status.
+- Task status.
+- Claims.
+- Submissions.
+- Reviews.
+- Disputes.
+- Ledger entries.
+- Reputation events.
+- Contribution provenance.
+
+Handled by Story Forge:
+
+- Story premise.
+- Genre.
+- Format.
+- Tone.
+- Target audience.
+- Canon notes.
+- Story task templates.
+- Editorial review criteria.
+- Story package export.

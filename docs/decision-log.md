@@ -251,3 +251,25 @@ Consequences:
 - MVP docs now point to Story Forge as the recommended narrow first category.
 - Storm's underlying model remains generic.
 - Story-specific tasks, canon, review, and artifact export become the first practical proof surface.
+
+### 2026-06-09: Use Project Applets For Vertical Expansion
+
+Decision:
+
+Storm should expand through project applets: focused vertical workspaces that share Storm's generic foundation while keeping domain-specific complexity separated.
+
+Context:
+
+The user clarified that Story Forge, Code Forge, physical inventions, and other project types should be separated so Storm can start with the simplest applets first and only add complexity where necessary.
+
+Alternatives considered:
+
+- Put all vertical-specific behavior into Storm core.
+- Build each vertical as a separate product with no shared substrate.
+- Build generic project management only.
+
+Consequences:
+
+- Storm core owns projects, tasks, claims, submissions, review, disputes, reputation, ledger, and provenance.
+- Applets own domain metadata, task templates, review rubrics, artifact types, merge behavior, and exports.
+- Story Forge becomes the first applet rather than a one-off vertical.

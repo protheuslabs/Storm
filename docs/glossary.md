@@ -64,6 +64,10 @@ A very small task designed to be completed quickly with minimal context.
 
 A coordinated body of work with an objective, owner, budget, and tasks.
 
+## Project Applet
+
+A focused project-type surface that adds domain-specific workflows on top of Storm core.
+
 ## Project Owner
 
 The person or group funding, defining, or managing a project.
