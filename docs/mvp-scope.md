@@ -1,0 +1,109 @@
+# MVP Scope
+
+## Goal
+
+Prove that Storm can coordinate crowdsourced projects through small tasks with clear acceptance criteria, review, and transparent payout tracking.
+
+The MVP is not a generic freelancer marketplace. It is the first working version of a project model where distributed contributors can collectively execute meaningful work without a company acting as the central owner, manager, and value extractor.
+
+## In Scope
+
+### Projects
+
+- Create a project.
+- Define project objective, description, owner, budget, status, and target outcome.
+- View project progress by task status.
+
+### Tasks
+
+- Create tasks manually.
+- Define title, description, acceptance criteria, required skills, estimated effort, value, status, dependencies, and deadline.
+- Claim an available task.
+- Submit work for review.
+- Approve, reject, or request changes.
+
+### Contributors
+
+- Create contributor profiles.
+- Track claimed tasks, submitted tasks, approved tasks, rejected tasks, and earned value.
+- Show basic reputation signals.
+
+### Review
+
+- Assign or allow reviewer claim for submitted tasks.
+- Review against acceptance criteria.
+- Record reviewer decision and notes.
+- Track reviewer accuracy over time.
+
+### Value Ledger
+
+- Record task value.
+- Record contributor payout amount.
+- Record reviewer reward amount if applicable.
+- Record platform fee amount.
+- Show transparent payout breakdown.
+
+### Disputes
+
+- Allow contributor to dispute a rejection.
+- Allow project owner or designated resolver to make a final decision.
+- Record dispute outcome.
+
+## Out Of Scope For First MVP
+
+- Fully automated AI task decomposition.
+- Complex legal contracting.
+- Crypto payouts.
+- Multi-currency payout flows.
+- Enterprise permissions.
+- Sophisticated fraud detection.
+- Public API.
+- Mobile apps.
+- Advanced governance tokens or voting.
+- Fully portable external reputation.
+- Automated tax reporting.
+- Residual lifetime compensation.
+- Idea ownership and downstream royalty calculations.
+- Custom group or alliance governance.
+- World Eye-style crowdsourced intelligence.
+- Bolt-style real-world task bounties.
+- Automated IP or plagiarism enforcement.
+- Identity schemes requiring sensitive government identifiers.
+
+## MVP Roles
+
+- Project owner.
+- Contributor.
+- Reviewer.
+- Admin or resolver.
+
+## MVP Task States
+
+- Draft.
+- Open.
+- Claimed.
+- In progress.
+- Submitted.
+- Changes requested.
+- Approved.
+- Rejected.
+- Disputed.
+- Paid.
+- Canceled.
+
+## MVP Project States
+
+- Draft.
+- Open.
+- In progress.
+- Completed.
+- Paused.
+- Canceled.
+
+## Initial Product Constraint
+
+Start with manually created and manually reviewed tasks. Automation can assist later, but the first product must prove the workflow and incentives before relying on automation.
+
+The MVP should also use one-time task payout accounting before attempting residual compensation. Residual value is part of the long-term vision, but it depends on a trusted contribution graph, precise ownership rules, and dispute handling that does not exist yet.
+
+The MVP should support crowdsourced projects deeply enough to prove the model, even if it only supports a narrow category of project at first.
