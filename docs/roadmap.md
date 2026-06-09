@@ -207,6 +207,24 @@ Deliverables:
 - Local validation rules for incoming network signals.
 - Federated task/project discovery prototype.
 
+## Phase 10: Release Switch
+
+Goals:
+
+- Transition Storm from Protheus Labs-operated platform to network-governed system when critical mass and trust requirements are met.
+- Preserve transparent Protheus Labs origin value without preserving unilateral control.
+
+Deliverables:
+
+- Release criteria.
+- Governance handoff plan.
+- Protocol origin allocation model.
+- Hidden-control audit.
+- Network governance policy.
+- Emergency authority policy.
+- Release-switch rehearsal.
+- Public release-switch report.
+
 ## Roadmap Guardrail
 
 Do not expand into broad marketplace discovery before the core loop works:

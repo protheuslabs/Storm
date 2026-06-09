@@ -284,6 +284,51 @@ MVP status:
 
 - Future concept.
 
+## Protocol Origin Claim
+
+A transparent value claim attached to the originator of the Storm protocol or network.
+
+Fields:
+
+- id.
+- beneficiary organization id.
+- allocation rule.
+- scope.
+- mutable.
+- effective from.
+- effective until.
+- created at.
+
+MVP status:
+
+- Future concept. This should not exist until release-switch economics and governance are defined.
+
+## Release Switch State
+
+A future record of Storm's transition from organization-operated platform to network-governed system.
+
+Fields:
+
+- id.
+- status.
+- release criteria version.
+- governance policy version.
+- origin claim id.
+- activated at.
+- activated by.
+
+Statuses:
+
+- Not planned.
+- Planned.
+- Armed.
+- Released.
+- Suspended.
+
+MVP status:
+
+- Future concept.
+
 ## Network Node
 
 A future Protheus/InfRing node that can participate in Storm coordination with local authority and receipt-backed trust.
@@ -707,3 +752,5 @@ Fields:
 - What legal wrapper structures preserve contributor value rights?
 - Which MVP events should be designed to become receipts later?
 - How should Storm users, groups, and projects map to Protheus network nodes?
+- What release switch criteria prove Storm is ready to grow beyond organizational control?
+- How should protocol origin claims be represented without creating a new extraction layer?

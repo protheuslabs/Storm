@@ -141,6 +141,19 @@ Possible controls:
 - Preserve rollback paths.
 - Prefer proof-carrying signals over authority-based trust.
 
+### Release Switch Capture
+
+A release switch can fail if it releases too early, releases too late, or preserves hidden control under another name.
+
+Possible controls:
+
+- Define public release criteria before activation.
+- Make Protheus Labs origin allocation explicit and immutable or tightly governed.
+- Remove hidden unilateral admin powers after release.
+- Require transparent governance for protocol changes.
+- Preserve emergency handling without recreating secret central control.
+- Audit whether origin value is compensation or extraction.
+
 ## Reputation Dimensions
 
 Contributor reputation should not be one score. Useful dimensions include:

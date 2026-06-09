@@ -273,3 +273,25 @@ Consequences:
 - Storm core owns projects, tasks, claims, submissions, review, disputes, reputation, ledger, and provenance.
 - Applets own domain metadata, task templates, review rubrics, artifact types, merge behavior, and exports.
 - Story Forge becomes the first applet rather than a one-off vertical.
+
+### 2026-06-09: Add Release Switch Concept
+
+Decision:
+
+Storm should eventually support a release switch: a transition from Protheus Labs-operated platform to network-governed system once critical mass, trust, and infrastructure requirements are met.
+
+Context:
+
+The user clarified that if Storm succeeds, powerful governments and organizations may try to control or capture it because it challenges existing economic control structures. Storm may need to grow beyond control by any single organization. Protheus Labs can remain the origin point and collect transparent origin value permanently, but should not retain unilateral control after release.
+
+Alternatives considered:
+
+- Keep Storm permanently controlled by Protheus Labs.
+- Release control immediately before trust and governance mature.
+- Treat Protheus Labs value and Protheus Labs control as the same thing.
+
+Consequences:
+
+- Docs now separate origin value from control.
+- Release switch is future scope, not MVP.
+- Future governance must define release criteria, origin allocation, hidden-control audits, and emergency authority.

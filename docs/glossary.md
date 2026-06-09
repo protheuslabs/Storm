@@ -80,6 +80,14 @@ A pre-project signal of funding, preorder demand, volunteer commitment, or inter
 
 A future verifiable record of a Storm event, decision, execution, validation, ledger entry, or provenance claim.
 
+## Release Switch
+
+A future transition where Storm grows beyond unilateral control by Protheus Labs or any single organization.
+
+## Protocol Origin Claim
+
+A transparent value claim assigned to the originator of the Storm protocol or network.
+
 ## Reputation
 
 Evidence-based trust built from verified work, review quality, reliability, and dispute outcomes.

@@ -50,6 +50,8 @@ At full maturity, Storm should be capable of organizing enough types of work tha
 
 In later infrastructure phases, Storm may transition onto the Protheus network and use InfRing primitives for receipts, deterministic policy, local validation, node identity, and federated trust.
 
+At sufficient scale, Storm may need a release switch: a transition where Protheus Labs remains the origin point and may retain a transparent origin-value claim, but no longer has unilateral control over the network.
+
 ## What Storm Replaces
 
 Storm is not a freelance marketplace with nicer economics. It is intended to absorb pieces of:
@@ -83,6 +85,7 @@ The aspirational target is for contributors and reviewers to keep roughly 95% of
 - Platform fees must be transparent.
 - AI training and data usage rights must preserve provenance.
 - Legal wrappers, patents, and businesses must not be allowed to withhold value from contributors.
+- Any future release switch must remove hidden control without removing accountability.
 - The system must resist low-quality work, fake review rings, and value extraction by hidden intermediaries.
 
 ## Product North Star
@@ -101,3 +104,4 @@ Storm should be documented in layers so the project can stay ambitious without b
 - Research: real-world bounties, robotics, fabrication, and institution-scale coordination.
 - Endgame: a general work model that makes corporate employment optional or obsolete for most contributors.
 - Substrate: future Protheus/InfRing network primitives for receipt-backed, user-owned coordination.
+- Release: eventual transition from Protheus Labs-operated platform to network-governed system.

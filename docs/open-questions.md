@@ -108,6 +108,19 @@
 - How should forks, mergers, and spinouts preserve upstream value rights?
 - How should Storm handle contributors who want attribution but not legal ownership?
 - How should Storm handle contributors who want payment but no ongoing rights?
+- Should Protheus Labs receive a permanent protocol-origin allocation?
+- How can Protheus Labs collect origin value without retaining control?
+- What legal wrapper is needed before a release switch?
+
+## Release Switch
+
+- What critical mass threshold should trigger release-switch planning?
+- What criteria must be met before Storm can grow beyond direct organizational control?
+- Which powers should Protheus Labs have before release?
+- Which powers must Protheus Labs lose after release?
+- How should emergency intervention work without recreating hidden control?
+- How should protocol changes be approved after release?
+- How should the system handle hostile capture attempts?
 
 ## Legal And Compliance
 

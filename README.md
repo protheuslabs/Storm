@@ -24,6 +24,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Platform Concepts](docs/platform-concepts.md)
 - [Socioeconomic Thesis](docs/socioeconomic-thesis.md)
 - [Ownership And Governance](docs/ownership-and-governance.md)
+- [Release Switch](docs/release-switch.md)
 - [AI Training Provenance](docs/ai-training-provenance.md)
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
 - [Trust And Incentives](docs/trust-and-incentives.md)

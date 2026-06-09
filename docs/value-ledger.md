@@ -46,6 +46,8 @@ This is only an example. Actual allocations need product and business decisions.
 - Dataset value allocated.
 - AI training value allocated.
 - AI attribution adjustment.
+- Protocol origin allocation.
+- Release switch allocation.
 - Refund issued.
 - Dispute adjustment.
 - Manual adjustment.
@@ -118,3 +120,6 @@ When exact source attribution is impossible, Storm may need pool-based allocatio
 - What counts as value generated from AI training?
 - Should AI training value use direct attribution, dataset pools, domain pools, or a hybrid?
 - What compensation share should source contributors receive from AI-generated value?
+- Should Protheus Labs receive a permanent protocol-origin allocation?
+- How large should an origin allocation be before it becomes extraction?
+- Can an origin allocation be changed after the release switch?

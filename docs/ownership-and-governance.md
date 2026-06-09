@@ -136,3 +136,16 @@ Later versions can add:
 - Business spinout rules.
 - Non-withholding agreements.
 - Network-level governance.
+- Release switch rules.
+- Transparent Protheus Labs origin allocation.
+
+## Release Switch
+
+At critical mass, Storm may need to grow beyond control by any single organization.
+
+The release switch should separate two ideas:
+
+- Origin value: Protheus Labs may receive transparent ongoing value for originating and releasing Storm.
+- Control: Protheus Labs should not retain hidden unilateral authority over network rules, value routing, project access, or contribution rights after release.
+
+The system should be designed so permanent origin value does not become permanent platform domination.
