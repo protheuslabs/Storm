@@ -12,6 +12,7 @@ This repo is starting with documentation first. The initial docs define the prod
 
 - [Vision](docs/vision.md)
 - [Product Brief](docs/product-brief.md)
+- [Story Forge Vertical](docs/story-forge-vertical.md)
 - [Old Source Summary](docs/source-old-storm-doc.md)
 - [Old Extra Notes Summary](docs/source-old-storm-extra-notes.md)
 - [Old 02.26 Notes Summary](docs/source-old-0226-storm-notes.md)
@@ -45,6 +46,8 @@ Storm starts with six core surfaces:
 6. Value ledger: transparent accounting for contribution, approval, payment, and platform fees.
 
 Longer term, Storm may also support idea containers, residual contribution rights, groups or alliances, crowdsourced intelligence, real-world bounties, and automated project seeding. These are captured in the docs but intentionally kept outside the first MVP.
+
+The proposed first vertical is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
 
 ## MVP Hypothesis
 

@@ -92,6 +92,14 @@ The act of evaluating a submission against task acceptance criteria.
 
 A person who validates submitted work.
 
+## Story Forge
+
+The proposed first Storm vertical for crowdsourced story creation.
+
+## Story Task
+
+A task within a story project, such as a scene draft, character profile, lore entry, line edit, or continuity review.
+
 ## Submission
 
 The work artifact, evidence, and notes provided by a contributor for a task.

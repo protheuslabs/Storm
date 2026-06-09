@@ -229,3 +229,25 @@ Consequences:
 - Docs now include a dedicated socioeconomic thesis.
 - The thesis is connected to the operational MVP proof: crowdsourced projects must work in practice.
 - Future positioning can be ambitious while still requiring evidence from real project execution.
+
+### 2026-06-09: Choose Story Forge As Proposed Initial Vertical
+
+Decision:
+
+Story Forge, a crowdsourced story creation system, is the proposed first Storm vertical.
+
+Context:
+
+The user suggested that enabling users to build crowdsourced stories would be a good initial vertical. Stories fit Storm's creative-seed thesis and test decomposition, subjective review, provenance, collaboration, and value routing without requiring physical logistics or highly regulated work.
+
+Alternatives considered:
+
+- Start with generic project types.
+- Start with software projects.
+- Start with operational work.
+
+Consequences:
+
+- MVP docs now point to Story Forge as the recommended narrow first category.
+- Storm's underlying model remains generic.
+- Story-specific tasks, canon, review, and artifact export become the first practical proof surface.

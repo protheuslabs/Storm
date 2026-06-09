@@ -8,6 +8,8 @@
 4. Project owner creates or imports tasks.
 5. Project is opened when enough tasks are ready to claim.
 
+For Story Forge, the project owner defines premise, genre, format, tone, target audience, canon notes, and target artifact.
+
 ## Future: Idea To Project
 
 1. User records an idea, problem, suggestion, or goal.
@@ -24,6 +26,8 @@ This workflow is future scope. The MVP starts at project creation.
 2. Task receives title, description, acceptance criteria, value, estimated effort, skills, dependencies, and deadline.
 3. Storm validates that the task has enough information to be claimed.
 4. Task enters open state.
+
+For Story Forge, tasks may include premise refinement, chapter outline, scene draft, character profile, dialogue pass, line edit, lore entry, or continuity review.
 
 ## 3. Claim Task
 

@@ -2,6 +2,9 @@
 
 ## Product
 
+- Should Story Forge be limited to one initial format, such as short stories or serialized fiction?
+- Which story task types should ship first?
+- How should Story Forge represent canon in the MVP?
 - What is the first project category Storm should support?
 - Should Storm start with software projects, creative projects, operational tasks, research tasks, or another niche?
 - Who creates tasks in the first version: project owners, Storm staff, AI assistance, or the crowd?

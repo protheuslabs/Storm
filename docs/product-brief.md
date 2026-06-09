@@ -48,12 +48,13 @@ Storm makes crowdsourced project work clear, claimable, reviewable, and payable.
 
 ## MVP Positioning
 
-The MVP is crowdsourced projects. The first version should prove that useful project work can be decomposed into small paid tasks, completed by distributed contributors, reviewed reliably, and paid transparently.
+The MVP is crowdsourced projects. The proposed first vertical is Story Forge: crowdsourced story creation. The first version should prove that useful project work can be decomposed into small paid tasks, completed by distributed contributors, reviewed reliably, and paid transparently.
 
 It should not try to replace every company function immediately. It should prove the core project loop that could eventually expand into a complete work model.
 
 ## Primary Use Cases
 
+- A creator starts a story project and contributors complete scenes, character profiles, lore entries, edits, and continuity reviews.
 - A founder breaks a product idea into research, design, engineering, and launch tasks.
 - A creator funds a community project and pays contributors for discrete deliverables.
 - An open-source maintainer posts paid issues with clear acceptance criteria.

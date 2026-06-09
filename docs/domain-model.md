@@ -70,6 +70,25 @@ MVP status:
 
 - Future concept. The first MVP can treat project creation as the starting point.
 
+## Story Project
+
+A Story Forge specialization of Project.
+
+Fields:
+
+- project id.
+- premise.
+- format.
+- genre.
+- tone.
+- target audience.
+- canon notes.
+- target artifact.
+
+MVP status:
+
+- Proposed first vertical. This can be modeled as project metadata rather than a separate table at first.
+
 ## Creative Seed
 
 An early idea or creative input intended to grow into work and downstream value.
@@ -285,6 +304,35 @@ Relationships:
 - Has submissions.
 - Has reviews.
 - Has ledger entries.
+
+## Story Task
+
+A Story Forge specialization of Task.
+
+Fields:
+
+- task id.
+- story task type.
+- canon impact.
+- target section.
+- locked source references.
+
+Story task types:
+
+- Premise refinement.
+- Plot outline.
+- Chapter outline.
+- Scene draft.
+- Dialogue pass.
+- Character profile.
+- Setting description.
+- Worldbuilding entry.
+- Continuity review.
+- Line edit.
+
+MVP status:
+
+- Proposed first vertical. This can be modeled as task metadata rather than a separate table at first.
 
 ## Task Dependency
 

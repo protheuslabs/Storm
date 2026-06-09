@@ -24,12 +24,14 @@ Goals:
 - Let contributors claim and submit tasks.
 - Let reviewers approve, reject, or request changes.
 - Track transparent value allocation in a ledger.
+- Prove Story Forge as the first crowdsourced project vertical.
 
 Deliverables:
 
 - Auth and user profiles.
 - Project dashboard.
 - Task marketplace.
+- Story project fields and story task templates.
 - Task claim and submission flow.
 - Review flow.
 - Ledger view.
