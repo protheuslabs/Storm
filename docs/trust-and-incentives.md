@@ -93,6 +93,19 @@ Possible controls:
 - Require provenance links between upstream work and downstream work.
 - Let disputed claims be reduced, capped, or removed.
 
+### Value Calculation Gaming
+
+A user may try to inflate contribution value by exaggerating difficulty, splitting work into unnecessary tasks, creating fake dependencies, coordinating circular reviews, or optimizing for whatever factors the value policy rewards.
+
+Possible controls:
+
+- Start with fixed task values before complex dynamic scoring.
+- Make value policies visible before contribution.
+- Record allocation explanations.
+- Cap upstream and coordination allocations until provenance is mature.
+- Audit unusual task splitting, repeated reviewer relationships, and sudden weight changes.
+- Version policies so rule changes cannot silently rewrite past allocations.
+
 ### Identity And Duplicate Accounts
 
 The old source suggests making duplicate accounts difficult. This matters for fraud and collusion, but sensitive identity requirements create privacy and onboarding risks.

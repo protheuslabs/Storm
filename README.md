@@ -29,6 +29,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
 - [Trust And Incentives](docs/trust-and-incentives.md)
 - [Value Ledger](docs/value-ledger.md)
+- [Contribution Value Model](docs/contribution-value-model.md)
 - [ID And Receipt Strategy](docs/id-and-receipt-strategy.md)
 - [Architecture Notes](docs/architecture-notes.md)
 - [Build Plan](docs/build-plan.md)
@@ -39,7 +40,7 @@ This repo is starting with documentation first. The initial docs define the prod
 
 ## Product Spine
 
-Storm starts with six core surfaces:
+Storm starts with seven core surfaces:
 
 1. Projects: goals, budgets, timelines, ownership terms, and progress.
 2. Tasks: small executable work units with clear scope, acceptance criteria, value, and dependencies.
@@ -47,6 +48,7 @@ Storm starts with six core surfaces:
 4. Reviewers: people or systems that validate submitted work.
 5. Reputation: a trust layer built from quality, reliability, review accuracy, and domain performance.
 6. Value ledger: transparent accounting for contribution, approval, payment, and platform fees.
+7. Contribution value policy: explainable rules for converting verified contribution records into allocations.
 
 Longer term, Storm may also support idea containers, residual contribution rights, groups or alliances, crowdsourced intelligence, real-world bounties, and automated project seeding. These are captured in the docs but intentionally kept outside the first MVP.
 

@@ -70,6 +70,8 @@ Deliverables:
 - Internal ledger entries.
 - Task payout breakdown.
 - Platform fee display.
+- Fixed-task-value policy record or constant.
+- Allocation explanations for contributor payouts, reviewer rewards, platform fees, and adjustments.
 - Reputation event creation.
 - Basic contributor and reviewer metrics.
 

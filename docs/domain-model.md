@@ -14,6 +14,9 @@ Suggested prefixes:
 - `sub_` for submissions.
 - `rev_` for reviews.
 - `led_` for ledger entries.
+- `vpol_` for value policies.
+- `vev_` for value events.
+- `val_` for contribution valuations.
 - `act_` for actions.
 - `rcp_` for receipts.
 
@@ -599,6 +602,126 @@ MVP status:
 
 - Partial. MVP reputation events and ledger entries cover task submissions and reviews. A broader contribution graph can come later.
 
+## Value Policy
+
+A versioned rule set for calculating allocations from contribution records.
+
+Fields:
+
+- id.
+- name.
+- version.
+- scope.
+- project applet id.
+- project id.
+- status.
+- eligible contribution types.
+- allocation method.
+- weight rules.
+- caps.
+- explanation requirements.
+- effective from.
+- effective until.
+- created at.
+
+Scopes:
+
+- Platform.
+- Applet.
+- Project.
+- Task.
+- Residual.
+- AI dataset.
+
+MVP status:
+
+- Recommended even if simple. The MVP can store a default fixed-task-value policy so later allocation history has a policy trail.
+
+## Value Event
+
+A record that allocatable value exists.
+
+Fields:
+
+- id.
+- project id.
+- task id.
+- source type.
+- source id.
+- amount.
+- currency.
+- value type.
+- created at.
+
+Value types:
+
+- Task bounty.
+- Project revenue.
+- Residual revenue.
+- Dataset revenue.
+- AI-generated value.
+- Manual funding.
+
+MVP status:
+
+- Task bounty value can be represented directly by task and ledger fields at first. A formal value event model becomes more important before residual or AI value exists.
+
+## Contribution Valuation
+
+A calculated or manual valuation for one or more contribution records under a value policy.
+
+Fields:
+
+- id.
+- value event id.
+- value policy id.
+- project id.
+- task id.
+- beneficiary user id.
+- contribution event ids.
+- calculation inputs.
+- normalized weight.
+- allocated amount.
+- currency.
+- explanation id.
+- status.
+- created at.
+
+Statuses:
+
+- Draft.
+- Proposed.
+- Accepted.
+- Disputed.
+- Adjusted.
+- Voided.
+
+MVP status:
+
+- Future for complex calculation. MVP task approval can create ledger entries directly, but the schema should not block adding valuations later.
+
+## Allocation Explanation
+
+A user-visible explanation of a value allocation.
+
+Fields:
+
+- id.
+- contribution valuation id.
+- value policy id.
+- summary.
+- included contribution ids.
+- excluded contribution ids.
+- applied weights.
+- applied caps.
+- dispute effects.
+- manual adjustment reason.
+- created at.
+
+MVP status:
+
+- Useful early as the explanation field on ledger entries. A standalone model can come later.
+
 ## Dataset
 
 A versioned collection of source records approved for AI training, fine-tuning, evaluation, retrieval, or analysis.
@@ -771,7 +894,11 @@ Fields:
 - amount.
 - currency.
 - platform fee amount.
+- value policy id.
+- contribution valuation id.
+- explanation id.
 - source event.
+- action receipt id.
 - created at.
 
 Entry types:
@@ -779,6 +906,9 @@ Entry types:
 - Contributor payout.
 - Reviewer payout.
 - Platform fee.
+- Value event.
+- Contribution valuation.
+- Allocation explanation.
 - Refund.
 - Adjustment.
 - Residual allocation.

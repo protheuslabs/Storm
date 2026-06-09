@@ -46,6 +46,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Record reviewer reward amount if applicable.
 - Record platform fee amount.
 - Show transparent payout breakdown.
+- Use a fixed visible task-value policy, not dynamic contribution scoring.
 
 ### Disputes
 
@@ -67,6 +68,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Fully portable external reputation.
 - Automated tax reporting.
 - Residual lifetime compensation.
+- Algorithmic contribution weighting.
 - Idea ownership and downstream royalty calculations.
 - Custom group or alliance governance.
 - World Eye-style crowdsourced intelligence.

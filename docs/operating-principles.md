@@ -22,6 +22,10 @@ Reviewers influence whether contributors get paid. Their decisions should affect
 
 Storm should avoid hidden decision-making where possible. Participants should understand how claiming, review, payout, reputation, and disputes work.
 
+## Explain Value Allocation
+
+When Storm allocates value, users should be able to see the rule, contribution records, and explanation that produced the result. Hidden value scores should not become a new intermediary.
+
 ## Reward Useful Coordination
 
 Some coordination work is real work. Task decomposition, clarification, review, dependency management, and dispute resolution can all create value and may deserve compensation or reputation.

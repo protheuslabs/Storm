@@ -363,3 +363,27 @@ Consequences:
 - Project action indexes should be backend-allocated.
 - Receipt records should store structured fields separately from the display ID.
 - Receipt IDs should include a digest or hash component for tamper resistance and future InfRing mapping.
+
+### 2026-06-09: Start Contribution Value Model As Transparent Policy
+
+Decision:
+
+Storm should calculate value from contributions through transparent, versioned value policies. The MVP should use fixed visible task values, while later versions can add contribution valuation for reviewers, coordination work, upstream creative seeds, residual value, and AI data value.
+
+Context:
+
+The user clarified that Storm will need a system that calculates value based on contributions. This is central to the product's thesis, but it is also one of the easiest areas to corrupt with opaque scoring, vague idea rent, or hidden manual authority.
+
+Alternatives considered:
+
+- Launch with a complex contribution-scoring algorithm.
+- Let project owners manually decide every allocation.
+- Split value equally across all visible contributors.
+- Delay value modeling until residual compensation exists.
+
+Consequences:
+
+- MVP economics stay simple and trustworthy: fixed task value, review, payout, fee, adjustment.
+- Value calculation becomes a policy layer separate from ledger recording and payment execution.
+- Allocation explanations become a product requirement.
+- Future residual, AI attribution, and network value routing can build on contribution records instead of replacing them.

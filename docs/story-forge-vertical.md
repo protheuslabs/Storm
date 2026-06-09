@@ -144,6 +144,20 @@ Story Forge tests the hardest Storm questions in a lower-risk domain:
 - How do you prevent contributors from being erased when a story becomes valuable?
 - How do you let AI help without stealing contributor value?
 
+## Initial Contribution Value
+
+Story Forge should start with fixed visible task values.
+
+Examples:
+
+- Scene draft: fixed payout after approval against the assigned beat and acceptance criteria.
+- Character profile: fixed payout after approval and merge into project materials.
+- Line edit: fixed payout after approval.
+- Continuity review: fixed reviewer or contributor payout based on review completeness.
+- Worldbuilding entry: fixed payout if accepted into draft material or canon notes.
+
+Later Story Forge can test limited upstream and residual value. A creative seed, plot outline, lore entry, or reusable review rubric may deserve downstream value when later work depends on it, but the first version should cap these claims and require concrete provenance.
+
 ## Out Of Scope For First Story Forge MVP
 
 - Full residual royalties.

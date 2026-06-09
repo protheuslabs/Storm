@@ -28,6 +28,10 @@ A nested unit of meaning or work, such as an idea, goal, problem, part, task, or
 
 A record of a useful action that may affect reputation, payout, attribution, or future residual value.
 
+## Contribution Valuation
+
+A calculated or manual allocation result that maps contribution records to value under a specific value policy.
+
 ## Contributor
 
 A person who completes tasks.
@@ -59,6 +63,10 @@ An early concept, prompt, problem, or goal that may become a project.
 ## Ledger
 
 The transparent record of how value is allocated among contributors, reviewers, the platform, refunds, and adjustments.
+
+## Allocation Explanation
+
+A user-visible explanation of why a value allocation happened and which policy, contribution records, weights, caps, or adjustments produced it.
 
 ## Legal Wrapper
 
@@ -139,6 +147,10 @@ The process of deciding how task value is split among contributors, reviewers, p
 ## Value Ledger
 
 Another term for the ledger when emphasizing economic transparency.
+
+## Value Policy
+
+A versioned rule set for calculating value allocations from contribution records.
 
 ## World Eye
 

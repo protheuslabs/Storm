@@ -56,6 +56,12 @@ Authorization should be designed early because the platform has multiple roles:
 
 Payments should be abstracted behind an internal ledger before integrating deeply with a payment provider. The product needs to represent value allocation even before real payouts are automated.
 
+### Contribution Value Policy
+
+Storm should keep contribution value calculation separate from the ledger and payment provider. A value policy decides how contribution records map to allocations; the ledger records the resulting economic events.
+
+The MVP can use a fixed-task-value policy, but policy versioning should be considered early so later residual, coordination, reviewer, applet-specific, and AI-data value calculations can be explained against the rules that were active at the time.
+
 ### Reputation
 
 Reputation should be event-based rather than stored only as a mutable score. Aggregate scores can be derived from reputation events.
@@ -128,6 +134,7 @@ This is a placeholder recommendation, not a final decision.
 
 - Keep economic state explicit.
 - Keep workflow transitions testable.
+- Keep contribution value policy separate from ledger recording and external payouts.
 - Prefer append-only records for payment and reputation history.
 - Avoid early microservices.
 - Do not make AI automation a hard dependency for MVP.
@@ -140,6 +147,7 @@ This is a placeholder recommendation, not a final decision.
 - Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
 - Keep decomposition UI separate from backend decomposition logic.
 - Use readable receipt IDs backed by structured records and hashes.
+- Version value calculation rules before automated weighting or residual allocation exists.
 
 ## Future Capabilities
 
@@ -156,6 +164,7 @@ This is a placeholder recommendation, not a final decision.
 - Idea containers and recursive decomposition.
 - Group and alliance governance.
 - Residual contribution claims.
+- Contribution value policy engine.
 - AI training provenance and source compensation.
 - Protheus/InfRing receipt-backed network transition.
 - World Eye-style intelligence inputs.

@@ -37,6 +37,9 @@ This is only an example. Actual allocations need product and business decisions.
 - Task funded.
 - Task claimed.
 - Submission approved.
+- Value event recorded.
+- Contribution valuation recorded.
+- Allocation explanation recorded.
 - Contributor payout allocated.
 - Reviewer payout allocated.
 - Platform fee allocated.
@@ -73,6 +76,30 @@ This is only an example. Actual allocations need product and business decisions.
 Storm should model value allocation internally before automating real payouts. This keeps product logic clear and testable.
 
 Payment provider events should reconcile with the internal ledger, not replace it.
+
+## Contribution Value Calculation
+
+Storm needs a contribution value model, but the ledger should not hide that model inside payment plumbing.
+
+The value policy calculates what should happen. The ledger records what did happen.
+
+For the MVP, contribution value should be simple:
+
+- Task value is visible before claim.
+- Approved work receives the task's defined contributor allocation.
+- Reviewer rewards and platform fees are shown separately.
+- Disputes or manual adjustments create explicit ledger entries.
+
+Later versions can introduce policy-based contribution valuation:
+
+- Direct task value.
+- Reviewer value.
+- Coordination value.
+- Upstream creative seed or research value.
+- Residual downstream value.
+- AI data value.
+
+Every calculated allocation should store the value policy version, eligible contribution records, excluded contribution records, applied weights or caps, and an explanation visible to affected users.
 
 ## Residual Value
 
@@ -113,6 +140,10 @@ When exact source attribution is impossible, Storm may need pool-based allocatio
 - Should platform fees be flat, percentage-based, capped, or variable by risk?
 - How should failed payouts be represented?
 - How should chargebacks or refunds affect reputation?
+- What value policy should govern the first public release?
+- Should fixed task payouts still reference a value policy version?
+- Which contribution types can receive direct value before residual compensation exists?
+- How should coordination work be valued without recreating opaque management?
 - When should a contribution create residual value?
 - When should a creative seed create residual value?
 - How should downstream dilution be calculated?

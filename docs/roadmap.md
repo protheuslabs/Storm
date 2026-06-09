@@ -24,6 +24,7 @@ Goals:
 - Let contributors claim and submit tasks.
 - Let reviewers approve, reject, or request changes.
 - Track transparent value allocation in a ledger.
+- Use fixed visible task values rather than algorithmic contribution scoring.
 - Prove Story Forge as the first crowdsourced project vertical.
 
 Deliverables:
@@ -35,6 +36,7 @@ Deliverables:
 - Task claim and submission flow.
 - Review flow.
 - Ledger view.
+- Default fixed-task-value policy.
 - Basic reputation events.
 
 ## Phase 2: Trust And Quality
@@ -45,6 +47,7 @@ Goals:
 - Reduce abandoned tasks.
 - Add dispute handling.
 - Make reputation useful for task matching.
+- Start making value explanations consistent across tasks, reviews, fees, and adjustments.
 
 Deliverables:
 
@@ -54,6 +57,7 @@ Deliverables:
 - Skill-specific reputation.
 - Contributor reliability metrics.
 - Review accuracy metrics.
+- Allocation explanation template.
 
 ## Phase 3: Assisted Coordination
 
@@ -64,6 +68,7 @@ Goals:
 - Help reviewers evaluate submissions consistently.
 - Start formalizing contribution events beyond task completion.
 - Formalize applet task templates and review rubrics.
+- Prepare value policy records for applet-specific contribution types.
 
 Deliverables:
 
@@ -72,6 +77,7 @@ Deliverables:
 - Suggested acceptance criteria.
 - Contributor-task matching.
 - Review checklist generation.
+- Applet-aware value policy draft.
 
 ## Phase 3.25: Applet Framework
 
@@ -162,11 +168,14 @@ Goals:
 - Test whether upstream contribution rights can be represented fairly.
 - Compensate useful ideation, research, and decomposition when downstream work creates value.
 - Explore non-withholding legal wrappers for patents, businesses, and licenses.
+- Introduce contribution valuation experiments with visible policy versions.
 
 Deliverables:
 
 - Residual claim model.
 - Contribution weight experiments.
+- Contribution valuation model.
+- Allocation explanation records.
 - Downstream dilution rules.
 - Legacy idea policy.
 - Claim dispute workflow.

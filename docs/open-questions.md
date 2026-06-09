@@ -56,6 +56,19 @@
 - How should residual value decay or dilute downstream?
 - How are legacy ideas defined?
 
+## Contribution Value
+
+- What is the first formal value policy version?
+- Should the MVP persist value policy records even if payouts are fixed by task?
+- Which value factors should be visible before a contributor claims a task?
+- How should Storm value coordination work without rewarding vague management?
+- How should Story Forge cap creative seed value?
+- What contribution types are eligible for direct payment, reputation only, residual value, or no value?
+- When should value policies be platform-wide versus applet-specific?
+- How should contributors dispute a calculated allocation?
+- What evidence is required to increase or reduce a contribution's weight?
+- How should Storm prevent task splitting, circular review, and fake dependencies from gaming the value model?
+
 ## Reputation
 
 - What reputation dimensions matter most at launch?
