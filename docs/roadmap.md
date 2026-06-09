@@ -220,14 +220,21 @@ Goals:
 
 - Evaluate Storm running on Protheus network primitives once InfRing v2 supports network-node operation.
 - Replace platform authority with receipt-backed, locally validated network trust where practical.
+- Start phasing out Storm-native mechanisms when mature InfRing primitives can safely replace them.
 
 Deliverables:
 
+- Native mechanism inventory.
+- Primitive replacement criteria.
+- Adapter and interface audit.
 - Minimal Storm receipt format.
 - Node identity mapping.
 - Project-state receipt export.
 - Ledger-event receipt export.
 - Contribution-event receipt export.
+- Value-policy execution migration plan.
+- Provenance and dataset lineage migration plan.
+- Native mechanism deprecation plan.
 - Local validation rules for incoming network signals.
 - Federated task/project discovery prototype.
 

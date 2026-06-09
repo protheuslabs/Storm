@@ -387,3 +387,26 @@ Consequences:
 - Value calculation becomes a policy layer separate from ledger recording and payment execution.
 - Allocation explanations become a product requirement.
 - Future residual, AI attribution, and network value routing can build on contribution records instead of replacing them.
+
+### 2026-06-09: Treat Native Storm Mechanisms As Transitional When InfRing Has The Primitive
+
+Decision:
+
+Storm should use InfRing primitives wherever they become mature enough and phase out native Storm mechanisms that duplicate those primitives. Native Storm systems are acceptable for bootstrap, but overlapping native infrastructure should be interface-backed, auditable, and replaceable.
+
+Context:
+
+The user clarified that a goal is for Storm to later use InfRing primitives where possible and phase out its native mechanisms. This generalizes the earlier task decomposition decision into a broader architecture direction.
+
+Alternatives considered:
+
+- Build Storm as a permanent standalone substrate.
+- Wait for InfRing before building Storm's product loop.
+- Keep native and InfRing mechanisms permanently side by side.
+
+Consequences:
+
+- MVP can still be a conventional app.
+- Native decomposition, receipts, audit logs, provenance, value-policy execution, ledger verification, and network trust should be designed as scaffolding where InfRing is expected to provide the stronger primitive.
+- Storm should retain product semantics, applets, UX, value-policy authoring, legal wrappers, and marketplace behavior.
+- InfRing should increasingly own lower-level execution, receipts, validation, node identity, deterministic policy, and network trust when those primitives are ready.

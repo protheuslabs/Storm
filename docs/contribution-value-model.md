@@ -279,6 +279,8 @@ In the endgame, value calculation may rely on InfRing primitives for:
 
 Storm should not wait for InfRing to begin value modeling. It should start with explicit task values and structured events, then migrate calculation and verification to stronger primitives later.
 
+If InfRing later provides deterministic policy execution or stronger receipt-backed value verification, Storm's native value calculation should become a product-facing policy layer over that primitive rather than a competing authority mechanism.
+
 ## Open Design Questions
 
 - What is the first formal value policy version?

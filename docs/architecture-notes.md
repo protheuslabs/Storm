@@ -115,6 +115,18 @@ Storm may eventually use Protheus network and InfRing primitives once InfRing v2
 
 The MVP should not depend on InfRing, but it should preserve event history and authority boundaries so future receipt emission is possible.
 
+### Native Mechanism Lifecycle
+
+Storm-native mechanisms should have an explicit lifecycle when they overlap with likely InfRing primitives.
+
+1. Build the simplest native mechanism needed for the product loop.
+2. Keep it behind a narrow interface or adapter.
+3. Preserve enough event history to replay, verify, or migrate it.
+4. Add an InfRing-backed implementation when the primitive is mature.
+5. Phase out the native authority mechanism once the InfRing path is safer and more trustworthy.
+
+This applies first to decomposition, receipts, audit logs, value-policy execution, provenance records, ledger verification, dataset lineage, and network trust. Storm should keep product-facing projections and applet semantics, but it should not turn temporary infrastructure into a permanent competing substrate.
+
 ### Artifacts
 
 Submissions may need files, links, Git commits, design files, documents, or other evidence. The first implementation can support links and notes, then expand by task type.
@@ -145,6 +157,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
 - Keep task fields compatible with future InfRing decomposition outputs.
 - Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
+- Treat Storm-native mechanisms as replaceable when they duplicate mature InfRing primitives.
 - Keep decomposition UI separate from backend decomposition logic.
 - Use readable receipt IDs backed by structured records and hashes.
 - Version value calculation rules before automated weighting or residual allocation exists.

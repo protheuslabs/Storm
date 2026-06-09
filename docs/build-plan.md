@@ -12,6 +12,8 @@ The first build should prove crowdsourced projects, not a generic task board. It
 
 The first build should not implement residual compensation, AI training provenance, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
 
+When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
+
 ## Milestone 1: Repo And App Foundation
 
 Deliverables:
@@ -93,9 +95,12 @@ Deliverables:
 - Ledger correctness tests.
 - Seeded demo scenario.
 - Basic admin visibility.
+- Native mechanism inventory with likely future InfRing replacement targets.
 
 ## First Implementation Bias
 
 Build the workflow manually before adding AI decomposition, marketplace matching, or payment automation. The manual workflow is the proof that the incentives and domain model work.
 
 If temporary decomposition is added in the MVP, keep it backend-owned and interface-backed. The frontend should only collect inputs and let users review candidate tasks.
+
+Do the same for other future InfRing overlaps: receipts, audit logging, provenance, value-policy execution, and network trust should be designed so Storm can phase out native authority as InfRing primitives become ready.

@@ -6,6 +6,45 @@ Reference:
 
 - InfRing repository: `https://github.com/protheuslabs/InfRing`
 
+## Migration Goal
+
+Storm can build native mechanisms early, but they should be treated as bootstrap scaffolding when they overlap with future InfRing primitives.
+
+The long-term goal is:
+
+> use InfRing primitives wherever they are mature enough, and phase out Storm-native mechanisms that would otherwise duplicate those primitives.
+
+This keeps Storm from becoming a second operating substrate. Storm should own the product layer: project semantics, applets, contributor experience, review workflows, value policies, legal wrappers, marketplace behavior, and release-switch governance. InfRing should increasingly own the lower-level trust, execution, receipt, validation, node, and policy primitives when those primitives are ready.
+
+## Native Mechanisms As Scaffolding
+
+Storm-native mechanisms are acceptable when they help reach product-market proof before InfRing is ready.
+
+Examples:
+
+- Native task decomposition can bootstrap Story Forge, then converge with InfRing task decomposition.
+- Native action receipts can provide auditability, then map to InfRing receipts.
+- Native ledger records can model economics, then emit or reconcile with economic receipts.
+- Native value-policy execution can start in application code, then move toward deterministic policy execution when available.
+- Native contribution and dataset provenance can preserve history, then map to InfRing provenance receipts.
+- Native trust and moderation can support the MVP, then shift toward local validation and proof-carrying network signals.
+
+The rule is not "wait for InfRing." The rule is "build Storm so native mechanisms can be replaced when InfRing has the stronger primitive."
+
+## Primitive Replacement Criteria
+
+Storm should phase out a native mechanism when the corresponding InfRing primitive is:
+
+- Stable enough to depend on.
+- Receipt-backed or otherwise verifiable.
+- Compatible with Storm's user, project, task, value, and applet semantics.
+- Testable against existing Storm event history.
+- Migratable without losing contributor provenance.
+- Capable of local validation or clear trust-boundary enforcement.
+- Better than the native mechanism at reducing platform authority.
+
+Until those criteria are met, Storm can keep the native mechanism behind an interface.
+
 ## Why InfRing Matters To Storm
 
 Storm requires a trustworthy substrate for:
@@ -142,6 +181,23 @@ The boundary should be:
 - Storm owns project economics, applet semantics, contributor marketplace, review, ledger, and value routing.
 - Storm may shape decomposition with applet constraints, but InfRing becomes the canonical primitive for decomposition when the network substrate is mature.
 
+## Native-To-InfRing Replacement Targets
+
+The first likely replacement targets are:
+
+| Storm-native mechanism | Long-term direction |
+| --- | --- |
+| Decomposition helper | InfRing task decomposition primitive |
+| Action receipt table | InfRing-compatible receipt emission and verification |
+| Audit log | Receipt-backed event history |
+| Value policy execution | Deterministic policy execution where practical |
+| Contribution provenance records | Provenance receipts |
+| Ledger event records | Economic receipts and reconciled ledger state |
+| Dataset source records | Data provenance receipts |
+| Trust scoring for incoming network data | Local validation plus node and contributor reputation |
+
+Storm may still keep product-facing projections of these records for UI and reporting. The phased-out part is the native authority mechanism, not the product's ability to show useful state.
+
 ## MVP Implication
 
 The first Storm implementation should not depend on InfRing.
@@ -158,12 +214,15 @@ It should, however:
 - Keep project and task structures compatible with future InfRing task decomposition receipts.
 - Keep any Storm-owned decomposition helper behind an adapter boundary so it can be replaced or merged with InfRing.
 - Keep action receipt IDs readable while preserving structured fields and hashes for later InfRing mapping.
+- Track which native mechanisms have future InfRing replacements and avoid hard-coding them as permanent authority.
 
 ## Open Questions
 
 - What InfRing v2 primitives will be stable enough for Storm to depend on?
 - What is the minimal Storm receipt format?
 - Which Storm events must be receipt-backed first?
+- Which Storm-native mechanisms should be phased out first?
+- What interface boundaries make native-to-InfRing replacement safe?
 - What Storm task fields must map to InfRing task decomposition outputs?
 - How should applet constraints be passed into InfRing decomposition?
 - What is the migration path from Storm-owned decomposition helpers to InfRing-backed decomposition?

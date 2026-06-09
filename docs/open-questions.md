@@ -163,6 +163,10 @@
 
 - Which InfRing v2 primitives will be stable enough for Storm to use?
 - What Storm events should become receipts first?
+- Which Storm-native mechanisms should be treated as scaffolding from day one?
+- Which native mechanisms should be phased out first once InfRing primitives mature?
+- What criteria decide that an InfRing primitive is ready to replace a native Storm mechanism?
+- How should Storm preserve product-facing projections after native authority moves to InfRing?
 - When should Storm start using InfRing task decomposition?
 - What fields must a Storm decomposition request send to InfRing?
 - What fields must an InfRing task candidate return to Storm?
