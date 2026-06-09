@@ -35,6 +35,8 @@ In later versions, applets may also provide decomposition constraints to InfRing
 
 Before InfRing integration is ready, an applet can include its own simple decomposition helper. That helper should be treated as temporary or adapter-backed, not as a permanent decomposition authority.
 
+Applet decomposition helpers should live in the backend. Applet UIs should collect constraints and let users review candidates, but should not own decomposition algorithms or prompt logic.
+
 ## Why Applets
 
 Different project types have different complexity.
@@ -133,4 +135,5 @@ It should not start with full canon branching, residual royalties, AI story owne
 - Do not build applets before the core project loop works.
 - Do not support too many applets before one applet proves completion.
 - Keep applet data portable and provenance-preserving.
+- Keep decomposition UI separate from backend decomposition helpers.
 - Let successful applet concepts graduate into core only when multiple applets need them.

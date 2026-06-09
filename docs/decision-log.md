@@ -318,3 +318,25 @@ Consequences:
 - Storm-owned decomposition must stay behind a compatibility boundary.
 - Applets can later provide domain constraints to InfRing.
 - Storm will own economics, review, applet semantics, and value routing while InfRing becomes the canonical decomposition primitive.
+
+### 2026-06-09: Separate Decomposition UI From Backend Decomposition
+
+Decision:
+
+Storm's task decomposition UI should be separate from temporary decomposition logic, which should live in the backend behind an interface.
+
+Context:
+
+The user clarified that task decomposition will need a UI, but temporary decomposition should be separate and backend-owned. This lets Storm build an applet-specific decomposition experience now while keeping a clean migration path to InfRing's task decomposition primitive later.
+
+Alternatives considered:
+
+- Put decomposition logic directly in the frontend.
+- Skip decomposition UI until InfRing is ready.
+- Couple Story Forge UI tightly to a temporary decomposition implementation.
+
+Consequences:
+
+- The UI owns input capture and candidate review.
+- The backend owns temporary decomposition helpers, validation, run records, and future InfRing adapter calls.
+- The same UI can survive the migration from Storm-owned decomposition to InfRing-backed decomposition.

@@ -150,6 +150,8 @@
 - What fields must a Storm decomposition request send to InfRing?
 - What fields must an InfRing task candidate return to Storm?
 - How should Story Forge constraints shape InfRing decomposition?
+- What is the boundary between decomposition UI and backend decomposition providers?
+- What decomposition-run records should be stored before InfRing integration?
 - How should a single Storm instance transition into a Protheus network node?
 - How should node identity map to user, group, project, and legal wrapper identity?
 - What Storm data should remain local by default?

@@ -70,6 +70,29 @@ Storm can have its own task decomposition early, especially applet-specific deco
 
 The MVP can use manual tasks and static applet templates. Later, Storm-owned decomposition should sit behind an adapter boundary, then converge with InfRing task decomposition. Applets should pass domain constraints to InfRing and receive receipted task candidates with success criteria, routing, provenance, governance, and attribution metadata.
 
+### Decomposition UI Boundary
+
+Task decomposition needs a UI, but the UI must not own decomposition logic.
+
+The decomposition UI should handle:
+
+- Capturing project goals and applet constraints.
+- Showing proposed task candidates.
+- Letting users edit, accept, reject, split, merge, or reorder candidates.
+- Explaining why a task was suggested.
+- Showing acceptance criteria and dependencies before tasks are opened.
+
+Temporary decomposition should live in the backend:
+
+- Applet-specific decomposition helpers.
+- Prompting or rules that generate candidate tasks.
+- Validation of candidate task shape.
+- Persistence of decomposition runs.
+- Conversion of accepted candidates into real tasks.
+- Future adapter calls to InfRing task decomposition.
+
+This boundary matters because the temporary backend decomposition layer can later be replaced by, or merged with, InfRing's task decomposition primitive without rewriting the applet UI.
+
 ### AI Data Provenance
 
 Future Storm may allow AI training on Storm data and approved Protheus Labs ecosystem data. Source records, artifacts, dataset membership, training runs, and downstream AI value events should be traceable. The MVP does not need model attribution, but it should avoid destroying source provenance in artifacts and contribution events.
@@ -109,6 +132,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
 - Keep task fields compatible with future InfRing decomposition outputs.
 - Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
+- Keep decomposition UI separate from backend decomposition logic.
 
 ## Future Capabilities
 

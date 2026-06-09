@@ -32,6 +32,10 @@ A person who completes tasks.
 
 An early idea or creative input that can grow into work, output, and future value.
 
+## Decomposition Run
+
+A backend-owned record of an attempt to turn a project goal into task candidates.
+
 ## Dispute
 
 A challenge to a review decision or task outcome.
@@ -119,6 +123,10 @@ The work artifact, evidence, and notes provided by a contributor for a task.
 ## Task
 
 A small executable unit of work with a defined output, acceptance criteria, and value.
+
+## Task Candidate
+
+A proposed task that has not yet been accepted into the project's task list.
 
 ## Value Allocation
 

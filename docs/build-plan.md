@@ -37,6 +37,8 @@ Deliverables:
 
 - Create and edit projects.
 - Create and edit tasks.
+- Backend task candidate generation interface for applet templates or temporary decomposition helpers.
+- Decomposition UI for reviewing and accepting task candidates.
 - Task status model.
 - Task dependency model.
 - Project progress view.
@@ -93,3 +95,5 @@ Deliverables:
 ## First Implementation Bias
 
 Build the workflow manually before adding AI decomposition, marketplace matching, or payment automation. The manual workflow is the proof that the incentives and domain model work.
+
+If temporary decomposition is added in the MVP, keep it backend-owned and interface-backed. The frontend should only collect inputs and let users review candidate tasks.

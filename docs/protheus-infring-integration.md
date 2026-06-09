@@ -126,6 +126,8 @@ The long-term path should be:
 4. InfRing-backed task candidate generation.
 5. Full convergence where Storm accesses InfRing's task decomposition primitive for canonical decomposed task candidates.
 
+Storm's decomposition UI should survive this migration. The backend decomposition provider can change from temporary Storm logic to InfRing without changing the core user interaction model.
+
 For example:
 
 - Story Forge passes premise, format, genre, canon notes, and target artifact.

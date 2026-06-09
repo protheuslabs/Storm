@@ -29,6 +29,16 @@ This workflow is future scope. The MVP starts at project creation.
 
 For Story Forge, tasks may include premise refinement, chapter outline, scene draft, character profile, dialogue pass, line edit, lore entry, or continuity review.
 
+## Future: Decompose Project Into Task Candidates
+
+1. User enters project goal and applet-specific constraints in the decomposition UI.
+2. Backend temporary decomposition helper or future InfRing adapter generates task candidates.
+3. UI displays candidates with title, description, acceptance criteria, dependencies, and rationale.
+4. User edits, accepts, rejects, splits, merges, or reorders candidates.
+5. Accepted candidates become draft tasks.
+
+The UI owns review and interaction. The backend owns decomposition logic and candidate validation.
+
 ## 3. Claim Task
 
 1. Contributor browses open tasks.
