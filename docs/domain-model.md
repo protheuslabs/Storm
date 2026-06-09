@@ -2,6 +2,23 @@
 
 This document defines the initial product entities. It is not yet a database schema.
 
+## ID Strategy
+
+Storm should use stable typed IDs.
+
+Suggested prefixes:
+
+- `usr_` for users.
+- `prj_` for projects.
+- `tsk_` for tasks.
+- `sub_` for submissions.
+- `rev_` for reviews.
+- `led_` for ledger entries.
+- `act_` for actions.
+- `rcp_` for receipts.
+
+Human-readable IDs should not replace structured fields. A receipt ID can include project ID, action index, user ID, and a digest, but those values should also be stored separately.
+
 ## User
 
 A person using Storm.
@@ -413,8 +430,17 @@ A future verifiable record of an event, decision, execution, validation, ledger 
 Fields:
 
 - id.
+- project id.
+- action index.
+- actor user id.
 - source event type.
 - source event id.
+- action type.
+- target type.
+- target id.
+- payload hash.
+- previous receipt id.
+- previous receipt hash.
 - node id.
 - receipt hash.
 - policy version.
@@ -423,6 +449,35 @@ Fields:
 MVP status:
 
 - Future concept. MVP events should be structured so they can later emit receipts.
+
+## Action Receipt
+
+A project-scoped receipt for a user action.
+
+Suggested id shape:
+
+`rcp_<project-id>_<action-index>_<user-id-short>_<digest-short>`
+
+Example:
+
+`rcp_prj_storyforge001_000042_usr_7KQ9M2_ab12cd`
+
+Fields:
+
+- receipt id.
+- project id.
+- action index.
+- actor user id.
+- action type.
+- target type.
+- target id.
+- payload hash.
+- previous receipt id.
+- created at.
+
+MVP status:
+
+- Useful early for auditability, even before full InfRing receipt integration.
 
 ## Pledge
 
@@ -814,3 +869,4 @@ Fields:
 - What release switch criteria prove Storm is ready to grow beyond organizational control?
 - How should protocol origin claims be represented without creating a new extraction layer?
 - Should decomposition runs and task candidates be persisted in MVP?
+- What readable receipt ID format should Storm standardize first?

@@ -36,6 +36,12 @@ Task, submission, review, dispute, and payout states should be explicit. State t
 
 Ledger entries, review decisions, dispute outcomes, and reputation events should be append-oriented where possible. Important economic events should not be silently overwritten.
 
+### IDs And Receipts
+
+Storm should use readable IDs where they help humans inspect the system, but canonical records should remain structured. Action receipt IDs can combine project ID, project action index, user ID, and a short digest. The backend should allocate action indexes transactionally.
+
+Readable IDs are locators. Structured receipt records and payload hashes are the verification surface.
+
 ### Permissions
 
 Authorization should be designed early because the platform has multiple roles:
@@ -133,6 +139,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep task fields compatible with future InfRing decomposition outputs.
 - Put any Storm-owned decomposition behind an interface that can be backed by InfRing later.
 - Keep decomposition UI separate from backend decomposition logic.
+- Use readable receipt IDs backed by structured records and hashes.
 
 ## Future Capabilities
 

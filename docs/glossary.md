@@ -12,6 +12,10 @@ A record linking AI-generated value back to source records or contributors.
 
 The traceable record of which source work was included in datasets, model training, AI context, outputs, or downstream AI value.
 
+## Action Receipt
+
+A project-scoped receipt for a user action, ideally including project ID, action index, actor ID, and a digest.
+
 ## Claim
 
 The act of a contributor reserving or taking responsibility for a task.

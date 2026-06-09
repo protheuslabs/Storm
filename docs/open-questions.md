@@ -141,6 +141,10 @@
 - What events must be audit logged from day one?
 - Should the database model reserve room for ideas, groups, and contribution events even if UI hides them?
 - What provenance fields must be captured from day one to support future AI training compensation?
+- What typed ID prefixes should be canonical?
+- What action receipt ID format should be used?
+- Should project action indexes be global per project, per applet, or per event stream?
+- What hash or digest format should action receipts use?
 
 ## Protheus And InfRing
 

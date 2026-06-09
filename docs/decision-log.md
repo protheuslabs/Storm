@@ -340,3 +340,26 @@ Consequences:
 - The UI owns input capture and candidate review.
 - The backend owns temporary decomposition helpers, validation, run records, and future InfRing adapter calls.
 - The same UI can survive the migration from Storm-owned decomposition to InfRing-backed decomposition.
+
+### 2026-06-09: Use Readable Action Receipt IDs Backed By Structured Records
+
+Decision:
+
+Storm should use stable typed IDs and readable action receipt IDs that combine project ID, project action index, actor user ID, and a short digest.
+
+Context:
+
+The user suggested project IDs, user IDs, and action receipt IDs that are easy to read, with action receipt IDs combining project ID, user ID, and action order. This fits Storm's need for transparent audit trails, but the readable ID should not be the only source of truth.
+
+Alternatives considered:
+
+- Use opaque UUIDs only.
+- Encode all receipt meaning only inside the ID string.
+- Use global ordering only.
+
+Consequences:
+
+- IDs should be typed and stable.
+- Project action indexes should be backend-allocated.
+- Receipt records should store structured fields separately from the display ID.
+- Receipt IDs should include a digest or hash component for tamper resistance and future InfRing mapping.

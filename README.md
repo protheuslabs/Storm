@@ -29,6 +29,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
 - [Trust And Incentives](docs/trust-and-incentives.md)
 - [Value Ledger](docs/value-ledger.md)
+- [ID And Receipt Strategy](docs/id-and-receipt-strategy.md)
 - [Architecture Notes](docs/architecture-notes.md)
 - [Build Plan](docs/build-plan.md)
 - [Roadmap](docs/roadmap.md)

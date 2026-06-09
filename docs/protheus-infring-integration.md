@@ -81,6 +81,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Review | Validation receipt |
 | Ledger entry | Economic receipt |
 | Contribution event | Provenance receipt |
+| Action receipt | Project-scoped receipt with later InfRing receipt mapping |
 | Dispute | Evidence bundle plus governance process |
 | Dataset source record | Data provenance receipt |
 | AI value event | Value event receipt |
@@ -156,6 +157,7 @@ It should, however:
 - Preserve enough event history to later emit receipts.
 - Keep project and task structures compatible with future InfRing task decomposition receipts.
 - Keep any Storm-owned decomposition helper behind an adapter boundary so it can be replaced or merged with InfRing.
+- Keep action receipt IDs readable while preserving structured fields and hashes for later InfRing mapping.
 
 ## Open Questions
 
