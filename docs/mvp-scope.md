@@ -73,7 +73,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Custom group or alliance governance.
 - World Eye-style crowdsourced intelligence.
 - Bolt-style real-world task bounties.
-- Automated IP or plagiarism enforcement.
+- Automated originality, IP, or plagiarism enforcement.
 - Identity schemes requiring sensitive government identifiers.
 
 ## MVP Roles
@@ -109,6 +109,8 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 ## Initial Product Constraint
 
 Start with manually created and manually reviewed tasks. Automation can assist later, but the first product must prove the workflow and incentives before relying on automation.
+
+The MVP can still require contributors to attest that submitted work is original or properly licensed, and it should preserve enough submission provenance to support later originality checks.
 
 The MVP should also use one-time task payout accounting before attempting residual compensation. Residual value is part of the long-term vision, but it depends on a trusted contribution graph, precise ownership rules, and dispute handling that does not exist yet.
 

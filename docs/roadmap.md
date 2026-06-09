@@ -163,6 +163,27 @@ Deliverables:
 - Reputation-weighted review experiments.
 - Transparent fee and reserve reporting.
 
+## Phase 5.5: Originality And Rights Enforcement
+
+Goals:
+
+- Prevent copied or rights-incompatible work from contaminating Storm projects.
+- Protect Storm contributors from plagiarism by other users.
+- Reduce risk from importing legally owned external material without permission.
+- Use AI-assisted similarity and rights analysis as evidence, not final judgment.
+
+Deliverables:
+
+- Contributor originality and permission attestations.
+- Internal Storm source corpus.
+- Submission originality check pipeline.
+- Similarity match records.
+- Rights policy metadata.
+- Rights review workflow.
+- Quarantine and payout-hold states.
+- Appeal and dispute path for false positives.
+- Applet-specific risk checks for Story Forge, Code Forge, and Invention Forge.
+
 ## Phase 6: Residual Value Experiments
 
 Goals:

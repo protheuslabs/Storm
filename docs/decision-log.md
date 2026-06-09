@@ -433,3 +433,27 @@ Consequences:
 - Storm can bootstrap with simple accepted submissions, exported versions, and parent project lineage.
 - Future InfRing work should consider generic versioned objects, version nodes, forks, merge proposals, conflict records, lineage receipts, and policy propagation.
 - Forks must preserve upstream provenance and value obligations rather than becoming a way to strip contributors from the history.
+
+### 2026-06-09: Add Originality And Rights Enforcement As Future Subsystem
+
+Decision:
+
+Storm should eventually include an originality and rights-enforcement subsystem that helps prevent users from plagiarizing other Storm contributors or importing externally owned work without permission. AI can assist with similarity search, source matching, license analysis, prior-art research, and evidence summaries, but high-impact enforcement should be explainable, reviewable, and appealable.
+
+Context:
+
+The user clarified that Storm will need a mechanism to stop plagiarism and unauthorized use of legally owned work. This is especially important if Storm supports open contribution, forks, residual value, AI training datasets, story worlds, code, inventions, and exported project artifacts.
+
+Alternatives considered:
+
+- Treat plagiarism as only a manual dispute issue.
+- Let AI automatically reject or punish users.
+- Delay rights enforcement until after legal wrappers exist.
+
+Consequences:
+
+- Automated originality and rights enforcement remains out of MVP.
+- MVP should still preserve provenance and contributor attestations so later checks have evidence.
+- Later Storm should model rights source records, originality checks, similarity matches, rights reviews, and enforcement actions.
+- The subsystem should avoid false-positive abuse by requiring evidence, review, and dispute paths.
+- Some rights evidence may eventually map to InfRing receipts or validation signals.

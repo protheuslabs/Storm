@@ -101,6 +101,12 @@
 - Can a project fork an idea while preserving upstream credit?
 - What counts as plagiarism inside Storm?
 - Should AI concept matching be used for discovery, IP protection, or both?
+- What external corpora should originality checks compare against first?
+- How should rights checks handle private submissions without exposing them?
+- When should a similarity match hold payout, block merge, or only require reviewer attention?
+- How should Storm distinguish inspiration, permitted derivative work, fair use, and infringement risk?
+- What evidence is required before penalizing a contributor for plagiarism?
+- How should repeated plagiarism affect reputation?
 - What identity checks are justified for preventing duplicate accounts?
 
 ## AI Training And Data Provenance
@@ -181,6 +187,7 @@
 - What criteria decide that an InfRing primitive is ready to replace a native Storm mechanism?
 - How should Storm preserve product-facing projections after native authority moves to InfRing?
 - Should versioning and fork lineage be an InfRing subsystem or an app-level Storm subsystem first?
+- Which originality and rights enforcement records should become InfRing receipts?
 - When should Storm start using InfRing task decomposition?
 - What fields must a Storm decomposition request send to InfRing?
 - What fields must an InfRing task candidate return to Storm?

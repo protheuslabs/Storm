@@ -29,6 +29,7 @@ Examples:
 - Native ledger records can model economics, then emit or reconcile with economic receipts.
 - Native value-policy execution can start in application code, then move toward deterministic policy execution when available.
 - Native contribution and dataset provenance can preserve history, then map to InfRing provenance receipts.
+- Native originality and rights evidence can support early review, then map to receipt-backed evidence bundles and validation signals.
 - Native project versioning and fork records can bootstrap collaboration, then converge with an InfRing versioning/fork subsystem if one exists.
 - Native trust and moderation can support the MVP, then shift toward local validation and proof-carrying network signals.
 
@@ -92,6 +93,7 @@ In the long term, Storm should be able to use Protheus/InfRing primitives for:
 - Review receipts.
 - Ledger event receipts.
 - Dataset provenance receipts.
+- Rights evidence receipts.
 - Governance policy enforcement.
 - Project state replication.
 - Peer validation.
@@ -128,6 +130,8 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Dispute | Evidence bundle plus governance process |
 | Dataset source record | Data provenance receipt |
 | AI value event | Value event receipt |
+| Originality check | Rights evidence or validation receipt |
+| Rights review | Evidence bundle plus governance decision |
 | Group or alliance | Governed network collective |
 | Project fork or branch | Version/fork lineage primitive |
 | Merge proposal | Receipt-backed merge decision |
@@ -198,6 +202,7 @@ The first likely replacement targets are:
 | Audit log | Receipt-backed event history |
 | Value policy execution | Deterministic policy execution where practical |
 | Contribution provenance records | Provenance receipts |
+| Originality and rights checks | Rights evidence receipts and validation signals |
 | Ledger event records | Economic receipts and reconciled ledger state |
 | Dataset source records | Data provenance receipts |
 | Project version and fork records | InfRing versioning/fork subsystem |
@@ -214,6 +219,7 @@ It should, however:
 - Keep contribution records append-oriented.
 - Keep ledger events explicit.
 - Keep provenance attached to artifacts.
+- Keep originality, similarity, and rights-review evidence structured enough to emit receipts later.
 - Make state transitions auditable.
 - Separate policy decisions from UI presentation.
 - Avoid hiding critical authority in frontend code.
@@ -232,6 +238,7 @@ It should, however:
 - Which Storm-native mechanisms should be phased out first?
 - What interface boundaries make native-to-InfRing replacement safe?
 - Does InfRing need a generic versioning/fork subsystem, and what is its minimal primitive set?
+- Does InfRing need rights evidence receipts or a rights validation primitive?
 - What Storm task fields must map to InfRing task decomposition outputs?
 - How should applet constraints be passed into InfRing decomposition?
 - What is the migration path from Storm-owned decomposition helpers to InfRing-backed decomposition?

@@ -143,6 +143,7 @@ Story Forge tests the hardest Storm questions in a lower-risk domain:
 - How do you evaluate subjective work fairly?
 - How do you merge many contributors into one coherent artifact?
 - How do you track provenance across creative fragments?
+- How do you detect copied prose, characters, lore, or plot structures?
 - How do you prevent contributors from being erased when a story becomes valuable?
 - How do you let AI help without stealing contributor value?
 
@@ -168,6 +169,7 @@ Later Story Forge can test limited upstream and residual value. A creative seed,
 - Film, game, or merchandise licensing.
 - Complex canon branching.
 - Full copyright and patent automation.
+- Automated plagiarism and external-rights enforcement.
 - Multi-project shared universes.
 - Marketplace discovery beyond the initial project loop.
 

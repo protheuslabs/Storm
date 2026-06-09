@@ -116,6 +116,12 @@ A non-withholding legal wrapper is a patent, business, license, contract, or ent
 
 The purpose of the wrapper is not to let a legal owner capture value. It is to make sure external legal systems cannot erase contributor rights.
 
+## Originality And Rights Enforcement
+
+Originality and rights enforcement is the future subsystem that checks whether submitted work is original, properly licensed, or authorized for use.
+
+The goal is to stop users from plagiarizing other Storm contributors or importing externally owned work without permission. AI can help with similarity, source matching, license checks, and prior-art research, but enforcement should remain evidence-based, reviewable, and appealable.
+
 ## Protheus Network Node
 
 A future Protheus network node is a user-owned runtime participant that can hold local authority, produce receipts, validate incoming signals, and participate in network coordination.
@@ -256,7 +262,8 @@ Storm can preserve the long-term vision without building all of it immediately b
 5. Group templates, alliances, and public pledges.
 6. Ideas, creative seeds, and recursive containers.
 7. AI training provenance.
-8. Non-withholding legal wrappers.
-9. Protheus/InfRing network substrate.
-10. Residual compensation.
-11. Intelligence and real-world bounty networks.
+8. Originality and rights enforcement.
+9. Non-withholding legal wrappers.
+10. Protheus/InfRing network substrate.
+11. Residual compensation.
+12. Intelligence and real-world bounty networks.

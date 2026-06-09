@@ -10,7 +10,7 @@ Project -> Task -> Claim -> Submit -> Review -> Ledger -> Reputation.
 
 The first build should prove crowdsourced projects, not a generic task board. It should show that distributed contributors can collectively move a project forward through claimable work, accountable review, and transparent value allocation.
 
-The first build should not implement residual compensation, AI training provenance, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
+The first build should not implement residual compensation, AI training provenance, automated originality and rights enforcement, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
 
 When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
 
@@ -103,4 +103,4 @@ Build the workflow manually before adding AI decomposition, marketplace matching
 
 If temporary decomposition is added in the MVP, keep it backend-owned and interface-backed. The frontend should only collect inputs and let users review candidate tasks.
 
-Do the same for other future InfRing overlaps: receipts, audit logging, provenance, value-policy execution, and network trust should be designed so Storm can phase out native authority as InfRing primitives become ready.
+Do the same for other future InfRing overlaps: receipts, audit logging, provenance, rights evidence, value-policy execution, and network trust should be designed so Storm can phase out native authority as InfRing primitives become ready.

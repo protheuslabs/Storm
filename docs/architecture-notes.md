@@ -115,6 +115,14 @@ This boundary matters because the temporary backend decomposition layer can late
 
 Future Storm may allow AI training on Storm data and approved Protheus Labs ecosystem data. Source records, artifacts, dataset membership, training runs, and downstream AI value events should be traceable. The MVP does not need model attribution, but it should avoid destroying source provenance in artifacts and contribution events.
 
+### Originality And Rights Enforcement
+
+Storm eventually needs a subsystem that detects plagiarism, copied submissions, incompatible licenses, and work imported from legally owned external sources without permission.
+
+This subsystem should use AI and similarity search as evidence and triage, not as final authority. It should produce explainable risk signals, source matches, rights evidence bundles, quarantine states, and review workflows. Hard cases need human or legal review because similarity does not automatically prove infringement.
+
+The MVP should not implement automated IP enforcement, but it should preserve enough provenance to support it later: submission timestamps, artifact links, contributor attestations, source references, accepted/rejected submission records, and dispute history.
+
 ### Future Protheus/InfRing Substrate
 
 Storm may eventually use Protheus network and InfRing primitives once InfRing v2 is complete and individual instances can operate as network nodes. The relevant future primitives are receipt-backed execution, deterministic policy authority, Gateway boundaries, local validation, node identity, and federated proof-carrying signals.
@@ -131,7 +139,7 @@ Storm-native mechanisms should have an explicit lifecycle when they overlap with
 4. Add an InfRing-backed implementation when the primitive is mature.
 5. Phase out the native authority mechanism once the InfRing path is safer and more trustworthy.
 
-This applies first to decomposition, receipts, audit logs, value-policy execution, provenance records, version/fork lineage, ledger verification, dataset lineage, and network trust. Storm should keep product-facing projections and applet semantics, but it should not turn temporary infrastructure into a permanent competing substrate.
+This applies first to decomposition, receipts, audit logs, value-policy execution, provenance records, originality and rights evidence, version/fork lineage, ledger verification, dataset lineage, and network trust. Storm should keep product-facing projections and applet semantics, but it should not turn temporary infrastructure into a permanent competing substrate.
 
 ### Artifacts
 
@@ -159,6 +167,7 @@ This is a placeholder recommendation, not a final decision.
 - Keep platform fee logic visible in code and UI.
 - Preserve room for ideas, groups, and contribution events without making them MVP requirements.
 - Preserve artifact provenance so future AI training compensation is possible.
+- Preserve artifact provenance so future originality and rights checks have evidence.
 - Preserve version and fork lineage so open collaboration does not erase attribution or value rights.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
@@ -186,6 +195,7 @@ This is a placeholder recommendation, not a final decision.
 - Group and alliance governance.
 - Residual contribution claims.
 - Contribution value policy engine.
+- Originality and rights enforcement subsystem.
 - AI training provenance and source compensation.
 - Protheus/InfRing receipt-backed network transition.
 - World Eye-style intelligence inputs.

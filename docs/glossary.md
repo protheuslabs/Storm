@@ -48,6 +48,10 @@ A backend-owned record of an attempt to turn a project goal into task candidates
 
 A challenge to a review decision or task outcome.
 
+## Enforcement Action
+
+An action taken because of an originality, rights, policy, or dispute review.
+
 ## Group
 
 A persistent collaboration unit that may own projects, recruit members, define governance rules, and coordinate work.
@@ -83,6 +87,10 @@ A reviewable request to merge work from one version, branch, fork, or project li
 ## Microtask
 
 A very small task designed to be completed quickly with minimal context.
+
+## Originality Check
+
+A scan or review pass that evaluates whether work may copy another source or violate rights, licenses, or permissions.
 
 ## Project
 
@@ -127,6 +135,18 @@ The act of evaluating a submission against task acceptance criteria.
 ## Reviewer
 
 A person who validates submitted work.
+
+## Rights Review
+
+A review of plagiarism, license, permission, or external ownership risk.
+
+## Rights Source Record
+
+A source work or rights-bearing record used for originality, plagiarism, license, or external ownership checks.
+
+## Similarity Match
+
+A candidate match between submitted work and a source record.
 
 ## Story Forge
 

@@ -26,6 +26,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Ownership And Governance](docs/ownership-and-governance.md)
 - [Release Switch](docs/release-switch.md)
 - [AI Training Provenance](docs/ai-training-provenance.md)
+- [Originality And Rights Enforcement](docs/originality-and-rights-enforcement.md)
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
 - [Versioning And Forks](docs/versioning-and-forks.md)
 - [Trust And Incentives](docs/trust-and-incentives.md)
@@ -51,7 +52,7 @@ Storm starts with seven core surfaces:
 6. Value ledger: transparent accounting for contribution, approval, payment, and platform fees.
 7. Contribution value policy: explainable rules for converting verified contribution records into allocations.
 
-Longer term, Storm may also support idea containers, residual contribution rights, groups or alliances, crowdsourced intelligence, real-world bounties, and automated project seeding. These are captured in the docs but intentionally kept outside the first MVP.
+Longer term, Storm may also support idea containers, residual contribution rights, groups or alliances, originality and rights enforcement, crowdsourced intelligence, real-world bounties, and automated project seeding. These are captured in the docs but intentionally kept outside the first MVP.
 
 Storm should expand through project applets: focused project-type surfaces that share the same foundation but add only the complexity that vertical needs. The proposed first applet is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
 

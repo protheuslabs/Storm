@@ -87,6 +87,7 @@ Storm needs:
 - Transparent value ledger.
 - Verifiable review and approval events.
 - Clear license and usage terms.
+- Originality and rights checks before risky work is merged or monetized.
 - Dispute resolution.
 - Provenance-preserving artifacts.
 - Governance rules visible before contribution.
@@ -134,6 +135,7 @@ Later versions can add:
 - Contribution rights.
 - Shared ownership rules.
 - Legal wrapper templates.
+- Originality and rights enforcement.
 - Patent provenance.
 - Business spinout rules.
 - Non-withholding agreements.

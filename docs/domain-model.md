@@ -21,6 +21,11 @@ Suggested prefixes:
 - `vnd_` for version nodes.
 - `frk_` for forks.
 - `mrg_` for merge proposals.
+- `rsrc_` for rights source records.
+- `ochk_` for originality checks.
+- `sim_` for similarity matches.
+- `rrv_` for rights reviews.
+- `enf_` for enforcement actions.
 - `act_` for actions.
 - `rcp_` for receipts.
 
@@ -852,6 +857,171 @@ Fields:
 MVP status:
 
 - Future concept.
+
+## Rights Source Record
+
+A source work or rights-bearing record used for originality, plagiarism, license, or external ownership checks.
+
+Fields:
+
+- id.
+- source type.
+- source id.
+- title.
+- owner or contributor id.
+- external owner name.
+- license policy.
+- permission status.
+- visibility.
+- corpus status.
+- created at.
+
+Source types:
+
+- Storm submission.
+- Storm project artifact.
+- Creative seed.
+- Versioned export.
+- Dataset source.
+- External web source.
+- Open-source repository.
+- Patent or prior-art record.
+- User-provided reference.
+
+MVP status:
+
+- Future concept. The MVP can preserve artifact provenance and source links before building a rights corpus.
+
+## Originality Check
+
+A scan or review pass that evaluates a submission, artifact, idea, dataset record, fork, or export for originality and rights risk.
+
+Fields:
+
+- id.
+- project id.
+- task id.
+- submission id.
+- artifact id.
+- checked object type.
+- checked object id.
+- requested by user id.
+- check type.
+- status.
+- risk score.
+- summary.
+- created at.
+- completed at.
+
+Check types:
+
+- Internal Storm similarity.
+- External corpus similarity.
+- License compatibility.
+- AI-generated source risk.
+- Patent or prior-art search.
+- Manual rights review.
+
+MVP status:
+
+- Future concept. Automated originality checks are out of MVP.
+
+## Similarity Match
+
+A candidate match found during an originality check.
+
+Fields:
+
+- id.
+- originality check id.
+- rights source record id.
+- matched source type.
+- matched source id.
+- similarity type.
+- confidence.
+- matched excerpt reference.
+- explanation.
+- created at.
+
+Similarity types:
+
+- Exact overlap.
+- Near duplicate.
+- Semantic similarity.
+- Structural similarity.
+- Code clone.
+- Media fingerprint.
+- License conflict.
+
+MVP status:
+
+- Future concept.
+
+## Rights Review
+
+A human, automated, or hybrid review of originality and rights risk.
+
+Fields:
+
+- id.
+- originality check id.
+- reviewer id.
+- decision.
+- notes.
+- required action.
+- dispute id.
+- created at.
+- decided at.
+
+Decision values:
+
+- Clear.
+- Attribution required.
+- Revision required.
+- Permission required.
+- Quarantine.
+- Reject.
+- Escalate legal.
+
+MVP status:
+
+- Future concept. Manual disputes can cover obvious plagiarism claims before this model exists.
+
+## Enforcement Action
+
+An action taken because of an originality or rights review.
+
+Fields:
+
+- id.
+- rights review id.
+- project id.
+- task id.
+- submission id.
+- actor id.
+- action type.
+- reason.
+- ledger impact.
+- reputation impact.
+- status.
+- created at.
+
+Action types:
+
+- Allow.
+- Require citation.
+- Request revision.
+- Hold payout.
+- Block merge.
+- Quarantine artifact.
+- Reject submission.
+- Remove artifact.
+- Penalize account.
+- Escalate legal.
+
+MVP status:
+
+- Future concept. High-impact enforcement should require review evidence and a dispute path.
 
 ## AI Training Run
 

@@ -76,6 +76,7 @@ It should not try to replace every company function immediately. It should prove
 - The endgame is a full alternative to corporate work organization, not just a cheaper labor marketplace.
 - GitHub-style open contribution patterns can be generalized beyond code through versioning, forks, merge review, and preserved lineage.
 - AI systems can be allowed to learn from Storm work without stripping contributors of provenance or downstream compensation.
+- Originality and rights enforcement can help stop users from copying Storm contributors or importing externally owned work without permission.
 - Applets keep simple verticals simple while allowing complex verticals to add only the extra workflow they need.
 
 ## Early Success Metrics

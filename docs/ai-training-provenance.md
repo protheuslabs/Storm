@@ -132,6 +132,8 @@ This means Storm's provenance model should not assume that all source data origi
 - Sensitive or private data must not be included without explicit permission.
 - Training datasets must be versioned.
 - Source records must not be silently stripped from datasets.
+- Training datasets should pass originality and rights checks before use.
+- AI outputs submitted back into Storm should be checked for source laundering or close similarity to protected works.
 - Revenue allocation rules must be visible before data is used.
 - Disputes over source attribution must be supported.
 

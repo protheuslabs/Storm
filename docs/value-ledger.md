@@ -49,6 +49,8 @@ This is only an example. Actual allocations need product and business decisions.
 - Dataset value allocated.
 - AI training value allocated.
 - AI attribution adjustment.
+- Rights review payout hold.
+- Rights enforcement adjustment.
 - Protocol origin allocation.
 - Release switch allocation.
 - Refund issued.

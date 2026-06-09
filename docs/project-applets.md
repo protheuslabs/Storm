@@ -76,6 +76,7 @@ Every applet should define:
 - Submission artifact types.
 - Review rubric.
 - Merge or acceptance model.
+- Originality and rights risk rules.
 - Export or delivery format.
 - Applet-specific risks.
 - What remains handled by Storm core.
@@ -139,5 +140,6 @@ It should not start with full canon branching, residual royalties, AI story owne
 - Do not build applets before the core project loop works.
 - Do not support too many applets before one applet proves completion.
 - Keep applet data portable and provenance-preserving.
+- Define applet-specific plagiarism, license, and rights risks.
 - Keep decomposition UI separate from backend decomposition helpers.
 - Let successful applet concepts graduate into core only when multiple applets need them.
