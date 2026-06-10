@@ -504,3 +504,26 @@ Consequences:
 - The first build should prioritize workflow orchestration, identity/permissions, project/task core, review/dispute basics, ledger, basic reputation, Story Forge, artifact storage, and audit/events.
 - Growth subsystems such as payments/compliance, fraud/risk, search/matching, privacy/consent, and integrations are documented before they become urgent.
 - The inventory gives implementation a map without forcing premature microservices.
+
+### 2026-06-10: Add Agent Participation And Bot Control
+
+Decision:
+
+Storm should eventually allow AI agents and automation through explicit authorized channels, while preventing unauthorized bots from pretending to be human contributors, reviewers, or governance participants.
+
+Context:
+
+The user clarified that Storm will need a way to make sure unauthorized bots are not doing user tasks. Agents can be allowed when they come through the right channels, but they should not impersonate humans.
+
+Alternatives considered:
+
+- Ban agents entirely.
+- Allow agents without disclosure.
+- Treat all bot detection as a generic fraud concern.
+
+Consequences:
+
+- Storm should model execution modes such as human-only, human-assisted, agent-assisted, and authorized agent execution.
+- Future domain records now include agents, agent authorizations, and agent sessions.
+- MVP does not need sophisticated bot detection, but task terms and submission records should avoid assuming every task was purely human.
+- Reputation, payout, review, rights enforcement, and InfRing receipt mapping should eventually account for disclosed versus undisclosed automation.

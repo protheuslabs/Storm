@@ -30,7 +30,7 @@ The first implementation should optimize for:
 
 Storm subsystems should stay modular even if the first implementation is a monolith.
 
-The product will eventually need workflow orchestration, identity, artifact storage, review, disputes, decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, fraud/risk, search, privacy, governance, integrations, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
+The product will eventually need workflow orchestration, identity, artifact storage, review, disputes, decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, fraud/risk, agent participation and bot control, search, privacy, governance, integrations, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
 
 This matters because Storm's long-term path depends on replacing native mechanisms with InfRing primitives where possible. That migration is only realistic if native subsystems already sit behind interfaces or providers.
 
@@ -145,6 +145,14 @@ This subsystem should use AI and similarity search as evidence and triage, not a
 
 The MVP should not implement automated IP enforcement, but it should preserve enough provenance to support it later: submission timestamps, artifact links, contributor attestations, source references, accepted/rejected submission records, and dispute history.
 
+### Agent Participation And Bot Control
+
+Storm should eventually support authorized AI agents while preventing unauthorized bots from pretending to be human contributors or reviewers.
+
+Agent participation should be explicit: tasks can declare allowed execution modes, agents should have scoped authorization, and submissions should record whether work was human-only, human-assisted, agent-assisted, or agent-executed. Bot detection belongs with fraud/risk and identity, but agent disclosure and authorization should be a clear subsystem rather than a pile of hidden heuristics.
+
+The MVP does not need sophisticated bot detection, but task terms and contribution records should avoid assuming every approved task was purely human.
+
 ### Future Protheus/InfRing Substrate
 
 Storm may eventually use Protheus network and InfRing primitives once InfRing v2 is complete and individual instances can operate as network nodes. The relevant future primitives are receipt-backed execution, deterministic policy authority, Gateway boundaries, local validation, node identity, and federated proof-carrying signals.
@@ -228,6 +236,7 @@ This is a placeholder recommendation, not a final decision.
 - Residual contribution claims.
 - Contribution value policy engine.
 - Originality and rights enforcement subsystem.
+- Agent participation and bot control.
 - AI training provenance and source compensation.
 - Protheus/InfRing receipt-backed network transition.
 - World Eye-style intelligence inputs.

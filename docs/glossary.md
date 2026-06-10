@@ -12,6 +12,18 @@ A record linking AI-generated value back to source records or contributors.
 
 The traceable record of which source work was included in datasets, model training, AI context, outputs, or downstream AI value.
 
+## Agent
+
+An automated or AI-assisted actor authorized to perform work, assist a user, or interact with Storm through scoped channels.
+
+## Agent Authorization
+
+A scoped permission that allows an agent to act within defined projects, tasks, tools, data, or execution modes.
+
+## Agent Session
+
+A record of an agent acting or assisting inside Storm.
+
 ## Action Receipt
 
 A project-scoped receipt for a user action, ideally including project ID, action index, actor ID, and a digest.
@@ -123,6 +135,10 @@ A transparent value claim assigned to the originator of the Storm protocol or ne
 ## Reputation
 
 Evidence-based trust built from verified work, review quality, reliability, and dispute outcomes.
+
+## Execution Mode
+
+The declared way work was performed, such as human-only, human-assisted, agent-assisted, or authorized agent execution.
 
 ## Residual Claim
 

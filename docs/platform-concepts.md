@@ -122,6 +122,12 @@ Originality and rights enforcement is the future subsystem that checks whether s
 
 The goal is to stop users from plagiarizing other Storm contributors or importing externally owned work without permission. AI can help with similarity, source matching, license checks, and prior-art research, but enforcement should remain evidence-based, reviewable, and appealable.
 
+## Agent Participation And Bot Control
+
+Agent participation and bot control is the future subsystem that allows approved agents to work through explicit channels while preventing unauthorized bots from pretending to be humans.
+
+Storm should distinguish human-only work, human-assisted work, agent-assisted work, and authorized agent execution. The important rule is disclosure and accountability: agents can help, but they should not impersonate human contributors or reviewers.
+
 ## Protheus Network Node
 
 A future Protheus network node is a user-owned runtime participant that can hold local authority, produce receipts, validate incoming signals, and participate in network coordination.
@@ -134,9 +140,9 @@ Versioning and fork lineage may also belong in the Protheus/InfRing substrate. S
 
 Storm should keep major subsystems modular even if the first implementation is a monolith.
 
-Subsystems such as decomposition, review, reputation, value policy, ledger, versioning, rights enforcement, AI provenance, and InfRing adapters should communicate through explicit contracts and events. This prevents applets from coupling directly to internal authority mechanisms and keeps native providers replaceable later.
+Subsystems such as decomposition, review, reputation, value policy, ledger, versioning, rights enforcement, agent participation, AI provenance, and InfRing adapters should communicate through explicit contracts and events. This prevents applets from coupling directly to internal authority mechanisms and keeps native providers replaceable later.
 
-The missing practical subsystems are just as important as the visionary ones: workflow orchestration, identity and roles, artifact storage, payments/compliance, fraud and risk, search and matching, notifications, privacy and consent, integrations, policy engine, and audit/event bus. These are the plumbing that lets the big thesis behave like a real product.
+The missing practical subsystems are just as important as the visionary ones: workflow orchestration, identity and roles, artifact storage, payments/compliance, fraud and risk, agent participation and bot control, search and matching, notifications, privacy and consent, integrations, policy engine, and audit/event bus. These are the plumbing that lets the big thesis behave like a real product.
 
 ## Group
 
@@ -271,7 +277,8 @@ Storm can preserve the long-term vision without building all of it immediately b
 6. Ideas, creative seeds, and recursive containers.
 7. AI training provenance.
 8. Originality and rights enforcement.
-9. Non-withholding legal wrappers.
-10. Protheus/InfRing network substrate.
-11. Residual compensation.
-12. Intelligence and real-world bounty networks.
+9. Agent participation and bot control.
+10. Non-withholding legal wrappers.
+11. Protheus/InfRing network substrate.
+12. Residual compensation.
+13. Intelligence and real-world bounty networks.

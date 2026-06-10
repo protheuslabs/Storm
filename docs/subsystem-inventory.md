@@ -264,10 +264,31 @@ Responsibilities:
 - Suspicious payout patterns.
 - Value-policy gaming.
 - Rights-enforcement abuse.
+- Unauthorized bot or agent use.
 
 Why it matters:
 
 Reputation is not enough. Storm needs a separate risk layer that protects the system without turning every contributor into a suspect.
+
+### Agent Participation And Bot Control
+
+Owns the boundary between authorized automation and undisclosed bots pretending to be humans.
+
+Responsibilities:
+
+- Agent registration.
+- Agent authorization scopes.
+- Task execution-mode policy.
+- Human-only task enforcement.
+- Agent-assisted disclosure records.
+- Bot-risk signals.
+- Agent session records.
+- Responsible-user accountability.
+- Agent-related reputation and payout effects.
+
+Why it matters:
+
+Storm should welcome useful agents through the right channels, but undisclosed automation can corrupt reputation, review, payouts, governance, and trust.
 
 ### Search, Discovery, And Matching
 

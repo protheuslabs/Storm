@@ -13,6 +13,7 @@ Storm's core product risk is trust. The platform only works if project owners tr
 - AI systems should not be able to absorb contributor work while stripping source attribution.
 - Legal owners should not be able to withhold network-created value from contributors.
 - Contributors should not be able to pass off another user's work or externally owned work as their own.
+- Bots and agents should not be able to impersonate human contributors or reviewers.
 
 ## Incentive Problems
 
@@ -116,6 +117,22 @@ Possible controls:
 - Start with email, payment, and device-risk checks.
 - Add stronger verification only for high-risk or high-value actions.
 - Avoid collecting highly sensitive government identifiers unless legally necessary and operationally justified.
+
+### Unauthorized Bots And Undisclosed Agents
+
+A user may use automation, scripts, or AI agents to claim, complete, review, or influence tasks while pretending the work was done by a human.
+
+Possible controls:
+
+- Task-level execution-mode policy.
+- Contributor attestation at claim or submission.
+- Authorized agent registration.
+- Scoped agent credentials.
+- Session, device, API, and behavior risk signals.
+- Human-only checks for high-risk task categories.
+- Payout holds for suspicious undisclosed automation.
+- Separate reputation treatment for human-only, agent-assisted, and agent-executed work.
+- Penalties for repeated deception.
 
 ### AI Attribution Abuse
 

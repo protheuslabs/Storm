@@ -62,6 +62,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Multi-currency payout flows.
 - Enterprise permissions.
 - Sophisticated fraud detection.
+- Sophisticated bot or unauthorized-agent detection.
 - Public API.
 - Mobile apps.
 - Advanced governance tokens or voting.
@@ -109,6 +110,8 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 ## Initial Product Constraint
 
 Start with manually created and manually reviewed tasks. Automation can assist later, but the first product must prove the workflow and incentives before relying on automation.
+
+The MVP can allow simple AI assistance disclosure without enforcing advanced bot detection. Later Storm should distinguish human-only, human-assisted, agent-assisted, and authorized-agent task execution.
 
 The MVP can still require contributors to attest that submitted work is original or properly licensed, and it should preserve enough submission provenance to support later originality checks.
 

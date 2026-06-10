@@ -52,6 +52,7 @@ Likely subsystems include:
 - Value ledger.
 - Payments.
 - Fraud, risk, and anti-collusion.
+- Agent participation and bot control.
 - Search, discovery, and matching.
 - Provenance and contribution graph.
 - Versioning and forks.

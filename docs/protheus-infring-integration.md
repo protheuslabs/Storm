@@ -89,6 +89,7 @@ In the long term, Storm should be able to use Protheus/InfRing primitives for:
 
 - Node identity.
 - Contributor identity.
+- Agent identity and scoped delegation.
 - Task decomposition.
 - Contribution receipts.
 - Task execution receipts.
@@ -122,6 +123,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Storm Concept | Future InfRing/Protheus Primitive |
 | --- | --- |
 | User | Node identity or contributor identity |
+| Agent | Agent identity plus scoped delegation |
 | Project | Network-visible project state |
 | Task | Bounded work request or decomposed micro-task |
 | Submission | Artifact plus execution receipt |
@@ -134,6 +136,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | AI value event | Value event receipt |
 | Originality check | Rights evidence or validation receipt |
 | Rights review | Evidence bundle plus governance decision |
+| Agent session | Delegated execution receipt |
 | Group or alliance | Governed network collective |
 | Project fork or branch | Version/fork lineage primitive |
 | Merge proposal | Receipt-backed merge decision |
@@ -205,6 +208,7 @@ The first likely replacement targets are:
 | Value policy execution | Deterministic policy execution where practical |
 | Contribution provenance records | Provenance receipts |
 | Originality and rights checks | Rights evidence receipts and validation signals |
+| Agent authorization and sessions | Delegated execution receipts and policy signals |
 | Ledger event records | Economic receipts and reconciled ledger state |
 | Dataset source records | Data provenance receipts |
 | Project version and fork records | InfRing versioning/fork subsystem |
@@ -222,6 +226,7 @@ It should, however:
 - Keep ledger events explicit.
 - Keep provenance attached to artifacts.
 - Keep originality, similarity, and rights-review evidence structured enough to emit receipts later.
+- Keep agent authorization, execution mode, and session evidence structured enough to emit receipts later.
 - Make state transitions auditable.
 - Separate policy decisions from UI presentation.
 - Keep subsystem contracts explicit so native providers can later be replaced by InfRing providers.
@@ -242,6 +247,7 @@ It should, however:
 - What interface boundaries make native-to-InfRing replacement safe?
 - Does InfRing need a generic versioning/fork subsystem, and what is its minimal primitive set?
 - Does InfRing need rights evidence receipts or a rights validation primitive?
+- Does InfRing need agent identity, scoped delegation, and delegated execution receipts?
 - What Storm task fields must map to InfRing task decomposition outputs?
 - How should applet constraints be passed into InfRing decomposition?
 - What is the migration path from Storm-owned decomposition helpers to InfRing-backed decomposition?

@@ -90,8 +90,22 @@
 - How are abandoned claims penalized?
 - How are successful disputes reflected?
 - How does Storm prevent review rings and fake work?
+- How should human-only, agent-assisted, and agent-executed work affect reputation differently?
 - Should idea origination affect reputation?
 - Should research accuracy affect reputation separately from execution quality?
+
+## Agent Participation And Bot Control
+
+- Which tasks should be human-only by default?
+- Which tasks should allow disclosed AI assistance by default?
+- What disclosure is required when a user uses an AI agent?
+- What counts as an unauthorized bot pretending to be human?
+- Should authorized agents have public profiles?
+- Can agents earn reputation, or only responsible users?
+- How should payouts work for agent-executed tasks?
+- What evidence is required before penalizing suspected bot use?
+- How can Storm detect automation without over-surveilling contributors?
+- Which agent authorization or session records should become InfRing receipts?
 
 ## Intellectual Property
 
@@ -207,6 +221,7 @@
 - How should Storm preserve product-facing projections after native authority moves to InfRing?
 - Should versioning and fork lineage be an InfRing subsystem or an app-level Storm subsystem first?
 - Which originality and rights enforcement records should become InfRing receipts?
+- Which agent participation records should become InfRing receipts?
 - When should Storm start using InfRing task decomposition?
 - What fields must a Storm decomposition request send to InfRing?
 - What fields must an InfRing task candidate return to Storm?

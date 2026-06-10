@@ -26,6 +26,9 @@ Suggested prefixes:
 - `sim_` for similarity matches.
 - `rrv_` for rights reviews.
 - `enf_` for enforcement actions.
+- `agt_` for agents.
+- `asess_` for agent sessions.
+- `aauth_` for agent authorizations.
 - `act_` for actions.
 - `rcp_` for receipts.
 
@@ -50,6 +53,88 @@ Relationships:
 - May contribute to tasks.
 - May review submissions.
 - May resolve disputes.
+- May authorize agents.
+
+## Agent
+
+An automated or AI-assisted actor authorized to perform work, assist a user, or interact with Storm through scoped channels.
+
+Fields:
+
+- id.
+- name.
+- agent type.
+- owner user id.
+- owner organization id.
+- provider.
+- model or tool family.
+- status.
+- created at.
+
+Agent types:
+
+- Personal assistant.
+- Project agent.
+- Review assistant.
+- Decomposition agent.
+- External integration bot.
+
+MVP status:
+
+- Future concept. The MVP can capture automation disclosure without registering agents.
+
+## Agent Authorization
+
+A scoped permission for an agent to act inside Storm.
+
+Fields:
+
+- id.
+- agent id.
+- authorized by user id.
+- project id.
+- allowed scopes.
+- allowed task types.
+- allowed execution modes.
+- data access policy.
+- expires at.
+- revoked at.
+- created at.
+
+MVP status:
+
+- Future concept.
+
+## Agent Session
+
+A record of an agent acting or assisting within Storm.
+
+Fields:
+
+- id.
+- agent id.
+- responsible user id.
+- project id.
+- task id.
+- action type.
+- execution mode.
+- tool permissions used.
+- receipt id.
+- started at.
+- completed at.
+
+Execution modes:
+
+- Human-only.
+- Human with tools.
+- Human-directed AI assistance.
+- Authorized agent execution.
+- Mixed human and agent team.
+- Agent-only allowed.
+
+MVP status:
+
+- Future concept. Useful later for auditability, bot control, and InfRing receipts.
 
 ## Project
 
@@ -610,6 +695,7 @@ Fields:
 - required skills.
 - estimated effort.
 - value.
+- allowed execution modes.
 - status.
 - deadline.
 - claimed by user id.
@@ -1092,6 +1178,8 @@ Fields:
 - contributor id.
 - artifact links.
 - notes.
+- declared execution mode.
+- agent session id.
 - status.
 - submitted at.
 

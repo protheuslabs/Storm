@@ -10,7 +10,7 @@ Project -> Task -> Claim -> Submit -> Review -> Ledger -> Reputation.
 
 The first build should prove crowdsourced projects, not a generic task board. It should show that distributed contributors can collectively move a project forward through claimable work, accountable review, and transparent value allocation.
 
-The first build should not implement residual compensation, AI training provenance, automated originality and rights enforcement, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
+The first build should not implement residual compensation, AI training provenance, automated originality and rights enforcement, sophisticated bot or unauthorized-agent detection, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
 
 When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
 
@@ -45,6 +45,7 @@ Deliverables:
 
 - Create and edit projects.
 - Create and edit tasks.
+- Define whether a task expects human-only work or allows disclosed AI assistance.
 - Backend task candidate generation interface for applet templates or temporary decomposition helpers.
 - Decomposition UI for reviewing and accepting task candidates.
 - Task status model.
@@ -59,6 +60,7 @@ Deliverables:
 - Claim task.
 - Release or expire claim.
 - Submit work artifacts and notes.
+- Include simple automation or AI-assistance disclosure on submission.
 - Artifact storage for submission links/files and source references.
 - View contributor task dashboard.
 

@@ -58,6 +58,7 @@ Goals:
 - Make reputation useful for task matching.
 - Start making value explanations consistent across tasks, reviews, fees, and adjustments.
 - Start separating reputation from fraud and risk signals.
+- Start defining allowed execution modes for human, assisted, and automated work.
 
 Deliverables:
 
@@ -69,6 +70,7 @@ Deliverables:
 - Review accuracy metrics.
 - Allocation explanation template.
 - Initial fraud/risk signal inventory.
+- Basic AI-assistance disclosure field.
 
 ## Phase 3: Assisted Coordination
 
@@ -170,6 +172,7 @@ Goals:
 - Test community-led validation and coordination.
 - Let high-reputation users help govern work quality.
 - Improve fraud, risk, and anti-collusion controls.
+- Introduce bot-control and authorized-agent participation rules.
 
 Deliverables:
 
@@ -178,6 +181,8 @@ Deliverables:
 - Reputation-weighted review experiments.
 - Transparent fee and reserve reporting.
 - Review-ring and collusion detection prototype.
+- Authorized-agent policy draft.
+- Unauthorized bot-use risk signals.
 
 ## Phase 5.5: Originality And Rights Enforcement
 

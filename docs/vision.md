@@ -26,6 +26,7 @@ Help people create, coordinate, validate, and get paid through crowdsourced proj
 - Creative input can compound when the system preserves attribution and routes downstream value back to contributors.
 - Open collaboration needs version history, fork lineage, and merge rules that preserve attribution.
 - The system must resist plagiarism and unauthorized use of legally owned external work.
+- Agents can help, but they should not impersonate humans.
 - AI training should not erase the people whose work created the underlying capability.
 - Ownership is a legal interface, not the deepest primitive. Provenance and value routing matter more.
 - Verified contribution is the central economic primitive.
@@ -47,6 +48,8 @@ In later versions, Storm may also track residual value when later work builds on
 Storm should also learn from GitHub and open source work: contributors need a way to branch, fork, review, merge, and preserve history without asking a central organization for permission. Storm should eventually generalize those mechanics beyond code while keeping provenance and value obligations intact.
 
 Storm should also enforce originality and rights over time. Contributors should not be able to pass off another user's work as their own, and projects should not quietly absorb work that is owned elsewhere without permission. AI can help detect similarity, hidden source dependence, and license conflicts, but high-impact enforcement still needs evidence, review, and dispute paths.
+
+Storm should also support AI agents without letting them corrupt human trust. Agents can work through approved channels, but tasks should be able to require human-only work, and undisclosed bots pretending to be humans should be treated as a trust violation.
 
 Storm should also preserve provenance when AI systems train on Storm data or approved data from the broader Protheus Labs ecosystem. If AI-generated value can be traced back to source contributions, the originators should be eligible for compensation.
 
@@ -91,6 +94,7 @@ The aspirational target is for contributors and reviewers to keep roughly 95% of
 - Platform fees must be transparent.
 - AI training and data usage rights must preserve provenance.
 - Plagiarism and rights enforcement must be explainable and appealable.
+- Agent participation must be disclosed when task policy requires it.
 - Legal wrappers, patents, and businesses must not be allowed to withhold value from contributors.
 - Any future release switch must remove hidden control without removing accountability.
 - The system must resist low-quality work, fake review rings, and value extraction by hidden intermediaries.

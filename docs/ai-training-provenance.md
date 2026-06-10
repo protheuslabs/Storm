@@ -124,6 +124,7 @@ This means Storm's provenance model should not assume that all source data origi
 - Lab notes.
 - Dataset imports.
 - AI-generated artifacts with known upstream sources.
+- Agent-assisted submissions with known responsible users and execution mode.
 
 ## Required Safeguards
 
@@ -150,5 +151,6 @@ It should, however, record contribution events and artifact provenance cleanly e
 - How should attribution work when many sources influence a model generally?
 - How should opt-in, opt-out, or tiered data licenses work?
 - How should AI-generated work inherit upstream provenance?
+- How should agent-assisted work disclose model, tool, source, and responsible-user provenance?
 - How should disputes over AI attribution be resolved?
 - How should private, confidential, or sensitive project data be excluded?
