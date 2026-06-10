@@ -26,6 +26,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Subsystem Inventory](docs/subsystem-inventory.md)
 - [Platform Concepts](docs/platform-concepts.md)
 - [Socioeconomic Thesis](docs/socioeconomic-thesis.md)
+- [Protheus Ecosystem Thesis](docs/protheus-ecosystem-thesis.md)
 - [Ownership And Governance](docs/ownership-and-governance.md)
 - [Release Switch](docs/release-switch.md)
 - [AI Training Provenance](docs/ai-training-provenance.md)
@@ -61,6 +62,8 @@ Longer term, Storm may also support idea containers, residual contribution right
 Storm should expand through project applets: focused project-type surfaces that share the same foundation but add only the complexity that vertical needs. The proposed first applet is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
 
 Internally, Storm is the broad coordination, attribution, and value-routing layer for crowdsourced work. Publicly, the first wedge should be narrower: Story Forge should lead as the concrete product while Storm's larger primitives operate underneath it.
+
+Inside the broader Protheus ecosystem, Storm is intended to become the contribution and value-routing memory for human-AI coordination: the layer that records who created, reviewed, improved, reused, trained, and earned from useful work.
 
 ## MVP Hypothesis
 

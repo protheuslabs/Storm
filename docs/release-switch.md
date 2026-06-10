@@ -36,6 +36,39 @@ Allowed future pattern:
 
 The value claim should be compensation for originating, maintaining, and releasing the system, not a mechanism for permanent domination.
 
+## Stewardship Decay
+
+Protheus Labs can legitimately act as founding steward while Storm is fragile.
+
+Early stewardship can include:
+
+- Product direction.
+- Trust and safety policy.
+- Legal risk management.
+- Anti-spam and anti-fraud controls.
+- Protocol design.
+- Applet approval.
+- Emergency intervention.
+
+Those powers should be documented and designed to decay as the network becomes more capable.
+
+The intended progression is:
+
+1. Early phase: Protheus Labs controls direction to prevent chaos, spam, capture, legal failure, and broken incentives.
+2. Growth phase: governance, receipts, reputation, ledgers, disputes, and node-level validation mature.
+3. Release phase: unilateral Protheus Labs control is reduced or removed according to declared conditions.
+4. Mature phase: Protheus Labs remains origin, steward, maintainer, or participant, but not an unaccountable sovereign.
+
+The system should avoid pretending to be user-powered while preserving hidden levers.
+
+## Ecosystem Trust Role
+
+Storm's release switch matters beyond Storm itself.
+
+If Protheus becomes a broader human-AI coordination network, Storm may be the layer that records contribution, attribution, rights, review, disputes, agent participation, and value routing across ecosystem surfaces. Releasing Storm too late would risk turning that memory layer into centralized leverage. Releasing it too early would risk breaking the trust system before it can defend contributors.
+
+The release switch is therefore both a governance mechanism and an anti-extraction commitment.
+
 ## Why A Release Switch Matters
 
 Storm's endgame challenges existing control structures around labor, ownership, coordination, AI data, and value routing.

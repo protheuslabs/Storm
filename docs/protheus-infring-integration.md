@@ -6,6 +6,20 @@ Reference:
 
 - InfRing repository: `https://github.com/protheuslabs/InfRing`
 
+## Ecosystem Context
+
+Storm is one Protheus coordination surface, not the whole network.
+
+The broader ecosystem thesis is:
+
+- Lycium captures learning intent, curriculum structure, skill progression, and knowledge-path data.
+- Storm captures contribution, creativity, review, attribution, task execution, reputation, and value-routing data.
+- PQTS captures forecasting, decision quality, risk, market response, and evidence-backed strategy data.
+- Lensmap captures project structure, boilerplate patterns, software organization, and developer workflow data.
+- InfRing provides the operating layer for coordination, receipts, validation, automation, and network-node behavior.
+
+Storm's special role is to preserve contribution and obligation across that ecosystem. It should know who did what, who reviewed it, what rights apply, what agent participation occurred, and how value should flow when later work depends on earlier contribution.
+
 ## Migration Goal
 
 Storm can build native mechanisms early, but they should be treated as bootstrap scaffolding when they overlap with future InfRing primitives.

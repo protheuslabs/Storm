@@ -213,6 +213,12 @@
 
 ## Protheus And InfRing
 
+- Which Protheus products should emit contribution or provenance records into Storm?
+- What should Storm know about Lycium, PQTS, Lensmap, and other ecosystem activity?
+- What ecosystem data is useful enough to share but sensitive enough to keep local or private?
+- How should users consent to cross-product provenance, AI training, and value-routing records?
+- How should Storm avoid becoming a centralized data sink for the Protheus ecosystem?
+- Which Protheus Labs powers are legitimate early stewardship powers, and which would become hidden control if retained too long?
 - Which InfRing v2 primitives will be stable enough for Storm to use?
 - What Storm events should become receipts first?
 - Which Storm-native mechanisms should be treated as scaffolding from day one?

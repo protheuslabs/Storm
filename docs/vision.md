@@ -67,6 +67,8 @@ In later infrastructure phases, Storm may transition onto the Protheus network a
 
 At sufficient scale, Storm may need a release switch: a transition where Protheus Labs remains the origin point and may retain a transparent origin-value claim, but no longer has unilateral control over the network.
 
+Inside the broader Protheus ecosystem, Storm should act as the social and economic memory layer for human-AI coordination. Other products may capture learning, forecasting, software structure, and agent execution data, but Storm should preserve contribution, review, attribution, reputation, rights, disputes, and value routing so the ecosystem can learn without quietly extracting from participants.
+
 ## What Storm Replaces
 
 Storm is not a freelance marketplace with nicer economics. It is intended to absorb pieces of:
@@ -122,3 +124,4 @@ Storm should be documented in layers so the project can stay ambitious without b
 - Endgame: a general work model that makes corporate employment optional or obsolete for most contributors.
 - Substrate: future Protheus/InfRing network primitives for receipt-backed, user-owned coordination, including possible versioning and fork primitives.
 - Release: eventual transition from Protheus Labs-operated platform to network-governed system.
+- Ecosystem: Storm as the contribution and value-routing memory for the broader Protheus human-AI coordination network.

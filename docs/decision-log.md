@@ -550,3 +550,26 @@ Consequences:
 - Story Forge becomes the recommended first product promise.
 - The first MVP should prove Storm primitives under a story-specific interface.
 - Broader Storm messaging can expand after real usage validates task decomposition, review, reputation, provenance, ledger, and dispute mechanics.
+
+### 2026-06-10: Capture Protheus Ecosystem Thesis
+
+Decision:
+
+Storm should document its role inside the broader Protheus human-AI coordination network: Storm is the contribution, attribution, review, reputation, dispute, rights, and value-routing memory layer.
+
+Context:
+
+Additional product discussion clarified that Protheus products are not merely separate apps. Each product can be a useful wedge that also captures structured, consented, provenance-rich activity for a broader network. Lycium, Storm, PQTS, Lensmap, and InfRing each represent different coordination surfaces. Storm is especially important because it can make the ecosystem non-extractive by preserving who did what, who reviewed it, what rights apply, what agent participation occurred, and how value should flow back.
+
+Alternatives considered:
+
+- Treat Storm as only a standalone marketplace.
+- Describe Protheus products as apps that feed a central lab.
+- Keep the ecosystem thesis informal until after implementation.
+
+Consequences:
+
+- Docs now frame Protheus as human-AI coordination infrastructure.
+- Storm's long-term ecosystem role is explicit without changing the Story Forge MVP wedge.
+- The docs distinguish founding stewardship and origin value from hidden platform ownership.
+- Future architecture must account for consent, portability, cross-product provenance, anti-capture governance, and release-switch credibility.
