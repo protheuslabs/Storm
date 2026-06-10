@@ -13,14 +13,60 @@ Goals:
 - Define subsystem inventory and first-build priorities.
 - Identify open product, legal, payment, and trust questions.
 
+Current Tentative Definition Package:
+
+1. Core thesis and position
+- Keep the thesis narrow enough to execute: Story Forge is the first public wedge.
+- Keep the broader thesis explicit but internal: Storm is the coordination/value-routing substrate.
+- Document what is in-scope for proof versus future ecosystem ambition.
+
+2. Core platform contract
+- Fix the non-negotiable primitive set: Projects, Tasks, Claims, Submissions, Reviews, Disputes, Reputation, Ledger, Contribution Events, Provenance.
+- Define state transitions, validation rules, and what counts as authoritative truth at each transition.
+- Define the minimum set of terms everyone can point to before engineering starts.
+
+3. Governance contract
+- Clarify Protheus stewardship, visible origin claim, and stewardship decay rules.
+- Define release-switch trigger conditions and what powers are removed when each threshold is crossed.
+- Define anti-capture requirements: transparency, appealability, provenance, agent disclosure, and explicit bounded controls.
+
+4. Economics contract
+- Lock task payout behavior for MVP (fixed visible task values).
+- Define dispute and correction behavior before variable contribution weighting.
+- Define where residual and upstream value could exist later without destabilizing the first loop.
+- Define value ledger visibility and minimum explanation requirements.
+
+5. Applet contract
+- Define what remains in Storm core versus what stays applet-specific.
+- Define the first applet boundary (Story Forge) and the domain-semantics interface.
+- Define applet onboarding pattern so the next applet (Code Forge etc.) can be introduced safely.
+
+6. Integration and network contract
+- Define which native mechanisms are scaffolding versus durable primitives.
+- Define how decomposition, receipts, provenance, and rights evidence map to InfRing when ready.
+- Define what data is shared across products and what remains local.
+- Define initial bot/agent trust boundaries without adding full automation.
+
 Deliverables:
 
 - Initial docs.
 - Product decision log.
+- Storm definition gate checklist.
 - MVP build plan.
 - Positioning and first-wedge doc.
 - Subsystem modularity plan.
 - Subsystem inventory.
+
+Readiness Gate:
+
+- Phase 1 starts only when the definition package has clear owners, stable terms, and an explicit list of unresolved questions.
+- If unresolved questions are mostly implementation details, continue in Phase 0.
+- If unresolved questions are core thesis or contract questions, delay implementation until they are resolved.
+- If any required checklist item is not `Ready`, maintain Phase 0 and do not ship implementation scope.
+
+## Phase 0 Readiness Artifact
+
+- Current readiness artifact: [Storm Definition Gate](docs/storm-definition-gate.md).
 
 ## Phase 1: Manual MVP
 

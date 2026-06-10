@@ -14,7 +14,26 @@ The first build should not implement residual compensation, AI training provenan
 
 When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
 
+## Definition-First Build Rule
+
+The build plan should not advance until the core definition package is stable and agreed:
+
+- Core thesis and public wedge positioning.
+- Primitive contract and authoritative workflow states.
+- Governance contract including steward roles, origin allocation, and stewardship decay.
+- MVP economics and ledger transparency requirements.
+- Storm core vs applet boundary.
+- InfRing migration boundary and what is intentionally scaffolded.
+
+If any of the above is unresolved, implementation should pause to avoid rework.
+
 Major subsystems should stay modular even inside a monolith. Start with code boundaries, provider interfaces, and contract tests before considering separate services.
+
+## Implementation Gate From Definition-First
+
+- Before Milestone 1 begins, mark the [Storm Definition Gate](docs/storm-definition-gate.md) as complete.
+- If the gate is not complete, implementation work should remain at design and definition tasks only.
+- If the gate is complete and stable, we proceed into Milestone 1 and the minimum MVP loop.
 
 ## Milestone 1: Repo And App Foundation
 

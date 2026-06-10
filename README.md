@@ -41,6 +41,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Architecture Notes](docs/architecture-notes.md)
 - [Build Plan](docs/build-plan.md)
 - [Roadmap](docs/roadmap.md)
+- [Storm Definition Gate](docs/storm-definition-gate.md)
 - [Decision Log](docs/decision-log.md)
 - [Open Questions](docs/open-questions.md)
 - [Glossary](docs/glossary.md)
