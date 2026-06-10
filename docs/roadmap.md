@@ -8,6 +8,7 @@ Goals:
 - Define MVP scope.
 - Define workflows.
 - Define domain model.
+- Define public positioning and first wedge.
 - Define subsystem boundaries.
 - Define subsystem inventory and first-build priorities.
 - Identify open product, legal, payment, and trust questions.
@@ -17,6 +18,7 @@ Deliverables:
 - Initial docs.
 - Product decision log.
 - MVP build plan.
+- Positioning and first-wedge doc.
 - Subsystem modularity plan.
 - Subsystem inventory.
 
@@ -29,7 +31,7 @@ Goals:
 - Let reviewers approve, reject, or request changes.
 - Track transparent value allocation in a ledger.
 - Use fixed visible task values rather than algorithmic contribution scoring.
-- Prove Story Forge as the first crowdsourced project vertical.
+- Prove Story Forge as the first public crowdsourced project vertical.
 - Keep MVP code modular enough for later subsystem expansion.
 - Establish workflow orchestration, artifact storage, and audit/event foundations.
 
@@ -39,6 +41,7 @@ Deliverables:
 - Project dashboard.
 - Task marketplace.
 - Story project fields and story task templates.
+- Story Forge public project loop.
 - Task claim and submission flow.
 - Review flow.
 - Ledger view.

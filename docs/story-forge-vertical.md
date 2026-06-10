@@ -8,6 +8,14 @@ Story Forge should prove the applet model. Storm core should handle projects, ta
 
 The first Story Forge MVP can use manually created story tasks, static templates, or a lightweight Story Forge decomposition helper. Later, Story Forge should merge that decomposition path with InfRing task decomposition so a story premise and constraints can become receipted candidate tasks such as scene drafts, character profiles, line edits, and continuity reviews.
 
+## Public Wedge
+
+Story Forge should be the first public wedge for Storm.
+
+Storm's full vision is broad and infrastructure-heavy. Story Forge gives users a clear first promise: turn a story idea into paid, claimable, reviewable creative tasks and merge accepted work into a shared story artifact.
+
+The product should feel like a story creation workspace first. Storm's generic project, review, reputation, ledger, and provenance primitives should be present, but they should not be the first thing a new user has to understand.
+
 ## Why Stories First
 
 Stories are a strong initial vertical because they exercise Storm's core model without requiring physical logistics, regulated labor, or complex enterprise procurement.
@@ -191,6 +199,8 @@ Later Story Forge can test limited upstream and residual value. A creative seed,
 Story Forge can be Storm's Falcon 1.
 
 It is narrow enough to build, culturally understandable, and close to the original creative-seed thesis. If it works, Storm can expand from stories into games, films, software, research, products, and eventually broader work categories.
+
+It also keeps the public pitch disciplined. The first release can talk about collaborative story creation while quietly proving the more consequential Storm substrate underneath.
 
 ## Applet Boundary
 

@@ -16,6 +16,12 @@ Storm's socioeconomic thesis is that contribution-based value routing can resolv
 
 Help people create, coordinate, validate, and get paid through crowdsourced projects where contributors keep the overwhelming majority of the value they generate.
 
+## Positioning Discipline
+
+Storm's internal vision should remain expansive, but the first public wedge should be specific.
+
+The recommended first public product is Story Forge: collaborative story creation through paid, reviewable creative tasks. Story Forge lets Storm prove the core coordination, review, provenance, reputation, and value-routing primitives before asking users to understand the whole economic vision.
+
 ## Foundational Beliefs
 
 - Creative ideas can have value.

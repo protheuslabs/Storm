@@ -527,3 +527,26 @@ Consequences:
 - Future domain records now include agents, agent authorizations, and agent sessions.
 - MVP does not need sophisticated bot detection, but task terms and submission records should avoid assuming every task was purely human.
 - Reputation, payout, review, rights enforcement, and InfRing receipt mapping should eventually account for disclosed versus undisclosed automation.
+
+### 2026-06-10: Use Story Forge As Public Wedge
+
+Decision:
+
+Storm should preserve the broad internal platform thesis, but the first public product should lead with Story Forge as the concrete wedge.
+
+Context:
+
+Product feedback clarified that Storm is best framed internally as a coordination, attribution, and value-routing layer for crowdsourced work. That framing is strategically useful, but too abstract for the first market-facing promise. Story Forge gives the product an understandable entry point: collaboratively create stories through paid, reviewable creative tasks.
+
+Alternatives considered:
+
+- Lead publicly with the full post-corporate economic vision.
+- Pitch Storm as a generic crowdsourced project marketplace.
+- Hide the Storm platform thesis entirely and only talk about Story Forge.
+
+Consequences:
+
+- Storm docs now separate internal platform positioning from the first public wedge.
+- Story Forge becomes the recommended first product promise.
+- The first MVP should prove Storm primitives under a story-specific interface.
+- Broader Storm messaging can expand after real usage validates task decomposition, review, reputation, provenance, ledger, and dispute mechanics.

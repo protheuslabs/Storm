@@ -12,6 +12,7 @@ This repo is starting with documentation first. The initial docs define the prod
 
 - [Vision](docs/vision.md)
 - [Product Brief](docs/product-brief.md)
+- [Positioning And First Wedge](docs/positioning-and-wedge.md)
 - [Project Applets](docs/project-applets.md)
 - [Story Forge Vertical](docs/story-forge-vertical.md)
 - [Old Source Summary](docs/source-old-storm-doc.md)
@@ -59,8 +60,12 @@ Longer term, Storm may also support idea containers, residual contribution right
 
 Storm should expand through project applets: focused project-type surfaces that share the same foundation but add only the complexity that vertical needs. The proposed first applet is Story Forge: crowdsourced story creation using Storm's project, task, review, ledger, and provenance primitives.
 
+Internally, Storm is the broad coordination, attribution, and value-routing layer for crowdsourced work. Publicly, the first wedge should be narrower: Story Forge should lead as the concrete product while Storm's larger primitives operate underneath it.
+
 ## MVP Hypothesis
 
 If Storm can make crowdsourced projects clear, claimable, reviewable, and transparently payable, then early users can coordinate useful work without relying on a traditional company structure.
 
 The MVP should prove task decomposition, contributor matching, review quality, and payout transparency before expanding into larger marketplace features.
+
+The first public MVP pitch should therefore be Story Forge rather than a generic crowdsourced project marketplace. If Story Forge can coordinate story creation through paid, reviewable creative tasks, it proves the Storm foundation in a domain people immediately understand.

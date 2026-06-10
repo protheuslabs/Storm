@@ -12,6 +12,16 @@ The broad product ambition is an idea-to-value engine: a person can plant a crea
 
 Storm should expand through project applets: focused vertical workspaces that share the same core primitives while keeping domain-specific complexity separated.
 
+## Positioning
+
+Storm's internal framing is broad: it is a coordination, attribution, and value-routing layer for crowdsourced work.
+
+The first external wedge should be narrower. Publicly, Storm should lead with Story Forge: a way for creators to turn story ideas into paid, claimable, reviewable creative tasks that distributed contributors can complete together.
+
+This keeps the long-term ambition intact while giving early users a concrete product. Story Forge should prove Storm's primitives before Storm asks the market to understand the full post-corporate work model.
+
+A useful strategic analogy is GitHub for creative and project work beyond code, with built-in task decomposition, review, attribution, provenance, and value routing.
+
 ## Problem
 
 Many people can create value, but most valuable projects are locked behind organizations that control access, coordination, review, and payment. Workers often receive a small fraction of the value they help create because the intermediary layer controls the customer relationship, project structure, trust layer, and payout decisions.
@@ -54,6 +64,8 @@ The MVP is crowdsourced projects. The proposed first applet is Story Forge: crow
 
 It should not try to replace every company function immediately. It should prove the core project loop that could eventually expand into a complete work model.
 
+Market-facing MVP language should lead with Story Forge, not the full breadth of Storm. The platform can remain generic under the hood, but the first promise should be specific enough that a creator understands what to create, what contributors can do, and how review and payout work.
+
 ## Primary Use Cases
 
 - A creator starts a story project and contributors complete scenes, character profiles, lore entries, edits, and continuity reviews.
@@ -79,6 +91,7 @@ It should not try to replace every company function immediately. It should prove
 - Originality and rights enforcement can help stop users from copying Storm contributors or importing externally owned work without permission.
 - Authorized agents can participate through explicit channels without pretending to be human contributors.
 - Applets keep simple verticals simple while allowing complex verticals to add only the extra workflow they need.
+- Story Forge gives Storm a concrete wedge that can prove the core primitives before broader project categories are introduced.
 
 ## Early Success Metrics
 
