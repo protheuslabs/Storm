@@ -22,6 +22,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [Core Workflows](docs/core-workflows.md)
 - [Domain Model](docs/domain-model.md)
 - [Subsystem Modularity](docs/subsystem-modularity.md)
+- [Subsystem Inventory](docs/subsystem-inventory.md)
 - [Platform Concepts](docs/platform-concepts.md)
 - [Socioeconomic Thesis](docs/socioeconomic-thesis.md)
 - [Ownership And Governance](docs/ownership-and-governance.md)

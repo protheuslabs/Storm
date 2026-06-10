@@ -171,9 +171,12 @@
 - Which modules need provider interfaces from day one?
 - How strict should subsystem data ownership be inside the first monolith?
 - What event format should subsystems emit?
+- Should workflow orchestration call subsystem contracts directly, or should applets compose workflows?
+- What should the first audit/event bus look like inside a monolith?
 - What auth provider should be used?
 - What payment provider should be used?
 - What artifact storage is needed?
+- What artifact records need hashes or immutable references from day one?
 - What events must be audit logged from day one?
 - Should the database model reserve room for ideas, groups, and contribution events even if UI hides them?
 - What provenance fields must be captured from day one to support future AI training compensation?
@@ -181,6 +184,18 @@
 - What action receipt ID format should be used?
 - Should project action indexes be global per project, per applet, or per event stream?
 - What hash or digest format should action receipts use?
+
+## Subsystems
+
+- Which subsystem owns contribution events?
+- Which subsystem owns workflow orchestration?
+- Which subsystem owns artifact provenance versus artifact storage?
+- How should privacy and consent rules be enforced across applets?
+- When should fraud/risk become separate from reputation?
+- What is the first useful search and matching model?
+- What integrations matter first: GitHub, Google Docs, Figma, payments, publishing, or InfRing?
+- Which policy types must be versioned before paid work begins?
+- How should notification and messaging boundaries work without becoming a social network?
 
 ## Protheus And InfRing
 

@@ -30,9 +30,11 @@ The first implementation should optimize for:
 
 Storm subsystems should stay modular even if the first implementation is a monolith.
 
-The product will eventually need decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, governance, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
+The product will eventually need workflow orchestration, identity, artifact storage, review, disputes, decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, fraud/risk, search, privacy, governance, integrations, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
 
 This matters because Storm's long-term path depends on replacing native mechanisms with InfRing primitives where possible. That migration is only realistic if native subsystems already sit behind interfaces or providers.
+
+The first build should prioritize subsystem boundaries for workflow orchestration, identity and permissions, project/task core, review/dispute, ledger, basic reputation, Story Forge, artifact storage, and the audit/event bus.
 
 ## Core Technical Concerns
 
@@ -40,9 +42,13 @@ This matters because Storm's long-term path depends on replacing native mechanis
 
 Task, submission, review, dispute, and payout states should be explicit. State transitions should be centralized enough to prevent invalid transitions.
 
+Workflow orchestration should be treated as its own subsystem. It composes project/task state, review, disputes, ledger, reputation, notifications, and future rights checks without letting any one applet or UI screen become the hidden state machine.
+
 ### Auditability
 
 Ledger entries, review decisions, dispute outcomes, and reputation events should be append-oriented where possible. Important economic events should not be silently overwritten.
+
+Storm should have an audit/event bus early. It does not need distributed event streaming at MVP scale, but it does need structured events that can feed notifications, reputation, ledger, projections, and future receipts.
 
 ### IDs And Receipts
 
@@ -60,9 +66,17 @@ Authorization should be designed early because the platform has multiple roles:
 - Resolvers.
 - Admins.
 
+Identity should separate public contributor identity from private legal, payment, and future network identity where practical.
+
+### Artifact Storage
+
+Submissions, evidence, exports, source references, and future datasets need stable artifact records. The MVP can start with links and simple stored files, but artifact references should be durable enough to support provenance, review, rights checks, and future receipts.
+
 ### Payments
 
 Payments should be abstracted behind an internal ledger before integrating deeply with a payment provider. The product needs to represent value allocation even before real payouts are automated.
+
+Payment provider integration should be separate from ledger authority. Later Storm may need funded balances, payout holds, refunds, chargebacks, compliance records, and tax reporting.
 
 ### Contribution Value Policy
 
@@ -168,6 +182,7 @@ This is a placeholder recommendation, not a final decision.
 
 - Keep economic state explicit.
 - Keep workflow transitions testable.
+- Keep workflow orchestration separate from applet UI and ledger effects.
 - Keep contribution value policy separate from ledger recording and external payouts.
 - Keep major subsystems modular behind explicit contracts.
 - Prefer append-only records for payment and reputation history.
@@ -177,6 +192,7 @@ This is a placeholder recommendation, not a final decision.
 - Preserve room for ideas, groups, and contribution events without making them MVP requirements.
 - Preserve artifact provenance so future AI training compensation is possible.
 - Preserve artifact provenance so future originality and rights checks have evidence.
+- Preserve audit events so future receipts and InfRing migration have source history.
 - Preserve version and fork lineage so open collaboration does not erase attribution or value rights.
 - Keep authority and policy decisions separate from presentation so future InfRing integration is plausible.
 - Keep applet-specific logic out of Storm core until multiple applets need the same concept.
@@ -197,6 +213,12 @@ This is a placeholder recommendation, not a final decision.
 - Versioning and fork workflows.
 - Skill-based contributor matching.
 - Risk-based review assignment.
+- Workflow orchestration.
+- Artifact storage.
+- Audit/event bus.
+- Privacy, consent, and data access.
+- Search, discovery, and matching.
+- API and integration layer.
 - Fraud and collusion detection.
 - Public project pages.
 - External reputation export.

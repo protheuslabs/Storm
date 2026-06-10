@@ -26,6 +26,7 @@ Deliverables:
 - Add database schema migration setup.
 - Add seed data for demo projects and tasks.
 - Establish initial module boundaries for users, projects, tasks, review, ledger, reputation, and applets.
+- Establish workflow orchestration and audit/event module boundaries.
 - Add contract-test pattern for subsystem interfaces.
 
 ## Milestone 2: Identity And Roles
@@ -36,6 +37,7 @@ Deliverables:
 - Basic profiles.
 - Role support for project owner, contributor, reviewer, and admin.
 - Authorization checks for project and task actions.
+- Separate public contributor identity from private account/payment identity where possible.
 
 ## Milestone 3: Projects And Tasks
 
@@ -57,6 +59,7 @@ Deliverables:
 - Claim task.
 - Release or expire claim.
 - Submit work artifacts and notes.
+- Artifact storage for submission links/files and source references.
 - View contributor task dashboard.
 
 ## Milestone 5: Review Flow
@@ -98,6 +101,8 @@ Deliverables:
 - Subsystem contract tests.
 - Permission tests.
 - Ledger correctness tests.
+- Workflow transition tests.
+- Audit/event emission tests.
 - Seeded demo scenario.
 - Basic admin visibility.
 - Native mechanism inventory with likely future InfRing replacement targets.

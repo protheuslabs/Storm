@@ -40,20 +40,28 @@ Storm should not add network complexity before the core product loop works.
 
 Likely subsystems include:
 
+- Workflow orchestration.
 - Project and task workflow.
 - Applet framework.
+- Identity, permissions, and roles.
+- Artifact storage.
 - Task decomposition.
 - Review and dispute handling.
 - Reputation.
 - Value policy and contribution valuation.
 - Value ledger.
 - Payments.
+- Fraud, risk, and anti-collusion.
+- Search, discovery, and matching.
 - Provenance and contribution graph.
 - Versioning and forks.
 - Originality and rights enforcement.
 - AI training provenance.
-- Identity and permissions.
 - Notifications.
+- Privacy, consent, and data access.
+- API and integration layer.
+- Audit/event bus.
+- Policy engine.
 - Governance and release switch.
 - InfRing adapters.
 

@@ -481,3 +481,26 @@ Consequences:
 - Applets should define domain semantics without bypassing shared platform subsystems.
 - Provider interfaces make it easier to replace native mechanisms with InfRing primitives later.
 - Contract tests become important before subsystems grow complex.
+
+### 2026-06-10: Add Practical Subsystem Inventory
+
+Decision:
+
+Storm should track a practical subsystem inventory alongside the visionary subsystems. The missing or underdeveloped areas include workflow orchestration, identity and roles, artifact storage, review/dispute, payments and compliance, fraud/risk, search and matching, notifications, policy engine, audit/event bus, privacy/consent, and API/integration boundaries.
+
+Context:
+
+The user asked whether any subsystems were missing. The existing docs covered major visionary pieces such as decomposition, value routing, rights enforcement, versioning, AI provenance, applets, and InfRing migration, but several practical product subsystems needed to be called out explicitly.
+
+Alternatives considered:
+
+- Leave these as implementation details.
+- Fold practical subsystems into the broad modularity doc only.
+- Document only future InfRing-facing mechanisms.
+
+Consequences:
+
+- Storm now has a subsystem inventory with MVP-critical, early-platform, growth, and future-substrate categories.
+- The first build should prioritize workflow orchestration, identity/permissions, project/task core, review/dispute basics, ledger, basic reputation, Story Forge, artifact storage, and audit/events.
+- Growth subsystems such as payments/compliance, fraud/risk, search/matching, privacy/consent, and integrations are documented before they become urgent.
+- The inventory gives implementation a map without forcing premature microservices.

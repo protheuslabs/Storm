@@ -9,6 +9,7 @@ Goals:
 - Define workflows.
 - Define domain model.
 - Define subsystem boundaries.
+- Define subsystem inventory and first-build priorities.
 - Identify open product, legal, payment, and trust questions.
 
 Deliverables:
@@ -17,6 +18,7 @@ Deliverables:
 - Product decision log.
 - MVP build plan.
 - Subsystem modularity plan.
+- Subsystem inventory.
 
 ## Phase 1: Manual MVP
 
@@ -29,6 +31,7 @@ Goals:
 - Use fixed visible task values rather than algorithmic contribution scoring.
 - Prove Story Forge as the first crowdsourced project vertical.
 - Keep MVP code modular enough for later subsystem expansion.
+- Establish workflow orchestration, artifact storage, and audit/event foundations.
 
 Deliverables:
 
@@ -42,6 +45,8 @@ Deliverables:
 - Default fixed-task-value policy.
 - Basic reputation events.
 - Initial subsystem interfaces and contract tests.
+- Basic artifact records.
+- Structured workflow/audit events.
 
 ## Phase 2: Trust And Quality
 
@@ -52,6 +57,7 @@ Goals:
 - Add dispute handling.
 - Make reputation useful for task matching.
 - Start making value explanations consistent across tasks, reviews, fees, and adjustments.
+- Start separating reputation from fraud and risk signals.
 
 Deliverables:
 
@@ -62,6 +68,7 @@ Deliverables:
 - Contributor reliability metrics.
 - Review accuracy metrics.
 - Allocation explanation template.
+- Initial fraud/risk signal inventory.
 
 ## Phase 3: Assisted Coordination
 
@@ -143,11 +150,14 @@ Goals:
 - Increase liquidity.
 - Support broader project types.
 - Improve payment automation.
+- Introduce search, discovery, and matching as a real subsystem.
 
 Deliverables:
 
 - Public project discovery.
 - Contributor search.
+- Task search and ranking.
+- Skill and interest indexing.
 - Saved skills and interests.
 - Payment provider integration.
 - Payout status tracking.
@@ -159,6 +169,7 @@ Goals:
 
 - Test community-led validation and coordination.
 - Let high-reputation users help govern work quality.
+- Improve fraud, risk, and anti-collusion controls.
 
 Deliverables:
 
@@ -166,6 +177,7 @@ Deliverables:
 - Community arbitration.
 - Reputation-weighted review experiments.
 - Transparent fee and reserve reporting.
+- Review-ring and collusion detection prototype.
 
 ## Phase 5.5: Originality And Rights Enforcement
 
@@ -234,6 +246,7 @@ Goals:
 
 - Explore World Eye-style problem intelligence.
 - Explore Bolt-style real-world bounties only after legal and safety analysis.
+- Define privacy, consent, and data-access boundaries for broader data use.
 
 Deliverables:
 
@@ -242,6 +255,7 @@ Deliverables:
 - Public problem bounty prototype.
 - Safety and liability requirements.
 - Real-world task feasibility review.
+- Privacy and consent review.
 
 ## Phase 9: Protheus/InfRing Network Transition
 

@@ -136,6 +136,8 @@ Storm should keep major subsystems modular even if the first implementation is a
 
 Subsystems such as decomposition, review, reputation, value policy, ledger, versioning, rights enforcement, AI provenance, and InfRing adapters should communicate through explicit contracts and events. This prevents applets from coupling directly to internal authority mechanisms and keeps native providers replaceable later.
 
+The missing practical subsystems are just as important as the visionary ones: workflow orchestration, identity and roles, artifact storage, payments/compliance, fraud and risk, search and matching, notifications, privacy and consent, integrations, policy engine, and audit/event bus. These are the plumbing that lets the big thesis behave like a real product.
+
 ## Group
 
 A group is a persistent collaboration unit. It may be closer to a community, team, company, guild, or decentralized organization depending on its rules.
