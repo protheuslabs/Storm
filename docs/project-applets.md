@@ -71,7 +71,8 @@ Suggested order:
 3. Game Forge: game design, narrative, assets, and mechanics.
 4. Research Forge: source-backed research and synthesis projects.
 5. Invention Forge: physical inventions, prototypes, CAD, and manufacturing paths.
-6. Organization Forge: groups, alliances, and business spinouts.
+6. Delivery Forge: delivery planning, boards, milestones, and execution reporting.
+7. Organization Forge: groups, alliances, and business spinouts.
 
 The exact order should change based on traction, but the principle should stay: start with the simplest applets that prove the core model.
 

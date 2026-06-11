@@ -8,6 +8,7 @@
 - Should Story Forge be limited to one initial format, such as short stories or serialized fiction?
 - Which story task types should ship first?
 - How should Story Forge represent canon in the MVP?
+- How much planning metadata should be in MVP versus a future Delivery Forge applet?
 - What is the first project category Storm should support?
 - Should Storm start with software projects, creative projects, operational tasks, research tasks, or another niche?
 - Who creates tasks in the first version: project owners, Storm staff, AI assistance, or the crowd?
@@ -211,6 +212,7 @@
 - How should privacy and consent rules be enforced across applets?
 - When should fraud/risk become separate from reputation?
 - What is the first useful search and matching model?
+- What constitutes a meaningful board/sprint/release abstraction for non-software work in Delivery Forge?
 - Should matching require explicit project quality gates before users are surfaced?
 - What integrations matter first: GitHub, Google Docs, Figma, payments, publishing, or InfRing?
 - Which policy types must be versioned before paid work begins?

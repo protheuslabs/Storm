@@ -204,6 +204,7 @@ Goals:
 - Increase liquidity.
 - Support broader project types.
 - Improve payment automation.
+- Add serious execution and planning tooling (boards, timelines, dependencies, templates).
 - Introduce search, discovery, and matching as a real subsystem.
 
 Deliverables:
@@ -212,6 +213,9 @@ Deliverables:
 - Contributor search.
 - Task search and ranking.
 - Skill and interest indexing.
+- Board and sprint planning surfaces for large teams.
+- Milestones, dependency maps, and release planning.
+- Template library for repeatable work types.
 - Saved skills and interests.
 - Payment provider integration.
 - Payout status tracking.

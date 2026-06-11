@@ -61,6 +61,8 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 
 - Fully automated AI task decomposition.
 - Automated contributor matching.
+- Advanced project planning, portfolio views, board management, and automation.
+- Linear/Jira/Airtable-style PM workflows and native reporting.
 - Complex legal contracting.
 - Crypto payouts.
 - Multi-currency payout flows.

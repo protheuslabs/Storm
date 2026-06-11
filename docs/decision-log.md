@@ -596,3 +596,25 @@ Consequences:
 - Matching remains future scope and should be gated by project/task quality criteria.
 - Product docs now separate workflow readiness from long-term matching automation.
 - Story Forge and other applets should inherit this staged model to keep trust and complexity in check.
+
+### 2026-06-10: Add Delivery Management As Future Applet Layer
+
+Decision:
+
+Storm should eventually support strong project-management capabilities comparable to Linear, Airtable, and Jira, with planning, milestones, dependencies, templates, and reporting becoming first-class delivery management features in later phases.
+
+Context:
+
+The user indicated the system needs to become a full project management system over time, not just a marketplace. Story-level task execution and payout mechanics are still the MVP foundation, but stronger planning and team delivery workflows are required for long-term adoption.
+
+Alternatives considered:
+
+- Keep Storm scoped to tasks only and rely on external PM tools indefinitely.
+- Treat PM features as unstructured metadata from day one.
+- Build PM features before validating crowdsourced task/review economics.
+
+Consequences:
+
+- Storm documentation now includes delivery planning and PM capabilities as a growth track.
+- MVP remains focused on task proof and private-to-invite workflows.
+- A delivery-management applet is added to the applet sequence for later phases.

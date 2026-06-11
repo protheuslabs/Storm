@@ -89,6 +89,24 @@ Why it matters:
 
 Review decides whether people get paid. That authority must be explicit, accountable, and auditable.
 
+### Delivery Planning And PM
+
+Owns planning, delivery, and reporting layers that sit above core task execution.
+
+Responsibilities:
+
+- Board-style and table views for active work.
+- Milestones, objectives, and release planning.
+- Dependency graphs.
+- Sprints/cadence controls.
+- Custom fields and project metadata templates.
+- Status taxonomies and reporting rollups.
+- Cross-project portfolio and throughput views (future).
+
+Why it matters:
+
+Task execution is the base loop; delivery planning turns Storm into a true work management layer for teams.
+
 ### Value Ledger
 
 Owns economic records.

@@ -110,6 +110,12 @@ Contribution stewardship is the idea that the people who contribute to a project
 
 In Storm, ownership should not be the deepest primitive. Provenance, usage rights, governance rules, and value routing matter more.
 
+## Delivery Planning
+
+Storm should eventually include a full delivery management plane beyond task execution: rich project views, board-style workflows, milestones, dependencies, repeatable templates, and reporting.
+
+This layer is separate from core task execution so it can be introduced after the first paid proof loop is stable.
+
 ## Non-Withholding Legal Wrapper
 
 A non-withholding legal wrapper is a patent, business, license, contract, or entity structure that can interact with existing law while preserving Storm's contribution and value-routing rules.

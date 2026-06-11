@@ -14,6 +14,8 @@ The broad product ambition is an idea-to-value engine: a person can plant a crea
 
 Storm should expand through project applets: focused vertical workspaces that share the same core primitives while keeping domain-specific complexity separated.
 
+In the long term, Storm also needs Linear/Jira/Airtable-like delivery surfaces: planning, milestones, dependencies, custom fields, portfolio views, and execution reporting, but those should appear after the core crowd-work loop is stable.
+
 The intended execution path is a staged collaboration model:
 
 - Solo and private execution.
