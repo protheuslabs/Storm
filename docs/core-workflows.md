@@ -10,15 +10,34 @@
 
 For Story Forge, the project owner defines premise, genre, format, tone, target audience, canon notes, and target artifact.
 
+## 1A. Solo Idea Workspace
+
+1. The owner writes a structured idea capsule with goal, context, constraints, and desired outcome.
+2. The owner refines the capsule in private draft mode and may create draft tasks.
+3. The owner can complete early tasks themselves before any invitees join.
+4. The project remains private until the owner explicitly opens it.
+
+## 1B. Invite-Based Collaboration
+
+1. The owner converts a private idea capsule into a draft project.
+2. The owner chooses access mode: private, invite-only, or open.
+3. Invitees join through explicit invitations only.
+4. Owner can revoke access and pause contribution for the project.
+
 ## Future: Idea To Project
 
 1. User records an idea, problem, suggestion, or goal.
-2. Other users clarify, decompose, research, or fund it.
-3. Storm tracks useful contribution events.
-4. The idea becomes a project when it has enough clarity, ownership, funding, or committed contributors.
+2. The owner can choose to refine alone before sharing.
+3. Other users clarify, decompose, research, or fund it after explicit access is enabled.
+4. Storm tracks useful contribution events.
+5. The idea becomes a project when it has enough clarity, ownership, funding, or invited contributors.
 5. Any residual attribution rules are resolved before paid project work begins.
 
-This workflow is future scope. The MVP starts at project creation.
+In MVP, this is staged:
+
+- Idea capture and private refinement are in scope.
+- Invite-based project launch is in scope.
+- Broad contributor matching is future scope, after task quality and policy are stable.
 
 ## 2. Create Task
 

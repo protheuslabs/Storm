@@ -2,7 +2,7 @@
 
 ## Goal
 
-Prove that Storm can coordinate crowdsourced projects through small tasks with clear acceptance criteria, review, and transparent payout tracking.
+Prove that Storm can coordinate crowdsourced projects through small tasks with clear acceptance criteria, review, and transparent payout tracking, while also supporting individuals who start in private idea/workspace mode before inviting collaborators.
 
 The MVP is not a generic freelancer marketplace. It is the first working version of a project model where distributed contributors can collectively execute meaningful work without a company acting as the central owner, manager, and value extractor.
 
@@ -14,6 +14,8 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 
 - Create a project.
 - Define project objective, description, owner, budget, status, and target outcome.
+- Start from a private idea capsule that can later become a full project.
+- Add contributors manually by invite.
 - View project progress by task status.
 - For Story Forge, define story premise, format, genre, tone, audience, canon notes, and target artifact.
 
@@ -31,6 +33,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Create contributor profiles.
 - Track claimed tasks, submitted tasks, approved tasks, rejected tasks, and earned value.
 - Show basic reputation signals.
+- Support owner-only solo workflows before opening collaboration.
 
 ### Review
 
@@ -57,6 +60,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 ## Out Of Scope For First MVP
 
 - Fully automated AI task decomposition.
+- Automated contributor matching.
 - Complex legal contracting.
 - Crypto payouts.
 - Multi-currency payout flows.

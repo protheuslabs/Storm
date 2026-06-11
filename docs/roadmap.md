@@ -78,6 +78,7 @@ Goals:
 - Track transparent value allocation in a ledger.
 - Use fixed visible task values rather than algorithmic contribution scoring.
 - Prove Story Forge as the first public crowdsourced project vertical.
+- Introduce idea workspace and invitation-first collaboration flow.
 - Keep MVP code modular enough for later subsystem expansion.
 - Establish workflow orchestration, artifact storage, and audit/event foundations.
 
@@ -87,6 +88,8 @@ Deliverables:
 - Project dashboard.
 - Task marketplace.
 - Story project fields and story task templates.
+- Idea workspace flows and private-to-invite conversion.
+- Invite-only project access controls (invite link, owner role, revocation).
 - Story Forge public project loop.
 - Task claim and submission flow.
 - Review flow.

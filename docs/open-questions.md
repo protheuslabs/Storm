@@ -15,6 +15,9 @@
 - Should tasks be exclusive claims or open competitions?
 - Should contributors be allowed to claim multiple tasks at once?
 - Should ideas exist before projects, or should all early ideas become draft projects?
+- What is the minimum idea capsule schema needed for solo-first work?
+- What access states are required for MVP (private, invite-only, open)?
+- When should a project transition from private to invite-only to broader matching?
 - Should creative seeds be modeled separately from ideas?
 - What is the first useful version of a recursive container model?
 - Should microtasks be a real MVP feature or a later optimization?
@@ -106,6 +109,7 @@
 - What evidence is required before penalizing suspected bot use?
 - How can Storm detect automation without over-surveilling contributors?
 - Which agent authorization or session records should become InfRing receipts?
+- How should invite-only projects expose agent participation in policy and audit records?
 
 ## Intellectual Property
 
@@ -207,6 +211,7 @@
 - How should privacy and consent rules be enforced across applets?
 - When should fraud/risk become separate from reputation?
 - What is the first useful search and matching model?
+- Should matching require explicit project quality gates before users are surfaced?
 - What integrations matter first: GitHub, Google Docs, Figma, payments, publishing, or InfRing?
 - Which policy types must be versioned before paid work begins?
 - How should notification and messaging boundaries work without becoming a social network?

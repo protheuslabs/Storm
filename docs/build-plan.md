@@ -64,6 +64,9 @@ Deliverables:
 
 - Create and edit projects.
 - Create and edit tasks.
+- Create idea capsules and convert them into projects.
+- Set project visibility (private, invite-only).
+- Invite collaborators manually with owner-controlled membership.
 - Define whether a task expects human-only work or allows disclosed AI assistance.
 - Backend task candidate generation interface for applet templates or temporary decomposition helpers.
 - Decomposition UI for reviewing and accepting task candidates.
@@ -92,6 +95,7 @@ Deliverables:
 - Required review notes for rejection and changes.
 - Submission history.
 - Reviewer dashboard.
+- Invite membership state machine (invited, active, paused, removed).
 
 ## Milestone 6: Ledger And Reputation Events
 

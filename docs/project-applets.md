@@ -4,6 +4,12 @@ Project applets are Storm's expansion pattern.
 
 Storm should provide a shared project substrate, then layer focused project-type applets on top. Each applet can add domain-specific fields, task templates, workflows, review criteria, artifact types, and export formats without contaminating the generic Storm core.
 
+Each applet should also handle a concept of how a draft idea moves into collaborative execution:
+
+- private owner-only work,
+- invite-only participation, and
+- optional open/discovery mode later.
+
 ## Core Principle
 
 Keep the foundation generic. Add complexity only inside the applet that needs it.
@@ -32,6 +38,7 @@ Applets should handle:
 - Domain-specific review rubrics.
 - Domain-specific merge/export flows.
 - Domain-specific vocabulary.
+- Idea workspace fields and conversion rules from seed to formal project.
 
 In later versions, applets may also provide decomposition constraints to InfRing. InfRing can propose decomposed tasks, while the applet decides which domain-specific templates, artifacts, and review rules apply.
 

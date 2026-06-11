@@ -12,6 +12,7 @@ This repo is starting with documentation first. The initial docs define the prod
 
 - [Vision](docs/vision.md)
 - [Product Brief](docs/product-brief.md)
+- [Idea Workspace And Collaboration Path](docs/idea-workspace-and-collaboration-path.md)
 - [Positioning And First Wedge](docs/positioning-and-wedge.md)
 - [Project Applets](docs/project-applets.md)
 - [Story Forge Vertical](docs/story-forge-vertical.md)

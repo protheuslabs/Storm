@@ -14,7 +14,7 @@ Storm's socioeconomic thesis is that contribution-based value routing can resolv
 
 ## Mission
 
-Help people create, coordinate, validate, and get paid through crowdsourced projects where contributors keep the overwhelming majority of the value they generate.
+Help people create, coordinate, validate, and get paid through crowdsourced projects where contributors keep the overwhelming majority of the value they generate, whether they are working alone or with collaborators.
 
 ## Positioning Discipline
 
@@ -27,6 +27,7 @@ The recommended first public product is Story Forge: collaborative story creatio
 - Creative ideas can have value.
 - Useful positive action should be compensable.
 - Coordination should not require surrendering most of the upside.
+- Ideas should be scaffolded early in a private workspace so a person can start alone and only invite others when useful.
 - Contributors should benefit when later work builds on what they created.
 - People should be able to contribute flexibly, from small tasks to deeper project ownership.
 - Creative input can compound when the system preserves attribution and routes downstream value back to contributors.
@@ -41,7 +42,7 @@ The recommended first public product is Story Forge: collaborative story creatio
 
 Storm should make it possible for a project to move from idea to execution through an open network of contributors:
 
-- A user records an idea, goal, problem, or opportunity.
+- A user records an idea, goal, problem, or opportunity, and works in a private or invite-only workspace before opening collaboration.
 - A project owner defines an objective and budget.
 - Storm decomposes the objective into small executable tasks.
 - Contributors claim work that fits their skills and availability.

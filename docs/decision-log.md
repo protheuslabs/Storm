@@ -573,3 +573,26 @@ Consequences:
 - Storm's long-term ecosystem role is explicit without changing the Story Forge MVP wedge.
 - The docs distinguish founding stewardship and origin value from hidden platform ownership.
 - Future architecture must account for consent, portability, cross-product provenance, anti-capture governance, and release-switch credibility.
+
+### 2026-06-10: Define Idea Workspace Then Invite, Then Match
+
+Decision:
+
+Storm should support a staged execution model: private idea workspace and solo work first, manual invite-based collaboration second, and algorithmic matching only after stable task decomposition and access controls.
+
+Context:
+
+The user clarified that Storm should be useful for individuals storing and developing ideas, with solo workflow treated as a first-class path. Collaboration should initially be explicit and invite-driven before matching systems expand participation, and this should feed into Story Forge as the first applet.
+
+Alternatives considered:
+
+- Require project posting and matching at launch.
+- Keep everything invite-only indefinitely.
+- Start with public matching and defer solo workflows indefinitely.
+
+Consequences:
+
+- MVP should include idea capsules, private drafting, and explicit invite mechanics.
+- Matching remains future scope and should be gated by project/task quality criteria.
+- Product docs now separate workflow readiness from long-term matching automation.
+- Story Forge and other applets should inherit this staged model to keep trust and complexity in check.

@@ -6,11 +6,19 @@ Storm is an operating system for crowdsourced project execution.
 
 It helps people turn project goals into small tasks, distribute those tasks to contributors, validate completed work, and pay contributors transparently.
 
+The practical minimum is to support individuals first: a person should be able to use Storm to scaffold an idea, keep it private, and then open it to contributors when the work is ready.
+
 Longer term, Storm is a value-coordination system: ideas, research, task decomposition, execution, review, and governance can all become tracked contributions.
 
 The broad product ambition is an idea-to-value engine: a person can plant a creative seed, the crowd can help manifest it, and contributors can receive value when their input creates downstream value. The endgame is a system broad enough that people can do all of their work through crowdsourced projects instead of defaulting to corporations.
 
 Storm should expand through project applets: focused vertical workspaces that share the same core primitives while keeping domain-specific complexity separated.
+
+The intended execution path is a staged collaboration model:
+
+- Solo and private execution.
+- Manual invitation-based collaboration.
+- Algorithmic matching only after task breakdown and task quality signals are stable.
 
 ## Positioning
 
@@ -68,7 +76,8 @@ Market-facing MVP language should lead with Story Forge, not the full breadth of
 
 ## Primary Use Cases
 
-- A creator starts a story project and contributors complete scenes, character profiles, lore entries, edits, and continuity reviews.
+- A creator starts a story project and contributes alone at first to refine premise, structure, and core tasks.
+- A creator invites one or two collaborators manually to fill specific tasks (scene drafts, edits, lore, continuity, etc.).
 - A founder breaks a product idea into research, design, engineering, and launch tasks.
 - A creator funds a community project and pays contributors for discrete deliverables.
 - An open-source maintainer posts paid issues with clear acceptance criteria.
@@ -91,6 +100,7 @@ Market-facing MVP language should lead with Story Forge, not the full breadth of
 - Originality and rights enforcement can help stop users from copying Storm contributors or importing externally owned work without permission.
 - Authorized agents can participate through explicit channels without pretending to be human contributors.
 - Applets keep simple verticals simple while allowing complex verticals to add only the extra workflow they need.
+- Idea scaffolding and solo execution are first-class capabilities before broader crowd matching.
 - Story Forge gives Storm a concrete wedge that can prove the core primitives before broader project categories are introduced.
 
 ## Early Success Metrics

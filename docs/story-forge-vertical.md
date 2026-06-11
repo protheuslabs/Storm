@@ -2,11 +2,11 @@
 
 Story Forge is the proposed first Storm project applet: a crowdsourced story creation system.
 
-It lets users create story projects, break them into clear creative tasks, invite or allow contributors to complete pieces, review submissions, and route value transparently.
+It lets users create story projects, break them into clear creative tasks, work in a private first pass, invite contributors manually, review submissions, and route value transparently.
 
 Story Forge should prove the applet model. Storm core should handle projects, tasks, review, ledger, reputation, and provenance; Story Forge should add only story-specific metadata, task templates, canon handling, editorial review criteria, and story artifact export.
 
-The first Story Forge MVP can use manually created story tasks, static templates, or a lightweight Story Forge decomposition helper. Later, Story Forge should merge that decomposition path with InfRing task decomposition so a story premise and constraints can become receipted candidate tasks such as scene drafts, character profiles, line edits, and continuity reviews.
+The first Story Forge MVP can use manually created story tasks, static templates, or a lightweight Story Forge decomposition helper. It starts as a private draft workspace, then supports invite-only collaboration, then later can add matching. Story Forge should then merge that decomposition path with InfRing task decomposition so a story premise and constraints become receipted candidate tasks such as scene drafts, character profiles, line edits, and continuity reviews.
 
 ## Public Wedge
 
