@@ -68,6 +68,19 @@ Authorization should be designed early because the platform has multiple roles:
 
 Identity should separate public contributor identity from private legal, payment, and future network identity where practical.
 
+### Actor Channels
+
+The same workflow subsystem should accept actions from both human UI sessions and future agent clients.
+
+Practical rule:
+
+- Human users and authorized agents should land on the same workflow contracts.
+- No separate workflow authority for agent traffic.
+- The actor type (`human` or `agent`) should be an explicit audited attribute in records.
+- Command/API traffic should pass through the same validation layers as UI traffic.
+
+A command API can be introduced as a separate client transport rather than a second workflow system. The command path should emit normal workflow transitions with a machine-generated `execution context` and explicit execution mode.
+
 ### Artifact Storage
 
 Submissions, evidence, exports, source references, and future datasets need stable artifact records. The MVP can start with links and simple stored files, but artifact references should be durable enough to support provenance, review, rights checks, and future receipts.

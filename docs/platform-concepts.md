@@ -134,6 +134,11 @@ Agent participation and bot control is the future subsystem that allows approved
 
 Storm should distinguish human-only work, human-assisted work, agent-assisted work, and authorized agent execution. The important rule is disclosure and accountability: agents can help, but they should not impersonate human contributors or reviewers.
 
+Agents should use the same core mechanisms as people, with parity in task claims, submissions, review states, payouts, and auditability. The operational difference should be the transport:
+
+- Humans use the UI.
+- Agents use command/API clients with the same workflow contracts.
+
 ## Protheus Network Node
 
 A future Protheus network node is a user-owned runtime participant that can hold local authority, produce receipts, validate incoming signals, and participate in network coordination.

@@ -111,6 +111,8 @@
 - How can Storm detect automation without over-surveilling contributors?
 - Which agent authorization or session records should become InfRing receipts?
 - How should invite-only projects expose agent participation in policy and audit records?
+- Should the command API become the primary write path for all external agents?
+- Which command-level reason codes are required for failed authorization or state-policy denials?
 
 ## Intellectual Property
 

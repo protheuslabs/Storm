@@ -123,6 +123,10 @@ Deliverables:
 - Allocation explanation template.
 - Initial fraud/risk signal inventory.
 - Basic AI-assistance disclosure field.
+- Authorized-agent command contract prototype:
+  - `claim`, `submit`, `request_review`, and `dispute` command verbs.
+  - Explicit execution mode in every command.
+  - Same policy validation behavior as UI actions.
 
 ## Phase 3: Assisted Coordination
 

@@ -14,6 +14,29 @@ Each decision should include:
 
 ## Decisions
 
+### 2026-06-10: Enforce Actor Parity for Users and Agents
+
+Decision:
+
+Storm should model humans and authorized agents against the same task-workflow mechanisms, with agents using a command/API transport that enforces the same task state transitions, review rules, payout policy, and audit events.
+
+Context:
+
+Users requested that agent swarm participation should be possible without creating a separate trust system from humans. Authorized agents should use the same principles as users, but expose a command-style interface (and eventually API) for automated execution.
+
+Alternatives considered:
+
+- Build two independent paths: one for humans and one for agents.
+- Ban agents entirely to protect reputation integrity.
+- Allow silent automation in exchange for post-hoc detection.
+
+Consequences:
+
+- Command execution should be an API transport, not a separate workflow authority.
+- Core records like claim, submission, review, dispute, payout, and reputation stay unchanged for both actor types.
+- Authorization should shift to explicit `agent authorization` + execution mode policy, rather than hidden capability assumptions.
+- Product roadmap and subsystem docs now track the command API as a future integration layer.
+
 ### 2026-06-09: Start With Documentation First
 
 Decision:

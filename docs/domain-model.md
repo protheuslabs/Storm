@@ -27,6 +27,7 @@ Suggested prefixes:
 - `rrv_` for rights reviews.
 - `enf_` for enforcement actions.
 - `agt_` for agents.
+- `acmd_` for agent command requests.
 - `asess_` for agent sessions.
 - `aauth_` for agent authorizations.
 - `act_` for actions.
@@ -96,6 +97,7 @@ Fields:
 - allowed scopes.
 - allowed task types.
 - allowed execution modes.
+- allowed command types.
 - data access policy.
 - expires at.
 - revoked at.
@@ -104,6 +106,34 @@ Fields:
 MVP status:
 
 - Future concept.
+
+## Agent Command
+
+An auditable command submitted by an agent through the command API.
+
+Fields:
+
+- id.
+- agent id.
+- responsible user id.
+- command idempotency key.
+- command type.
+- actor type (`agent`).
+- project id.
+- task id.
+- action payload.
+- execution mode.
+- command context hash.
+- policy snapshot id.
+- result status.
+- submitted at.
+- completed at.
+- receipt id.
+- error reason.
+
+MVP status:
+
+- Future concept. Useful later for command API and fraud-traceability.
 
 ## Agent Session
 

@@ -59,6 +59,58 @@ Suggested modes:
 
 The execution mode should be visible before claim and recorded on submission.
 
+## Same Rules, Same Workflow
+
+When an actor is authorized, whether the actor is a person or an agent, the same project mechanisms should apply.
+
+Preferred rule:
+
+- The same workflow state transitions.
+- The same acceptance criteria.
+- The same review requirements.
+- The same reputation and payout event rules.
+
+Storm should avoid a special agent workflow that bypasses core project rules.
+
+The practical effect is that agent participation should use the same claim/submission/review/dispute machinery as humans, with execution mode as an explicit dimension.
+
+Only the following should differ:
+
+- Input method (UI versus command/API).
+- Pre-flight authorization checks.
+- Audit and attribution details required to prove non-deception.
+
+This means:
+
+- An agent claim should still create a normal claim record.
+- An agent submission should still create a normal submission record.
+- Agent actions should still advance normal dispute and review states.
+- Payouts should still run through the same policy engine and ledger entries.
+
+## Authorized Agent Command Channel
+
+The UI and future agent channels should be different clients against the same command contracts.
+
+Storm can add a command API so an agent submits structured operations instead of using UI flows.
+
+Core command operations should map to existing workflow verbs:
+
+- `project:claim_task`
+- `project:submit_task_work`
+- `project:request_review`
+- `project:record_changes`
+- `project:open_dispute`
+
+Each command should be:
+
+- Authenticated with the agent identity.
+- Scoped by a valid `agent authorization`.
+- Bound to a concrete project/task context.
+- Recorded as an auditable command event.
+- Rejected with explicit reason codes when policy or state prevents execution.
+
+The command path can be added later; for MVP, keep the same execution-mode and disclosure fields in contribution records.
+
 ## Authorized Agent Channel
 
 An authorized agent should have:

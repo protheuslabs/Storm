@@ -361,6 +361,9 @@ Responsibilities:
 - Publishing platforms.
 - Patent/search providers.
 - InfRing adapters.
+- Agent command API.
+- Command authorization checks and scopes.
+- Signed command execution context for machine actors.
 
 Why it matters:
 

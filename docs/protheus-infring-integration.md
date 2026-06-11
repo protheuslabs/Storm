@@ -151,6 +151,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Originality check | Rights evidence or validation receipt |
 | Rights review | Evidence bundle plus governance decision |
 | Agent session | Delegated execution receipt |
+| Agent command request | Delegation command receipt |
 | Group or alliance | Governed network collective |
 | Project fork or branch | Version/fork lineage primitive |
 | Merge proposal | Receipt-backed merge decision |

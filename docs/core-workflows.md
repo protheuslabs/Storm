@@ -120,3 +120,11 @@ The UI owns review and interaction. The backend owns decomposition logic and can
 - Can contributors propose new tasks?
 - When should an idea become a project?
 - Which contribution events deserve payout, reputation, or residual attribution?
+
+## Agent Command Parity (Future)
+
+When command API support is introduced, the same workflow operations should be used:
+
+- Claim, submit, and dispute actions remain the same workflow verbs.
+- The command surface is a transport and policy-attested input method.
+- The workflow and policy engine remains the same source of truth for state transitions.
