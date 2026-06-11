@@ -122,6 +122,22 @@ A non-withholding legal wrapper is a patent, business, license, contract, or ent
 
 The purpose of the wrapper is not to let a legal owner capture value. It is to make sure external legal systems cannot erase contributor rights.
 
+## Legal Documentation And Filing
+
+Legal operations are a required layer for later stages.
+
+Storm should generate required legal records from policy templates, then either:
+
+- submit through an automated provider/API path where available,
+- or notify participants and require proof of filing when manual action is needed.
+
+The same policy engine should determine when filing proof blocks:
+
+- project launch,
+- payout release,
+- residual/spinout operations,
+- and major rights-impacting transitions.
+
 ## Originality And Rights Enforcement
 
 Originality and rights enforcement is the future subsystem that checks whether submitted work is original, properly licensed, or authorized for use.

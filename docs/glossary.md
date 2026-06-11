@@ -92,6 +92,18 @@ A user-visible explanation of why a value allocation happened and which policy, 
 
 A patent, business, license, contract, or legal entity used to interact with existing law while preserving Storm's contribution and value-routing rules.
 
+## Legal Document
+
+An issued or in-progress legal record (terms, assignment, compliance, filing packet) associated with a project or workflow.
+
+## Legal Filing
+
+An attempt to submit required legal paperwork through an automated or manual path, with proof of submission recorded as auditable evidence.
+
+## Filing Receipt
+
+Evidence returned from or produced during a filing flow (provider confirmation, uploaded certificate, submitted hash, and timestamp) used for legal gating.
+
 ## Merge Proposal
 
 A reviewable request to merge work from one version, branch, fork, or project line into another.

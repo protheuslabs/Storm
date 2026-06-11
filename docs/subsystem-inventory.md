@@ -346,6 +346,24 @@ Why it matters:
 
 Storm will handle sensitive work, money, identity, legal records, and training data. Privacy cannot be bolted on later.
 
+### Legal Documentation And Filing
+
+Owns legal-document lifecycle for project-level and workflow-level compliance obligations.
+
+Responsibilities:
+
+- Legal document template catalog.
+- Generated legal packet generation per policy.
+- Filing channel selection (auto-submit, partner/API, user manual path).
+- Notifications for required user actions.
+- Proof-of-submission storage (receipt, confirmation number, signed file hash, uploader identity).
+- State gating tied to legal obligations (project launch, payout, residual actions).
+- Audit records for legal exceptions and waivers.
+
+Why it matters:
+
+Contribution records do not fully operationalize trust without legal closure points. This subsystem helps projects move from technical completion to legally recognized completion.
+
 ### API And Integration Layer
 
 Owns external system boundaries.

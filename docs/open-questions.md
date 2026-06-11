@@ -164,6 +164,7 @@
 - Should Protheus Labs receive a permanent protocol-origin allocation?
 - How can Protheus Labs collect origin value without retaining control?
 - What legal wrapper is needed before a release switch?
+- How should legal-template obligations be scoped per jurisdiction and applet?
 
 ## Release Switch
 
@@ -183,6 +184,10 @@
 - What jurisdictions will the MVP support?
 - What tax reporting obligations apply?
 - What worker classification risks exist?
+- Which legal paperwork should Storm generate directly versus via partner filing channels?
+- Which filing types should trigger mandatory proof-of-submission checks?
+- What proof formats count as sufficient evidence for legal readiness (document hash, provider receipt, notarized confirmation)?
+- How should legal obligations be surfaced to users without creating legal liability for policy decisions?
 
 ## Technical
 

@@ -37,6 +37,29 @@ Consequences:
 - Authorization should shift to explicit `agent authorization` + execution mode policy, rather than hidden capability assumptions.
 - Product roadmap and subsystem docs now track the command API as a future integration layer.
 
+### 2026-06-10: Add Legal Documentation And Filing Subsystem
+
+Decision:
+
+Storm should add a dedicated legal-documentation and filing subsystem that can generate required documents, submit where partner APIs exist, notify users for manual filing, and require proof records before legal-sensitive transitions.
+
+Context:
+
+As Storm scales into residual claims, spinouts, and higher-value workflows, legal closure points are required to reduce risk and improve trust.
+
+Alternatives considered:
+
+- Treat legal paperwork as one-off user notes.
+- Delay legal workflows until enterprise integrations are built.
+- Require legal actions before launch at the expense of MVP simplicity.
+
+Consequences:
+
+- Legal docs are treated as a future modular subsystem with template, filing, and proof-state records.
+- Workflow transition gating should query legal state through policy, not hardcoded codepaths.
+- Users can continue operating through a notification/manual filing workflow where automation is unavailable.
+- Proof-of-submission artifacts become first-class audit inputs and future receipt inputs.
+
 ### 2026-06-09: Start With Documentation First
 
 Decision:

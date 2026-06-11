@@ -120,6 +120,8 @@ The UI owns review and interaction. The backend owns decomposition logic and can
 - Can contributors propose new tasks?
 - When should an idea become a project?
 - Which contribution events deserve payout, reputation, or residual attribution?
+- Can legal-document requirements gate project launch, payout, or residual flows?
+- What proof of filing is sufficient to unlock these states?
 
 ## Agent Command Parity (Future)
 

@@ -10,7 +10,7 @@ Project -> Task -> Claim -> Submit -> Review -> Ledger -> Reputation.
 
 The first build should prove crowdsourced projects, not a generic task board. It should show that distributed contributors can collectively move a project forward through claimable work, accountable review, and transparent value allocation.
 
-The first build should not implement residual compensation, AI training provenance, automated originality and rights enforcement, sophisticated bot or unauthorized-agent detection, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
+The first build should not implement residual compensation, AI training provenance, automated originality and rights enforcement, sophisticated bot or unauthorized-agent detection, Protheus/InfRing networking, InfRing task decomposition, groups, alliances, legal filing automation, World Eye, or Bolt. It may include simple Storm-owned or applet-owned task templates/decomposition helpers, but those should stay behind an interface that can later merge with InfRing's task decomposition primitive.
 
 When a Storm-native mechanism overlaps with an eventual InfRing primitive, the first implementation should treat it as scaffolding: useful now, interface-backed, auditable, and replaceable later.
 
@@ -131,6 +131,17 @@ Deliverables:
 - Seeded demo scenario.
 - Basic admin visibility.
 - Native mechanism inventory with likely future InfRing replacement targets.
+
+## Milestone 9: Legal Docs And Filing (Future)
+
+Deliverables:
+
+- Legal document template registry and policy mapping.
+- Filing state model and proof storage.
+- Manual filing notification workflows.
+- Optional filing-provider API adapter prototypes.
+- Workflow gate tests where legal prerequisites are required.
+- Compliance visibility for participants before high-risk actions.
 
 ## First Implementation Bias
 

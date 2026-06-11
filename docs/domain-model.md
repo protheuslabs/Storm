@@ -30,6 +30,9 @@ Suggested prefixes:
 - `acmd_` for agent command requests.
 - `asess_` for agent sessions.
 - `aauth_` for agent authorizations.
+- `lgc_` for legal documents.
+- `lfil_` for legal filings.
+- `ltemp_` for legal templates.
 - `act_` for actions.
 - `rcp_` for receipts.
 
@@ -83,6 +86,70 @@ Agent types:
 MVP status:
 
 - Future concept. The MVP can capture automation disclosure without registering agents.
+
+## Legal Template
+
+A versioned legal document template used by policy-driven workflows.
+
+Fields:
+
+- id.
+- name.
+- jurisdiction.
+- purpose (`project_terms`, `contributor_ack`, `ip_assignment`, `spinout_filing`).
+- language version.
+- required fields schema.
+- required by policy ids.
+- active until.
+
+MVP status:
+
+- Future concept.
+
+## Legal Document
+
+An issued or in-progress legal record associated with a project workflow.
+
+Fields:
+
+- id.
+- template id.
+- project id.
+- related task id.
+- owner user id.
+- related user ids.
+- state (`draft`, `needs_user_action`, `submitted`, `filed`, `rejected`, `exempt`).
+- signed artifact id.
+- policy snapshot id.
+- created at.
+- updated at.
+
+MVP status:
+
+- Future concept.
+
+## Legal Filing
+
+An attempt to satisfy an external filing requirement in a policy-defined filing channel.
+
+Fields:
+
+- id.
+- legal document id.
+- filing channel (`internal`, `provider_api`, `manual_user`).
+- submitted by actor type (`human`, `agent`, `system`).
+- submitted by user id.
+- submission payload hash.
+- provider id.
+- provider confirmation id.
+- status (`queued`, `submitted`, `accepted`, `rejected`, `needs_user_action`, `expired`).
+- proof artifact id.
+- proof received at.
+- updated at.
+
+MVP status:
+
+- Future concept.
 
 ## Agent Authorization
 

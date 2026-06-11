@@ -77,6 +77,7 @@ The proposed first project applet is Story Forge: crowdsourced story creation. T
 - Residual lifetime compensation.
 - Algorithmic contribution weighting.
 - Idea ownership and downstream royalty calculations.
+- Legal documentation generation and filing orchestration.
 - Custom group or alliance governance.
 - World Eye-style crowdsourced intelligence.
 - Bolt-style real-world task bounties.

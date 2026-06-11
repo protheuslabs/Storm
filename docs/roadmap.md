@@ -46,6 +46,7 @@ Current Tentative Definition Package:
 - Define how decomposition, receipts, provenance, and rights evidence map to InfRing when ready.
 - Define what data is shared across products and what remains local.
 - Define initial bot/agent trust boundaries without adding full automation.
+- Define legal-document policy, filing requirements, and proof-of-submission thresholds.
 
 Deliverables:
 
@@ -264,6 +265,25 @@ Deliverables:
 - Quarantine and payout-hold states.
 - Appeal and dispute path for false positives.
 - Applet-specific risk checks for Story Forge, Code Forge, and Invention Forge.
+
+## Phase 5.6: Legal Documentation And Filing
+
+Goals:
+
+- Provide legal-document generation for policy-required workflows.
+- Support automated provider filing where possible.
+- Support user-notified manual filing paths where automation is unavailable.
+- Capture proof of filing and expose compliance status.
+- Gate sensitive transitions until required legal proof is present.
+
+Deliverables:
+
+- Legal template registry.
+- Legal packet builder.
+- Filing channel abstraction (auto, partner API, manual).
+- User notices for pending filing obligations.
+- Proof records (reference IDs, uploaded confirmation, signed hash, timestamp, actor identity).
+- Workflow gates tied to legal-state checks for launch, payout, and spinout/residual actions.
 
 ## Phase 6: Residual Value Experiments
 

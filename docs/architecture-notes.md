@@ -30,7 +30,7 @@ The first implementation should optimize for:
 
 Storm subsystems should stay modular even if the first implementation is a monolith.
 
-The product will eventually need workflow orchestration, identity, artifact storage, review, disputes, decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, fraud/risk, agent participation and bot control, search, privacy, governance, integrations, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
+The product will eventually need workflow orchestration, identity, artifact storage, review, disputes, decomposition, applets, value policy, ledger, reputation, rights enforcement, versioning, AI provenance, payments, legal documentation and filing, fraud/risk, agent participation and bot control, search, privacy, governance, integrations, and InfRing adapters. Each subsystem should have a clear contract, own its canonical records, emit structured events, and avoid hidden direct writes into another subsystem's authority.
 
 This matters because Storm's long-term path depends on replacing native mechanisms with InfRing primitives where possible. That migration is only realistic if native subsystems already sit behind interfaces or providers.
 
@@ -90,6 +90,20 @@ Submissions, evidence, exports, source references, and future datasets need stab
 Payments should be abstracted behind an internal ledger before integrating deeply with a payment provider. The product needs to represent value allocation even before real payouts are automated.
 
 Payment provider integration should be separate from ledger authority. Later Storm may need funded balances, payout holds, refunds, chargebacks, compliance records, and tax reporting.
+
+### Legal Documentation And Filing
+
+Storm needs a dedicated legal-document subsystem instead of embedding legal closure logic across every module.
+
+Responsibilities:
+
+- Generate legal documents from versioned policy templates.
+- Select filing channel by policy (auto-submit, provider-assisted API, or user action).
+- Store filing attempts and responses as durable legal evidence.
+- Notify users when manual filing is required.
+- Gate workflow actions when legal prerequisites are not satisfied.
+
+The legal subsystem should integrate with workflow and value subsystems through explicit policy checks rather than hardcoded branching.
 
 ### Contribution Value Policy
 
@@ -240,6 +254,7 @@ This is a placeholder recommendation, not a final decision.
 - Privacy, consent, and data access.
 - Search, discovery, and matching.
 - API and integration layer.
+- Legal documentation and filing evidence.
 - Fraud and collusion detection.
 - Public project pages.
 - External reputation export.

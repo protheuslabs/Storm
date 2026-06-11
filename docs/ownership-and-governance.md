@@ -135,6 +135,7 @@ Later versions can add:
 - Contribution rights.
 - Shared ownership rules.
 - Legal wrapper templates.
+- Legal documentation and filing workflows.
 - Originality and rights enforcement.
 - Patent provenance.
 - Business spinout rules.
@@ -142,6 +143,11 @@ Later versions can add:
 - Network-level governance.
 - Release switch rules.
 - Transparent Protheus Labs origin allocation.
+
+Where legal filing is required:
+
+- Storm should attempt automatic filing when integrations are available.
+- If filing is not directly automatable, Storm should notify the responsible user and require proof-of-submission before sensitive transitions (for example, public launch, payout release, or spinout actions).
 
 ## Release Switch
 

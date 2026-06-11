@@ -152,6 +152,7 @@ This does not mean Storm should abandon conventional infrastructure immediately.
 | Rights review | Evidence bundle plus governance decision |
 | Agent session | Delegated execution receipt |
 | Agent command request | Delegation command receipt |
+| Legal filing | Compliance proof receipt |
 | Group or alliance | Governed network collective |
 | Project fork or branch | Version/fork lineage primitive |
 | Merge proposal | Receipt-backed merge decision |

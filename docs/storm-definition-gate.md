@@ -73,6 +73,13 @@ For each area, list owner, required evidence, current state, and blockers.
 - [ ] Bot/agent trust boundaries are documented without enforcing full fraud system in MVP.
   - Evidence: [Agent Participation And Bot Control](agent-participation-and-bot-control.md), [Roadmap](roadmap.md), [Build Plan](build-plan.md).
 
+## 8) Legal Completion Gate
+
+- [ ] Legal-document and filing requirements are defined for non-MVP and release phases.
+  - Evidence: [Legal Documentation And Filing](legal-documentation-and-filing.md), [Roadmap](roadmap.md), [Platform Concepts](platform-concepts.md).
+- [ ] Legal-state gates are modeled as policy rules, not hardcoded checks.
+  - Evidence: [Architecture Notes](architecture-notes.md), [Subsystem Inventory](subsystem-inventory.md).
+
 ## 7) Security, Trust, and Compliance Readiness
 
 - [ ] Identity, access, and role model are defined.
@@ -81,6 +88,8 @@ For each area, list owner, required evidence, current state, and blockers.
   - Evidence: [Originality And Rights Enforcement](originality-and-rights-enforcement.md), [AI Training Provenance](ai-training-provenance.md).
 - [ ] Privacy and consent posture is documented before cross-product data paths.
   - Evidence: [Protheus Ecosystem Thesis](protheus-ecosystem-thesis.md), [Open Questions](open-questions.md).
+- [ ] Legal documentation and filing workflows are identified, with clear user responsibility boundaries.
+  - Evidence: [Legal Documentation And Filing](legal-documentation-and-filing.md), [Ownership And Governance](ownership-and-governance.md).
 
 ## Definition Gate Decision
 
