@@ -33,6 +33,7 @@ This repo is starting with documentation first. The initial docs define the prod
 - [AI Training Provenance](docs/ai-training-provenance.md)
 - [Originality And Rights Enforcement](docs/originality-and-rights-enforcement.md)
 - [Legal Documentation And Filing](docs/legal-documentation-and-filing.md)
+- [Legal Readiness Policy Template](docs/legal-readiness-policy-template.md)
 - [Agent Participation And Bot Control](docs/agent-participation-and-bot-control.md)
 - [Protheus And InfRing Integration](docs/protheus-infring-integration.md)
 - [Versioning And Forks](docs/versioning-and-forks.md)

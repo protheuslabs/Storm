@@ -137,6 +137,7 @@ Deliverables:
 Deliverables:
 
 - Legal document template registry and policy mapping.
+- Legal readiness policy template schema and starter examples.
 - Filing state model and proof storage.
 - Manual filing notification workflows.
 - Optional filing-provider API adapter prototypes.

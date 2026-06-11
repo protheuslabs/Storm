@@ -53,6 +53,10 @@ As Storm grows into higher legal/commercial phases, this becomes a growth subsys
 - Prevent payout or project lifecycle progression when required documents are missing.
 - Keep the gating logic versioned in policy, not hardcoded.
 
+To make this concrete, Storm uses the legal policy template:
+
+- [Legal Readiness Policy Template](legal-readiness-policy-template.md).
+
 ## Suggested Record Model
 
 - `LegalDocument`

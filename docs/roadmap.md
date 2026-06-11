@@ -280,6 +280,7 @@ Deliverables:
 
 - Legal template registry.
 - Legal packet builder.
+- Policy templates for legal readiness gates.
 - Filing channel abstraction (auto, partner API, manual).
 - User notices for pending filing obligations.
 - Proof records (reference IDs, uploaded confirmation, signed hash, timestamp, actor identity).

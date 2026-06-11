@@ -104,6 +104,10 @@ An attempt to submit required legal paperwork through an automated or manual pat
 
 Evidence returned from or produced during a filing flow (provider confirmation, uploaded certificate, submitted hash, and timestamp) used for legal gating.
 
+## Legal Readiness Policy
+
+A versioned legal-gating policy that defines which documents, filings, and proofs are required before protected actions (for example launch, payout, spinout, or residual distribution).
+
 ## Merge Proposal
 
 A reviewable request to merge work from one version, branch, fork, or project line into another.
